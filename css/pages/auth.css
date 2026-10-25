@@ -1,0 +1,61 @@
+/* =====================================================================
+   pages/auth.css — the Sign in / Sign up popup on the splash screen (logic: js/features/auth.js)
+   Form design based on Uiverse.io by micaelgomestavares (MIT). Owner: UI — Boudy
+   ===================================================================== */
+
+.auth-overlay{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:20px;
+  background:rgba(8,20,38,.45);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+  opacity:0;visibility:hidden;transition:opacity .25s ease,visibility .25s}
+.auth-overlay.open{opacity:1;visibility:visible}
+.auth-overlay.open .form{transform:none;opacity:1}
+
+.form{position:relative;display:flex;flex-direction:column;gap:10px;background-color:#ffffff;padding:30px;width:450px;max-width:100%;
+  max-height:calc(100vh - 40px);overflow:auto;border-radius:20px;box-shadow:0 30px 80px rgba(4,25,55,.35);
+  transform:translateY(16px) scale(.98);opacity:0;transition:transform .3s cubic-bezier(.2,.8,.3,1),opacity .25s;
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;color:#151717}
+.form ::placeholder{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;color:#8b8e94}
+
+.auth-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}
+.auth-head img{height:46px;width:auto}
+.auth-close{width:36px;height:36px;border-radius:50%;border:1px solid #ededef;background:#fff;cursor:pointer;display:grid;place-items:center;color:#151717;transition:.2s}
+.auth-close:hover{border-color:#1572C8}
+.auth-title{color:#042D5E;margin:6px 0 2px;font-size:22px;font-weight:700;letter-spacing:-.01em}
+.auth-sub{margin:0 0 6px;font-size:14px;color:#5b5f66}
+
+.flex-column{display:flex;flex-direction:column;gap:10px}
+.flex-column > label{color:#151717;font-weight:600}
+.inputForm{border:1.5px solid #ecedec;border-radius:10px;height:50px;display:flex;align-items:center;padding-left:10px;transition:.2s ease-in-out}
+.inputForm svg{flex:0 0 auto}
+.input{margin-left:10px;border-radius:10px;border:none;width:85%;height:100%;font-size:15px;background:transparent;color:#151717}
+.input:focus{outline:none}
+.inputForm:focus-within{border:1.5px solid #1572C8}
+.inputForm.invalid{border-color:#e5484d}
+.eye{border:0;background:transparent;cursor:pointer;padding:0 12px 0 6px;height:100%;display:grid;place-items:center;color:#151717;margin-left:auto}
+.eye svg{width:20px;height:20px}
+
+.flex-row{display:flex;flex-direction:row;align-items:center;gap:10px;justify-content:space-between}
+.flex-row > div > label{font-size:14px;color:black;font-weight:400;display:inline-flex;align-items:center;gap:6px;cursor:pointer}
+.span{font-size:14px;margin-left:5px;color:#1572C8;font-weight:500;cursor:pointer;background:none;border:0;padding:0;font-family:inherit}
+.span:hover{text-decoration:underline}
+
+.button-submit{margin:20px 0 10px 0;background:linear-gradient(90deg,#1572C8 0%,#13B0A5 100%);border:none;color:white;font-size:15px;font-weight:500;border-radius:10px;height:50px;width:100%;cursor:pointer;font-family:inherit;transition:background-color .2s}
+.button-submit:hover{background:linear-gradient(90deg,#105FA8 0%,#0F978E 100%)}
+.button-submit[disabled]{opacity:.6;cursor:wait}
+
+.p{text-align:center;color:black;font-size:14px;margin:5px 0}
+.flex-row.socials{margin-top:0}
+.btn{margin-top:10px;width:100%;height:50px;border-radius:10px;display:flex;justify-content:center;align-items:center;font-weight:500;gap:10px;
+  border:1px solid #ededef;background-color:white;cursor:pointer;transition:.2s ease-in-out;font-size:15px;font-family:inherit;color:#151717}
+.btn:hover{border:1px solid #1572C8}
+.btn svg{width:20px;height:20px}
+
+.auth-status{display:none;margin:4px 0 0;padding:12px 14px;border-radius:10px;font-size:14px;line-height:1.5;background:#f3f6fd;border:1px solid #d6e2fb;color:#1d3a6e}
+.auth-status.show{display:block}
+.auth-status.error{background:#fdf2f2;border-color:#f6d3d3;color:#8a1f1f}
+.auth-status.ok{background:#effaf3;border-color:#cdeed9;color:#14532d}
+.auth-status a{color:inherit;font-weight:600}
+
+.auth-overlay *:focus-visible{outline:3px solid #1572C8;outline-offset:2px}
+@media (max-width:520px){ .form{padding:22px;border-radius:16px} .flex-row.socials{flex-direction:column;gap:0} }
+@media (prefers-reduced-motion:reduce){ .auth-overlay,.form{transition:none} }
+.auth-overlay .input:focus-visible{outline:none}   /* the field border already turns blue */
