@@ -1,0 +1,805 @@
+{
+  "city": {
+    "id": "barcelona",
+    "name": "Barcelona",
+    "countryCode": "ES",
+    "country": "Spain",
+    "tagline": "Hacer Puente a Catalunya",
+    "image": "assets/img/city/barcelona.jpg",
+    "lat": 41.38879,
+    "lng": 2.15899,
+    "timeZone": "Europe/Madrid",
+    "priceFrom": 8.67,
+    "locationCount": 8,
+    "experienceCount": 20,
+    "rank": 5
+  },
+  "locations": [
+    {
+      "id": 327,
+      "cityId": "barcelona",
+      "name": "Sagrada Familia",
+      "description": "Tour Barcelona’s most iconic building, a still-unfinished cathedral designed by Gaudí with towering spires and intricate facades.",
+      "image": "assets/img/loc/327.jpg",
+      "experienceCount": 2,
+      "rating": 4.5,
+      "ratingCount": 69594,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 40.28,
+        "original": 40.28
+      },
+      "experienceIds": [
+        17925,
+        10117
+      ]
+    },
+    {
+      "id": 325,
+      "cityId": "barcelona",
+      "name": "Park Güell",
+      "description": "Wander through mosaic benches, gingerbread-style houses, and sweeping city views at Gaudí’s Park Güell.",
+      "image": "assets/img/loc/325.jpg",
+      "experienceCount": 3,
+      "rating": 4.5,
+      "ratingCount": 86893,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 26.85,
+        "original": 26.85
+      },
+      "experienceIds": [
+        7563,
+        6705,
+        18014
+      ]
+    },
+    {
+      "id": 1376,
+      "cityId": "barcelona",
+      "name": "Barcelona Flamenco Show Tickets",
+      "description": "Feel the rhythm, passion, and precision of live flamenco in one of Barcelona’s intimate tablaos.",
+      "image": "assets/img/loc/1376.jpg",
+      "experienceCount": 0,
+      "rating": 4.4,
+      "ratingCount": 2543,
+      "popularityRank": 3,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 1955,
+      "cityId": "barcelona",
+      "name": "Palau de la Música Catalana Tickets",
+      "description": "Tour this stunning modernist concert hall, known for its stained glass, mosaic pillars, and UNESCO-listed design.",
+      "image": "assets/img/loc/1955.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 3201,
+      "popularityRank": 4,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 22.38,
+        "original": 22.38
+      },
+      "experienceIds": [
+        28239
+      ]
+    },
+    {
+      "id": 1748,
+      "cityId": "barcelona",
+      "name": "Casa Batllo",
+      "description": "Step into Gaudí’s dreamlike Casa Batlló, where curved walls, colorful tiles, and a dragon-like roof steal the show.",
+      "image": "assets/img/loc/1748.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 43665,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 32.45,
+        "original": 32.45
+      },
+      "experienceIds": [
+        10338
+      ]
+    },
+    {
+      "id": 3176,
+      "cityId": "barcelona",
+      "name": "Montserrat Monastery",
+      "description": "Ride up to a mountaintop abbey surrounded by jagged peaks and see the famous Black Madonna statue.",
+      "image": "assets/img/loc/3176.jpg",
+      "experienceCount": 0,
+      "rating": 4.5,
+      "ratingCount": 2153,
+      "popularityRank": 6,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 283,
+      "cityId": "barcelona",
+      "name": "Camp Nou Tours",
+      "description": "Visit Camp Nou, the legendary home stadium of FC Barcelona and a must-see for any football fan.",
+      "image": "assets/img/loc/283.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 13821,
+      "popularityRank": 7,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 33.68,
+        "original": 33.68
+      },
+      "experienceIds": [
+        21803
+      ]
+    },
+    {
+      "id": 1308,
+      "cityId": "barcelona",
+      "name": "Casa Mila Tickets",
+      "description": "Visit Casa Milà (La Pedrera), Gaudí’s sculptural stone residence with an iconic rooftop and artistic interiors.",
+      "image": "assets/img/loc/1308.jpg",
+      "experienceCount": 2,
+      "rating": 4.5,
+      "ratingCount": 50043,
+      "popularityRank": 8,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 25.18,
+        "original": 25.18
+      },
+      "experienceIds": [
+        3394,
+        18015
+      ]
+    },
+    {
+      "id": 3681,
+      "cityId": "barcelona",
+      "name": "Moco Museum Barcelona Tickets",
+      "description": "Explore thought-provoking contemporary art, from Banksy to Kusama, in Barcelona’s boldest modern art museum.",
+      "image": "assets/img/loc/3681.jpg",
+      "experienceCount": 1,
+      "rating": 4.4,
+      "ratingCount": 15899,
+      "popularityRank": 9,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 14.84,
+        "original": 14.84
+      },
+      "experienceIds": [
+        15895
+      ]
+    },
+    {
+      "id": 1510,
+      "cityId": "barcelona",
+      "name": "Montjuïc Cable Car Tickets",
+      "description": "Glide above Barcelona on the Montjuïc Cable Car and enjoy sweeping views of the city and coastline.",
+      "image": "assets/img/loc/1510.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 6896,
+      "popularityRank": 10,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 20.13,
+        "original": 20.13
+      },
+      "experienceIds": [
+        7686
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": 7563,
+      "cityId": "barcelona",
+      "popularityRank": 1,
+      "name": "Park Güell Tickets",
+      "locationId": 325,
+      "locationName": "Park Güell",
+      "category": "Tickets",
+      "subcategory": "Parks",
+      "rating": 4.5,
+      "reviewCount": 49686,
+      "bookedCount": 1772161,
+      "image": "assets/img/exp/7563.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": false,
+      "lat": 41.41449,
+      "lng": 2.15269,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 26.85,
+        "original": 26.85,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 17925,
+      "cityId": "barcelona",
+      "popularityRank": 2,
+      "name": "Sagrada Familia Fast-Track Tickets",
+      "locationId": 327,
+      "locationName": "Sagrada Familia",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.6,
+      "reviewCount": 19541,
+      "bookedCount": 121219,
+      "image": "assets/img/exp/17925.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 41.3874,
+      "lng": 2.16857,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 40.28,
+        "original": 40.28,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 23011,
+      "cityId": "barcelona",
+      "popularityRank": 3,
+      "name": "Aerobus Tickets: Barcelona Airport to/from Plaça Catalunya",
+      "locationId": null,
+      "locationName": null,
+      "category": "Transportation",
+      "subcategory": "Airport Transfers",
+      "rating": 4.7,
+      "reviewCount": 4895,
+      "bookedCount": 102332,
+      "image": "assets/img/exp/23011.jpg",
+      "duration": null,
+      "features": [
+        "Transfers available"
+      ],
+      "freeCancellation": false,
+      "lat": 41.3874,
+      "lng": 2.16857,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 8.67,
+        "original": 8.67,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 6705,
+      "cityId": "barcelona",
+      "popularityRank": 4,
+      "name": "Park Güell Skip-the-Line Guided Tour",
+      "locationId": 325,
+      "locationName": "Park Güell",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.6,
+      "reviewCount": 12244,
+      "bookedCount": 129112,
+      "image": "assets/img/exp/6705.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 41.3874,
+      "lng": 2.16857,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 29.65,
+        "original": 39.16,
+        "discountPercent": 24,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 3436,
+      "cityId": "barcelona",
+      "popularityRank": 5,
+      "name": "Barcelona City Tour: Hop-on Hop-off Bus Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Barcelona",
+      "rating": 4.5,
+      "reviewCount": 9439,
+      "bookedCount": 145121,
+      "image": "assets/img/exp/3436.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 41.3874,
+      "lng": 2.16857,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.23,
+        "original": 36.92,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 3437,
+      "cityId": "barcelona",
+      "popularityRank": 6,
+      "name": "Barcelona Aquarium Skip-the-Line Tickets",
+      "locationId": 1509,
+      "locationName": "Barcelona Aquarium",
+      "category": null,
+      "subcategory": null,
+      "rating": 4.5,
+      "reviewCount": 3946,
+      "bookedCount": 92621,
+      "image": "assets/img/exp/3437.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 41.37685,
+      "lng": 2.18433,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.57,
+        "original": 33.57,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10338,
+      "cityId": "barcelona",
+      "popularityRank": 7,
+      "name": "Casa Batlló Timed Entry Ticket with Free Immersive Audio Guide",
+      "locationId": 1748,
+      "locationName": "Casa Batllo",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.6,
+      "reviewCount": 3734,
+      "bookedCount": 44689,
+      "image": "assets/img/exp/10338.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": false,
+      "lat": 41.3917,
+      "lng": 2.16492,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 32.45,
+        "original": 32.45,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 21803,
+      "cityId": "barcelona",
+      "popularityRank": 8,
+      "name": "Spotify Camp Nou Barça Museum Tickets",
+      "locationId": 283,
+      "locationName": "Camp Nou Tours",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.4,
+      "reviewCount": 1805,
+      "bookedCount": 41163,
+      "image": "assets/img/exp/21803.jpg",
+      "duration": null,
+      "features": [
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 41.38026,
+      "lng": 2.12091,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.68,
+        "original": 33.68,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7890,
+      "cityId": "barcelona",
+      "popularityRank": 9,
+      "name": "Hola Barcelona Travel Card: Unlimited Public Transportation",
+      "locationId": null,
+      "locationName": null,
+      "category": "Transportation",
+      "subcategory": "Public Transport",
+      "rating": 4.5,
+      "reviewCount": 4694,
+      "bookedCount": 73773,
+      "image": "assets/img/exp/7890.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 41.38506,
+      "lng": 2.1734,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 20.92,
+        "original": 20.92,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 3394,
+      "cityId": "barcelona",
+      "popularityRank": 10,
+      "name": "La Pedrera-Casa Milà Skip-the-Line Tickets with Video Guide",
+      "locationId": 1308,
+      "locationName": "Casa Mila Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.6,
+      "reviewCount": 6099,
+      "bookedCount": 117149,
+      "image": "assets/img/exp/3394.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": false,
+      "lat": 41.3953,
+      "lng": 2.16202,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 25.18,
+        "original": 27.97,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15895,
+      "cityId": "barcelona",
+      "popularityRank": 11,
+      "name": "Moco Museum Barcelona Tickets: Banksy & More",
+      "locationId": 3681,
+      "locationName": "Moco Museum Barcelona Tickets",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.6,
+      "reviewCount": 594,
+      "bookedCount": 15465,
+      "image": "assets/img/exp/15895.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 41.38485,
+      "lng": 2.18143,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 14.84,
+        "original": 21.2,
+        "discountPercent": 30,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 18015,
+      "cityId": "barcelona",
+      "popularityRank": 12,
+      "name": "Combo (Save 11%): Casa Milà + Casa Batlló Entry Tickets with Audio Guide",
+      "locationId": 1308,
+      "locationName": "Casa Mila Tickets",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 9787,
+      "bookedCount": 156435,
+      "image": "assets/img/exp/18015.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 41.3874,
+      "lng": 2.16857,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 57.95,
+        "original": 64.9,
+        "discountPercent": 11,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 18014,
+      "cityId": "barcelona",
+      "popularityRank": 13,
+      "name": "Combo (Save 5%): Park Güell + Casa Batlló Timed Entry Tickets",
+      "locationId": 325,
+      "locationName": "Park Güell",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.5,
+      "reviewCount": 31931,
+      "bookedCount": 1224774,
+      "image": "assets/img/exp/18014.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 41.3874,
+      "lng": 2.16857,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 58.46,
+        "original": 61.54,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 36999,
+      "cityId": "barcelona",
+      "popularityRank": 14,
+      "name": "Barcelona Pass: Save up to 40% at All Top Attractions",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tickets",
+      "subcategory": "City Cards",
+      "rating": 4.5,
+      "reviewCount": 303,
+      "bookedCount": 5301,
+      "image": "assets/img/exp/36999.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 41.3874,
+      "lng": 2.16857,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 66.01,
+        "original": 109.65,
+        "discountPercent": 40,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 28239,
+      "cityId": "barcelona",
+      "popularityRank": 15,
+      "name": "Palau de la Música Catalana Entry Tickets",
+      "locationId": 1955,
+      "locationName": "Palau de la Música Catalana Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.4,
+      "reviewCount": 1869,
+      "bookedCount": 13632,
+      "image": "assets/img/exp/28239.jpg",
+      "duration": null,
+      "features": [
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 41.38757,
+      "lng": 2.17531,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 22.38,
+        "original": 22.38,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10117,
+      "cityId": "barcelona",
+      "popularityRank": 16,
+      "name": "Sagrada Familia Fast-Track Guided Tour",
+      "locationId": 327,
+      "locationName": "Sagrada Familia",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.5,
+      "reviewCount": 8850,
+      "bookedCount": 48808,
+      "image": "assets/img/exp/10117.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 41.3874,
+      "lng": 2.16857,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 58.18,
+        "original": 58.18,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7686,
+      "cityId": "barcelona",
+      "popularityRank": 17,
+      "name": "Montjuïc Cable Car Roundtrip Tickets",
+      "locationId": 1510,
+      "locationName": "Montjuïc Cable Car Tickets",
+      "category": "Aerial Sightseeing",
+      "subcategory": "Cable Car Tours",
+      "rating": 4.5,
+      "reviewCount": 2434,
+      "bookedCount": 42154,
+      "image": "assets/img/exp/7686.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 41.36872,
+      "lng": 2.16349,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 20.13,
+        "original": 21.26,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24756,
+      "cityId": "barcelona",
+      "popularityRank": 18,
+      "name": "Combo (Save 13%): Park Güell Tickets + Barcelona Hop-on Hop-off Bus Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.5,
+      "reviewCount": 38536,
+      "bookedCount": 1335815,
+      "image": "assets/img/exp/24756.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 41.3874,
+      "lng": 2.16857,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 57.33,
+        "original": 66.01,
+        "discountPercent": 13,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 21642,
+      "cityId": "barcelona",
+      "popularityRank": 19,
+      "name": "City Hall Theatre - Flamenco Show",
+      "locationId": null,
+      "locationName": null,
+      "category": "Entertainment",
+      "subcategory": "Flamenco Shows",
+      "rating": 4.6,
+      "reviewCount": 408,
+      "bookedCount": 8889,
+      "image": "assets/img/exp/21642.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 41.38773,
+      "lng": 2.16832,
+      "isCombo": false,
+      "summary": "Witness talented dancers, singers, and musicians perform Flamenco at Barcelona's stunning City Hall Theatre, and enjoy optional drinks too!",
+      "price": {
+        "currency": "USD",
+        "from": 27.97,
+        "original": 27.97,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 31246,
+      "cityId": "barcelona",
+      "popularityRank": 20,
+      "name": "Global eSIM with Unlimited 5G/4G Data: Access to 120 Countries",
+      "locationId": null,
+      "locationName": null,
+      "category": "Travel Services",
+      "subcategory": "Wifi & SIM Cards",
+      "rating": 4.2,
+      "reviewCount": 292,
+      "bookedCount": 4525,
+      "image": "assets/img/exp/31246.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity"
+      ],
+      "freeCancellation": true,
+      "lat": 40.71278,
+      "lng": -74.00597,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 8.91,
+        "original": 9.9,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

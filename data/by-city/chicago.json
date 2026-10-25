@@ -1,0 +1,779 @@
+{
+  "city": {
+    "id": "chicago",
+    "name": "Chicago",
+    "countryCode": "US",
+    "country": "United States",
+    "tagline": "Get blown away",
+    "image": "assets/img/city/chicago.jpg",
+    "lat": 41.85003,
+    "lng": -87.65005,
+    "timeZone": "America/Chicago",
+    "priceFrom": 27,
+    "locationCount": 4,
+    "experienceCount": 20,
+    "rank": 24
+  },
+  "locations": [
+    {
+      "id": 4214,
+      "cityId": "chicago",
+      "name": "Big Bus Chicago Hop-on Hop-off Tours",
+      "description": "Experience Chicago like never before with a Big Bus tour. Marvel at architectural wonders like the Willis Tower, explore cultural gems at Millennium Park and soak in stunning skyline views from Navy Pier.",
+      "image": "assets/img/loc/4214.jpg",
+      "experienceCount": 0,
+      "rating": 4.5,
+      "ratingCount": 2723,
+      "popularityRank": 1,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 2627,
+      "cityId": "chicago",
+      "name": "360 Chicago",
+      "description": "Discover Chicago's skyline in all its glory at 360 Observation Deck! Marvel at iconic landmarks, like Willis Tower and Lake Michigan, and witness the city's architectural wonders and breathtaking sunset views.",
+      "image": "assets/img/loc/2627.jpg",
+      "experienceCount": 3,
+      "rating": 4.5,
+      "ratingCount": 5096,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 27,
+        "original": 27
+      },
+      "experienceIds": [
+        1389,
+        27369,
+        27286
+      ]
+    },
+    {
+      "id": 2988,
+      "cityId": "chicago",
+      "name": "Chicago River Architecture Cruise Tickets",
+      "description": "The Chicago Architecture Foundation Center River Cruise follows the Chicago River through the Loop and along the lake, with licensed architect guides pointing out the city's landmark skyscrapers and design history. Find 90-minute standard cruise tickets, sunset session options, and evening cruise formats here.",
+      "image": "assets/img/loc/2988.jpg",
+      "experienceCount": 0,
+      "rating": 4.8,
+      "ratingCount": 1409,
+      "popularityRank": 3,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 5357,
+      "cityId": "chicago",
+      "name": "Willis Tower Skydeck Tickets",
+      "description": "Embark on an exhilarating adventure as you stand on the Skydeck's breathtaking glass ledge, suspended 1,353 feet above the vibrant city of Chicago. Ensure your spot by securing tickets that grant you exclusive access to this awe-inspiring experience.",
+      "image": "assets/img/loc/5357.jpg",
+      "experienceCount": 1,
+      "rating": 4.6,
+      "ratingCount": 2939,
+      "popularityRank": 4,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 42.33,
+        "original": 42.33
+      },
+      "experienceIds": [
+        35112
+      ]
+    },
+    {
+      "id": 5716,
+      "cityId": "chicago",
+      "name": "Six Flags: Great America",
+      "description": "Browse this collection of tickets to Six Flags Great America, home to some of the most thrilling rides in the Midwest. From heart-pounding roller coasters like Goliath and Raging Bull to family-friendly attractions and the splashes of Hurricane Harbor water park, there’s something for everyone.",
+      "image": "assets/img/loc/5716.jpg",
+      "experienceCount": 1,
+      "rating": 5,
+      "ratingCount": 2,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 46.8,
+        "original": 46.8
+      },
+      "experienceIds": [
+        52631
+      ]
+    },
+    {
+      "id": 6285,
+      "cityId": "chicago",
+      "name": "First Lady Cruises Chicago",
+      "description": "First Lady Cruises Chicago operates a fleet of elegant boats; each with open‑air upper decks, climate‑controlled lower salons, upscale marble restrooms and a full bar. As the only official cruise partner of the Chicago Architecture Center, they deliver expert‑led river and lake sightseeing, enchanting sunset and fireworks voyages, plus fully customizable private charters for groups large or small.",
+      "image": "assets/img/loc/6285.jpg",
+      "experienceCount": 4,
+      "rating": 4.8,
+      "ratingCount": 3329,
+      "popularityRank": 6,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 46,
+        "original": 46
+      },
+      "experienceIds": [
+        35525,
+        44499,
+        44426,
+        44430
+      ]
+    },
+    {
+      "id": 6286,
+      "cityId": "chicago",
+      "name": "Wendella Cruises Chicago",
+      "description": "Since 1935, family‑owned Wendella Cruises Chicago has been sharing the city’s story from the water. Depart downtown for an architecture tour along the Chicago River, a scenic Lake Michigan cruise, golden‑hour sunset sail, fireworks voyage or private charter; each boat features climate‑controlled salons, open‑air decks and expert local narration.",
+      "image": "assets/img/loc/6286.jpg",
+      "experienceCount": 0,
+      "rating": 4.8,
+      "ratingCount": 2946,
+      "popularityRank": 7,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 6287,
+      "cityId": "chicago",
+      "name": "Shoreline Cruises Chicago",
+      "description": "Shoreline Cruises Chicago operates the city’s largest fleet; 11 tour vessels and 7 water taxis-delivering architecture river cruises, skyline lake excursions, festive fireworks sails and custom private charters. Guests enjoy open‑air observation decks, fully climate‑controlled cabins and entertaining expert commentary on Chicago’s architectural heritage.",
+      "image": "assets/img/loc/6287.jpg",
+      "experienceCount": 0,
+      "rating": 4.7,
+      "ratingCount": 365,
+      "popularityRank": 8,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 6706,
+      "cityId": "chicago",
+      "name": "Chicago Architecture Center",
+      "description": "Unlock the stories behind Chicago’s world-famous skyline at the Chicago Architecture Center. Dive into interactive exhibits, then step out on guided walking tours like Must-See Chicago or Walk Through Time. Perfect for architecture lovers and curious explorers, these experiences reveal the design genius that shaped the Windy City.",
+      "image": "assets/img/loc/6706.jpg",
+      "experienceCount": 0,
+      "rating": 4.5,
+      "ratingCount": 2114,
+      "popularityRank": 9,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 7604,
+      "cityId": "chicago",
+      "name": "Flyover Chicago Tickets",
+      "description": "",
+      "image": "assets/img/loc/7604.jpg",
+      "experienceCount": 0,
+      "rating": 5,
+      "ratingCount": 1,
+      "popularityRank": 10,
+      "startingPrice": null,
+      "experienceIds": []
+    }
+  ],
+  "experiences": [
+    {
+      "id": 33161,
+      "cityId": "chicago",
+      "popularityRank": 1,
+      "name": "90-min Chicago River Architecture Cruise by Wendella",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.8,
+      "reviewCount": 1372,
+      "bookedCount": 39928,
+      "image": "assets/img/exp/33161.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 41.88921,
+      "lng": -87.62443,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 45,
+        "original": 45,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 33163,
+      "cityId": "chicago",
+      "popularityRank": 2,
+      "name": "45-min Chicago River Architecture Cruise by Wendella",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.8,
+      "reviewCount": 2028,
+      "bookedCount": 31305,
+      "image": "assets/img/exp/33163.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 41.88921,
+      "lng": -87.62443,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 28,
+        "original": 28,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 35525,
+      "cityId": "chicago",
+      "popularityRank": 3,
+      "name": "Official Chicago Architecture Cruise by First Lady",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.9,
+      "reviewCount": 826,
+      "bookedCount": 18544,
+      "image": "assets/img/exp/35525.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 41.88844,
+      "lng": -87.62424,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 57,
+        "original": 57,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 1389,
+      "cityId": "chicago",
+      "popularityRank": 4,
+      "name": "360 Chicago Observation Deck Skip-the-Line Tickets",
+      "locationId": 2627,
+      "locationName": "360 Chicago",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.6,
+      "reviewCount": 274,
+      "bookedCount": 11132,
+      "image": "assets/img/exp/1389.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 41.89901,
+      "lng": -87.62325,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 27,
+        "original": 27,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 42128,
+      "cityId": "chicago",
+      "popularityRank": 5,
+      "name": "Chicago Dinner Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Dinner Cruises",
+      "rating": 4.6,
+      "reviewCount": 547,
+      "bookedCount": 8647,
+      "image": "assets/img/exp/42128.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included"
+      ],
+      "freeCancellation": true,
+      "lat": 41.89007,
+      "lng": -87.62102,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 112.1,
+        "original": 112.1,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14466,
+      "cityId": "chicago",
+      "popularityRank": 6,
+      "name": "75-Minute Chicago River Architecture Cruise by Shoreline",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.7,
+      "reviewCount": 272,
+      "bookedCount": 8067,
+      "image": "assets/img/exp/14466.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 41.87811,
+      "lng": -87.6298,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 46,
+        "original": 46,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 33185,
+      "cityId": "chicago",
+      "popularityRank": 7,
+      "name": "90-min Chicago River and Lake Michigan Architecture Cruise by Wendella",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.8,
+      "reviewCount": 267,
+      "bookedCount": 6746,
+      "image": "assets/img/exp/33185.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 41.88921,
+      "lng": -87.62443,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 45,
+        "original": 45,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 35112,
+      "cityId": "chicago",
+      "popularityRank": 8,
+      "name": "Skydeck Chicago Tickets",
+      "locationId": 5357,
+      "locationName": "Willis Tower Skydeck Tickets",
+      "category": "Tickets",
+      "subcategory": "Observation Decks",
+      "rating": 4.8,
+      "reviewCount": 214,
+      "bookedCount": 7723,
+      "image": "assets/img/exp/35112.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 41.87888,
+      "lng": -87.63592,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 42.33,
+        "original": 42.33,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 36571,
+      "cityId": "chicago",
+      "popularityRank": 9,
+      "name": "Odyssey Lake Michigan Dinner Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Dinner Cruises",
+      "rating": 4.5,
+      "reviewCount": 310,
+      "bookedCount": 5369,
+      "image": "assets/img/exp/36571.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included"
+      ],
+      "freeCancellation": true,
+      "lat": 41.89176,
+      "lng": -87.60244,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 132.58,
+        "original": 132.58,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 36481,
+      "cityId": "chicago",
+      "popularityRank": 10,
+      "name": "Odyssey Chicago River Architecture Dinner Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.5,
+      "reviewCount": 97,
+      "bookedCount": 1949,
+      "image": "assets/img/exp/36481.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included"
+      ],
+      "freeCancellation": true,
+      "lat": 41.89021,
+      "lng": -87.62103,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 146.26,
+        "original": 146.26,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 44499,
+      "cityId": "chicago",
+      "popularityRank": 11,
+      "name": "Chicago River & Lake Sightseeing Cruise by First Lady",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.6,
+      "reviewCount": 48,
+      "bookedCount": 1672,
+      "image": "assets/img/exp/44499.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Meals included",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 41.88844,
+      "lng": -87.62424,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 46,
+        "original": 46,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 27369,
+      "cityId": "chicago",
+      "popularityRank": 12,
+      "name": "360 Chicago Sip & View",
+      "locationId": 2627,
+      "locationName": "360 Chicago",
+      "category": "Tickets",
+      "subcategory": "Observation Decks",
+      "rating": 4.3,
+      "reviewCount": 35,
+      "bookedCount": 940,
+      "image": "assets/img/exp/27369.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 41.89901,
+      "lng": -87.62325,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 44,
+        "original": 44,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 33178,
+      "cityId": "chicago",
+      "popularityRank": 13,
+      "name": "45-Min Lake Michigan Tour by Shoreline",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.7,
+      "reviewCount": 33,
+      "bookedCount": 1303,
+      "image": "assets/img/exp/33178.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included"
+      ],
+      "freeCancellation": true,
+      "lat": 41.89095,
+      "lng": -87.60933,
+      "isCombo": false,
+      "summary": "This concise yet immersive tour provides a unique perspective of the Chicago's skyline from the waters of Lake Michigan.​",
+      "price": {
+        "currency": "USD",
+        "from": 34,
+        "original": 34,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 33180,
+      "cityId": "chicago",
+      "popularityRank": 14,
+      "name": "90-min Scenic Sunset Lake Michigan Cruise by Wendella",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.8,
+      "reviewCount": 104,
+      "bookedCount": 2811,
+      "image": "assets/img/exp/33180.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 41.88921,
+      "lng": -87.62443,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 45,
+        "original": 45,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 44426,
+      "cityId": "chicago",
+      "popularityRank": 15,
+      "name": "Chicago Haunted River \"Creepy Cruise\" by First Lady",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.1,
+      "reviewCount": 15,
+      "bookedCount": 318,
+      "image": "assets/img/exp/44426.jpg",
+      "duration": null,
+      "features": [
+        "Meals included",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 41.88844,
+      "lng": -87.62424,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 46,
+        "original": 46,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 52631,
+      "cityId": "chicago",
+      "popularityRank": 16,
+      "name": "Six Flags Great America One Day Ticket with Fright Fest",
+      "locationId": 5716,
+      "locationName": "Six Flags: Great America",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 5,
+      "reviewCount": 2,
+      "bookedCount": 0,
+      "image": "assets/img/exp/52631.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 42.3706,
+      "lng": -87.9361,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 46.8,
+        "original": 46.8,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 44430,
+      "cityId": "chicago",
+      "popularityRank": 17,
+      "name": "Chicago at Night: River & Lake Sightseeing Cruise by First Lady",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.6,
+      "reviewCount": 41,
+      "bookedCount": 864,
+      "image": "assets/img/exp/44430.jpg",
+      "duration": null,
+      "features": [
+        "Meals included",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 41.88798,
+      "lng": -87.62357,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 50,
+        "original": 50,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 35912,
+      "cityId": "chicago",
+      "popularityRank": 18,
+      "name": "Chicago Architecture Evening Cruise by Shoreline",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.8,
+      "reviewCount": 60,
+      "bookedCount": 1798,
+      "image": "assets/img/exp/35912.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included"
+      ],
+      "freeCancellation": true,
+      "lat": 41.88964,
+      "lng": -87.62303,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 46,
+        "original": 46,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 36486,
+      "cityId": "chicago",
+      "popularityRank": 19,
+      "name": "Sea Dog Cruise on Lake Michigan",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Dinner Cruises",
+      "rating": 4.8,
+      "reviewCount": 41,
+      "bookedCount": 2916,
+      "image": "assets/img/exp/36486.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included"
+      ],
+      "freeCancellation": true,
+      "lat": 41.89169,
+      "lng": -87.60319,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 39.29,
+        "original": 39.29,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 27286,
+      "cityId": "chicago",
+      "popularityRank": 20,
+      "name": "Combo (Save 10%): Chicago Hop-on Hop-off Bus Tour + 360 Chicago Observation Deck Skip-the-Line Tickets",
+      "locationId": 2627,
+      "locationName": "360 Chicago",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 604,
+      "bookedCount": 14597,
+      "image": "assets/img/exp/27286.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 41.87811,
+      "lng": -87.6298,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 68.4,
+        "original": 76,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

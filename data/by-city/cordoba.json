@@ -1,0 +1,731 @@
+{
+  "city": {
+    "id": "cordoba",
+    "name": "Cordoba",
+    "countryCode": "ES",
+    "country": "Spain",
+    "tagline": "",
+    "image": "assets/img/city/cordoba.jpg",
+    "lat": 37.88333,
+    "lng": -4.76667,
+    "timeZone": "Europe/Madrid",
+    "priceFrom": 8.04,
+    "locationCount": 5,
+    "experienceCount": 20,
+    "rank": 34
+  },
+  "locations": [
+    {
+      "id": 1635,
+      "cityId": "cordoba",
+      "name": "Cordoba Mosque-Cathedral Tickets",
+      "description": "Soak in the stunning architecture of the Cordoba Mosque-Cathedral, a historic structure that is the perfect amalgamation of both Islamic and Christian design elements. You can avail fast-track access, guided tours, and combo tours with popular experiences in the city with your Cordoba Mosque-Cathedral tickets.",
+      "image": "assets/img/loc/1635.jpg",
+      "experienceCount": 11,
+      "rating": 4.5,
+      "ratingCount": 15914,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 11.19,
+        "original": 11.19
+      },
+      "experienceIds": [
+        11353,
+        10651,
+        10652,
+        50095,
+        10655,
+        12027,
+        24788,
+        59277,
+        26217,
+        23752,
+        53825
+      ]
+    },
+    {
+      "id": 1885,
+      "cityId": "cordoba",
+      "name": "Alcazar Córdoba",
+      "description": "The Royal Alcazar of Cordoba was a historic fortress. Designed with extraordinary Mudéjar influences, its architecture, gardens, and massive library are its key highlights. With Alcazar Cordoba tickets, enjoy skip-the-line entry, guided tours, and combo offers.",
+      "image": "assets/img/loc/1885.jpg",
+      "experienceCount": 3,
+      "rating": 4.4,
+      "ratingCount": 12518,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 22.38,
+        "original": 22.38
+      },
+      "experienceIds": [
+        12024,
+        48191,
+        12287
+      ]
+    },
+    {
+      "id": 5144,
+      "cityId": "cordoba",
+      "name": "Cordoba Flamenco Show Tickets",
+      "description": "Dive deep into this collection of the most authentic and mesmerizing Flamenco shows across Córdoba. Embrace the spirit of Spanish dance and music, and let the passion captivate your soul. Don't miss out on this unique cultural experience.",
+      "image": "assets/img/loc/5144.jpg",
+      "experienceCount": 1,
+      "rating": 4.8,
+      "ratingCount": 183,
+      "popularityRank": 3,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 32.22,
+        "original": 32.22
+      },
+      "experienceIds": [
+        44682
+      ]
+    },
+    {
+      "id": 1886,
+      "cityId": "cordoba",
+      "name": "Córdoba Medina Azahara",
+      "description": "Unearth the splendor of Islamic Spain at the archaeological ruins of Córdoba's Medina Azahara. Explore this medieval palace-city with our guided tour and skip-the-line tickets. Dive into history and save up to 11% on your visit.",
+      "image": "assets/img/loc/1886.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 6924,
+      "popularityRank": 4,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 19.33,
+        "original": 19.33
+      },
+      "experienceIds": [
+        12027
+      ]
+    },
+    {
+      "id": 7415,
+      "cityId": "cordoba",
+      "name": "Cordoba Equestrian Show",
+      "description": "",
+      "image": "assets/img/loc/7415.jpg",
+      "experienceCount": 2,
+      "rating": 4.5,
+      "ratingCount": 5834,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 20.7,
+        "original": 20.7
+      },
+      "experienceIds": [
+        44569,
+        50095
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": 11353,
+      "cityId": "cordoba",
+      "popularityRank": 1,
+      "name": "Cordoba Mosque-Cathedral Entry Tickets",
+      "locationId": 1635,
+      "locationName": "Cordoba Mosque-Cathedral Tickets",
+      "category": "Tickets",
+      "subcategory": "Religious Sites",
+      "rating": 4.4,
+      "reviewCount": 8366,
+      "bookedCount": 147621,
+      "image": "assets/img/exp/11353.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.8893,
+      "lng": -4.77928,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 22.94,
+        "original": 22.94,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10651,
+      "cityId": "cordoba",
+      "popularityRank": 2,
+      "name": "Cordoba Mosque-Cathedral Skip-the-Line Guided Tour",
+      "locationId": 1635,
+      "locationName": "Cordoba Mosque-Cathedral Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.6,
+      "reviewCount": 1981,
+      "bookedCount": 13870,
+      "image": "assets/img/exp/10651.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 37.88818,
+      "lng": -4.77938,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31.22,
+        "original": 34.69,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 44569,
+      "cityId": "cordoba",
+      "popularityRank": 3,
+      "name": "Equestrian Show",
+      "locationId": 7415,
+      "locationName": "Cordoba Equestrian Show",
+      "category": "Entertainment",
+      "subcategory": "Show",
+      "rating": 4.6,
+      "reviewCount": 64,
+      "bookedCount": 1047,
+      "image": "assets/img/exp/44569.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 37.87666,
+      "lng": -4.78315,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 20.7,
+        "original": 20.7,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10652,
+      "cityId": "cordoba",
+      "popularityRank": 4,
+      "name": "Cordoba Mosque-Cathedral & Jewish Quarter Guided Tour with Optional Alcázar Visit",
+      "locationId": 1635,
+      "locationName": "Cordoba Mosque-Cathedral Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.5,
+      "reviewCount": 3099,
+      "bookedCount": 5801,
+      "image": "assets/img/exp/10652.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 37.88818,
+      "lng": -4.77938,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 37.59,
+        "original": 39.16,
+        "discountPercent": 4,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24813,
+      "cityId": "cordoba",
+      "popularityRank": 5,
+      "name": "El Cardenal - Flamenco Show",
+      "locationId": null,
+      "locationName": null,
+      "category": "Entertainment",
+      "subcategory": "Flamenco Shows",
+      "rating": 4.9,
+      "reviewCount": 123,
+      "bookedCount": 1436,
+      "image": "assets/img/exp/24813.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 37.88137,
+      "lng": -4.78196,
+      "isCombo": false,
+      "summary": "Immerse in El Cardenal's flamenco show, a blend of history, passion, and talent, right in the heart of Cordoba.",
+      "price": {
+        "currency": "USD",
+        "from": 29.49,
+        "original": 29.49,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 50095,
+      "cityId": "cordoba",
+      "popularityRank": 6,
+      "name": "Cordoba Mosque-Cathedral Fast Track Entry with Equestrian Show Experience",
+      "locationId": 7415,
+      "locationName": "Cordoba Equestrian Show",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.5,
+      "reviewCount": 5707,
+      "bookedCount": 119667,
+      "image": "assets/img/exp/50095.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": -4.77928,
+      "lng": 37.8893,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 41.47,
+        "original": 43.64,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 12024,
+      "cityId": "cordoba",
+      "popularityRank": 7,
+      "name": "Skip-the-Line Guided Tour of Alcázar of the Christian Monarchs",
+      "locationId": 1885,
+      "locationName": "Alcazar Córdoba",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.4,
+      "reviewCount": 2374,
+      "bookedCount": 3193,
+      "image": "assets/img/exp/12024.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 37.87589,
+      "lng": -4.78208,
+      "isCombo": false,
+      "summary": "Marvel at the magnificent Alcázar of the Christian Monarchs, one of the most fascinating Moorish castles, nestled within the historic site of Córdoba.",
+      "price": {
+        "currency": "USD",
+        "from": 22.38,
+        "original": 22.38,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10655,
+      "cityId": "cordoba",
+      "popularityRank": 8,
+      "name": "Cordoba Mosque-Cathedral & Jewish Quarter Guided Tour",
+      "locationId": 1635,
+      "locationName": "Cordoba Mosque-Cathedral Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.5,
+      "reviewCount": 1952,
+      "bookedCount": 3287,
+      "image": "assets/img/exp/10655.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 37.88818,
+      "lng": -4.77938,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 37.59,
+        "original": 39.16,
+        "discountPercent": 4,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 20440,
+      "cityId": "cordoba",
+      "popularityRank": 9,
+      "name": "City Sightseeing: Córdoba Hop-on Hop-off Bus Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Cordoba",
+      "rating": 4,
+      "reviewCount": 93,
+      "bookedCount": 984,
+      "image": "assets/img/exp/20440.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 37.88818,
+      "lng": -4.77938,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 30.21,
+        "original": 30.21,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 50880,
+      "cityId": "cordoba",
+      "popularityRank": 10,
+      "name": "El Cardenal Flamenco and Equestrian Show Experience",
+      "locationId": null,
+      "locationName": null,
+      "category": "Entertainment",
+      "subcategory": "Flamenco Shows",
+      "rating": 4.8,
+      "reviewCount": 183,
+      "bookedCount": 2393,
+      "image": "assets/img/exp/50880.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": -4.78196,
+      "lng": 37.88137,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 47.69,
+        "original": 50.19,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 12027,
+      "cityId": "cordoba",
+      "popularityRank": 11,
+      "name": "Medina Azahara Guided Tour with Skip-the-Line Tickets",
+      "locationId": 1635,
+      "locationName": "Cordoba Mosque-Cathedral Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.5,
+      "reviewCount": 1254,
+      "bookedCount": 1705,
+      "image": "assets/img/exp/12027.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 37.8893,
+      "lng": -4.77928,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 19.33,
+        "original": 20.14,
+        "discountPercent": 4,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24788,
+      "cityId": "cordoba",
+      "popularityRank": 12,
+      "name": "Combo (Save 5%): Cordoba Hop-on Hop-off Bus Tour + Cordoba Mosque-Cathedral Tickets",
+      "locationId": 1635,
+      "locationName": "Cordoba Mosque-Cathedral Tickets",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.5,
+      "reviewCount": 5730,
+      "bookedCount": 119540,
+      "image": "assets/img/exp/24788.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.88818,
+      "lng": -4.77938,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 50.5,
+        "original": 53.15,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 59277,
+      "cityId": "cordoba",
+      "popularityRank": 13,
+      "name": "Cordoba Mosque-Cathedral Tickets with Audio Guide",
+      "locationId": 1635,
+      "locationName": "Cordoba Mosque-Cathedral Tickets",
+      "category": "Tickets",
+      "subcategory": "Religious Sites",
+      "rating": null,
+      "reviewCount": 0,
+      "bookedCount": 0,
+      "image": "assets/img/exp/59277.jpg",
+      "duration": null,
+      "features": [
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.8789,
+      "lng": -4.77939,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 23.5,
+        "original": 23.5,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 26217,
+      "cityId": "cordoba",
+      "popularityRank": 14,
+      "name": "Mosque-Cathedral of Cordoba E-Tickets with Audio Guide & City Audio Tour",
+      "locationId": 1635,
+      "locationName": "Cordoba Mosque-Cathedral Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4,
+      "reviewCount": 16,
+      "bookedCount": 0,
+      "image": "assets/img/exp/26217.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.87891,
+      "lng": -4.77939,
+      "isCombo": false,
+      "summary": "Celebrate the synergy of Islam and Christianity as you explore a unique mosque-cathedral and the city of Cordoba with insightful audio guides.",
+      "price": {
+        "currency": "USD",
+        "from": 27.97,
+        "original": 27.97,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 44682,
+      "cityId": "cordoba",
+      "popularityRank": 15,
+      "name": "Cordoba Flamenco Show at Arab Baths of Santa Maria Tickets",
+      "locationId": 5144,
+      "locationName": "Cordoba Flamenco Show Tickets",
+      "category": "Entertainment",
+      "subcategory": "Show",
+      "rating": 5,
+      "reviewCount": 3,
+      "bookedCount": 0,
+      "image": "assets/img/exp/44682.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 37.88027,
+      "lng": -4.77979,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 32.22,
+        "original": 40.28,
+        "discountPercent": 20,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 48191,
+      "cityId": "cordoba",
+      "popularityRank": 16,
+      "name": "Alcázar of Córdoba Guided Night Tour",
+      "locationId": 1885,
+      "locationName": "Alcazar Córdoba",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 5,
+      "reviewCount": 1,
+      "bookedCount": 0,
+      "image": "assets/img/exp/48191.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 37.87669,
+      "lng": -4.78187,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.57,
+        "original": 33.57,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 12287,
+      "cityId": "cordoba",
+      "popularityRank": 17,
+      "name": "Authentic Patios of Cordoba Skip-the-Line Guided Tour",
+      "locationId": 1885,
+      "locationName": "Alcazar Córdoba",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.5,
+      "reviewCount": 6,
+      "bookedCount": 0,
+      "image": "assets/img/exp/12287.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 37.88818,
+      "lng": -4.77938,
+      "isCombo": false,
+      "summary": "Discover a colorful bonanza of pots and plants as you retreat into the alleyways for a tour of the gorgeous Patios of Cordoba.",
+      "price": {
+        "currency": "USD",
+        "from": 22.38,
+        "original": 22.38,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 23752,
+      "cityId": "cordoba",
+      "popularityRank": 18,
+      "name": "2.5-Hour Guided Tour of Córdoba Cathedral-Mosque & Alcázar",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 3.7,
+      "reviewCount": 10,
+      "bookedCount": 153,
+      "image": "assets/img/exp/23752.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 37.87963,
+      "lng": -4.78044,
+      "isCombo": false,
+      "summary": "A blend of cultures awaits on this expert-guided tour of Córdoba’s grand Mosque-Cathedral and the Alcázar of the Christian Kings.",
+      "price": {
+        "currency": "USD",
+        "from": 48.11,
+        "original": 48.11,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 53825,
+      "cityId": "cordoba",
+      "popularityRank": 19,
+      "name": "Córdoba Self-Guided Audio Walking Tour via Mobile App",
+      "locationId": 1635,
+      "locationName": "Cordoba Mosque-Cathedral Tickets",
+      "category": "Tours",
+      "subcategory": "Walking Tours",
+      "rating": null,
+      "reviewCount": 0,
+      "bookedCount": 0,
+      "image": "assets/img/exp/53825.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 37.87964,
+      "lng": -4.78371,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 11.19,
+        "original": 11.19,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 57664,
+      "cityId": "cordoba",
+      "popularityRank": 20,
+      "name": "Córdoba Treasure Hunt: Self-Guided City Exploration Game",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Walking Tours",
+      "rating": null,
+      "reviewCount": 0,
+      "bookedCount": 0,
+      "image": "assets/img/exp/57664.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 37.87788,
+      "lng": -4.7796,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 8.04,
+        "original": 8.94,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

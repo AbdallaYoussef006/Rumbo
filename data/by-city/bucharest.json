@@ -1,0 +1,774 @@
+{
+  "city": {
+    "id": "bucharest",
+    "name": "Bucharest",
+    "countryCode": "RO",
+    "country": "Romania",
+    "tagline": "",
+    "image": "assets/img/city/bucharest.jpg",
+    "lat": 44.43225,
+    "lng": 26.10626,
+    "timeZone": "Europe/Bucharest",
+    "priceFrom": 5.59,
+    "locationCount": 5,
+    "experienceCount": 20,
+    "rank": 33
+  },
+  "locations": [
+    {
+      "id": 2739,
+      "cityId": "bucharest",
+      "name": "Palace of Parliament Bucharest Tours",
+      "description": "Discover Bucharest's Palace of Parliament. Explore its history and interiors with our tickets. Combo packages available for a comprehensive experience.",
+      "image": "assets/img/loc/2739.jpg",
+      "experienceCount": 5,
+      "rating": 4.5,
+      "ratingCount": 8778,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 27.97,
+        "original": 27.97
+      },
+      "experienceIds": [
+        14364,
+        37087,
+        31708,
+        13832,
+        25670
+      ]
+    },
+    {
+      "id": 4318,
+      "cityId": "bucharest",
+      "name": "Therme Bucuresti",
+      "description": "Pick Therme Bucuresti tickets for a luxurious thermal spa experience. Enjoy 30+ pools, healing thermal waters, and a range of treatments. Feel refreshed and revitalized with massages, facials, and aromatherapy.",
+      "image": "assets/img/loc/4318.jpg",
+      "experienceCount": 6,
+      "rating": 4.5,
+      "ratingCount": 7749,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 20.14,
+        "original": 20.14
+      },
+      "experienceIds": [
+        22862,
+        28531,
+        28532,
+        21322,
+        37482,
+        25670
+      ]
+    },
+    {
+      "id": 2817,
+      "cityId": "bucharest",
+      "name": "Bran Castle Tickets",
+      "description": "Journey to Transylvania's Bran Castle. Dive into Romanian history and folklore. Opt for skip-the-line tickets or Halloween tours for tales of Dracula.",
+      "image": "assets/img/loc/2817.jpg",
+      "experienceCount": 4,
+      "rating": 4.4,
+      "ratingCount": 6431,
+      "popularityRank": 3,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 5.59,
+        "original": 5.59
+      },
+      "experienceIds": [
+        14260,
+        24376,
+        14261,
+        31643
+      ]
+    },
+    {
+      "id": 2939,
+      "cityId": "bucharest",
+      "name": "Peleș Castle Tickets",
+      "description": "Marvel at Romania's Peleș Castle's opulence. Discover its history and architectural beauty. Browse our tours for more experiences.",
+      "image": "assets/img/loc/2939.jpg",
+      "experienceCount": 1,
+      "rating": 4.4,
+      "ratingCount": 4092,
+      "popularityRank": 4,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 26.85,
+        "original": 26.85
+      },
+      "experienceIds": [
+        14330
+      ]
+    },
+    {
+      "id": 4317,
+      "cityId": "bucharest",
+      "name": "Slanic Salt Mine Tickets",
+      "description": "Discover Slanic Salt Mine, among Europe's largest. Explore an underground wonder with pure air and stunning salt formations. Expert guides lead you through winding tunnels, revealing nature's spectacular salt sculptures carved by underground streams.",
+      "image": "assets/img/loc/4317.jpg",
+      "experienceCount": 1,
+      "rating": 4.6,
+      "ratingCount": 2313,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 54.83,
+        "original": 54.83
+      },
+      "experienceIds": [
+        21323
+      ]
+    },
+    {
+      "id": 2814,
+      "cityId": "bucharest",
+      "name": "Nightlife and Entertainment",
+      "description": "After the sun sets, discover Romania's capital city, with a fun tour group and a professional tour group by your side!",
+      "image": "assets/img/loc/2814.jpg",
+      "experienceCount": 0,
+      "rating": null,
+      "ratingCount": 0,
+      "popularityRank": 6,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 2901,
+      "cityId": "bucharest",
+      "name": "Dimitrie Gusti National Village Museum",
+      "description": "Explore Romania's culture at Dimitrie Gusti National Village Museum, Bucharest. Join guided tours with sightseeing and delve into Romanian heritage.",
+      "image": "assets/img/loc/2901.jpg",
+      "experienceCount": 0,
+      "rating": null,
+      "ratingCount": 0,
+      "popularityRank": 7,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 4774,
+      "cityId": "bucharest",
+      "name": "Transfagarasan",
+      "description": "Explore the awe-inspiring Transfagarasan road as it meanders through the stunning Fagaras Mountains of Hungary. Discover more on our day trips from Bucharest, complete with guided tours and seamless transfers.",
+      "image": "assets/img/loc/4774.jpg",
+      "experienceCount": 0,
+      "rating": null,
+      "ratingCount": 0,
+      "popularityRank": 8,
+      "startingPrice": null,
+      "experienceIds": []
+    }
+  ],
+  "experiences": [
+    {
+      "id": 22862,
+      "cityId": "bucharest",
+      "popularityRank": 1,
+      "name": "1-Day Therme Bucharest Entry Tickets",
+      "locationId": 4318,
+      "locationName": "Therme Bucuresti",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.6,
+      "reviewCount": 2653,
+      "bookedCount": 66124,
+      "image": "assets/img/exp/22862.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 44.60503,
+      "lng": 26.08558,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 39.16,
+        "original": 39.16,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14364,
+      "cityId": "bucharest",
+      "popularityRank": 2,
+      "name": "Bucharest: Palace of Parliament Entry Ticket & Guided Tour",
+      "locationId": 2739,
+      "locationName": "Palace of Parliament Bucharest Tours",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.4,
+      "reviewCount": 3080,
+      "bookedCount": 38974,
+      "image": "assets/img/exp/14364.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 44.42677,
+      "lng": 26.10254,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 30.27,
+        "original": 30.27,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14260,
+      "cityId": "bucharest",
+      "popularityRank": 3,
+      "name": "Bran Castle Entry Tickets",
+      "locationId": 2817,
+      "locationName": "Bran Castle Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.4,
+      "reviewCount": 2535,
+      "bookedCount": 35519,
+      "image": "assets/img/exp/14260.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": false,
+      "lat": 45.51919,
+      "lng": 25.36968,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 25.73,
+        "original": 25.73,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 28531,
+      "cityId": "bucharest",
+      "popularityRank": 4,
+      "name": "4.5-Hour Therme Bucharest Entry Tickets",
+      "locationId": 4318,
+      "locationName": "Therme Bucuresti",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.5,
+      "reviewCount": 1397,
+      "bookedCount": 31272,
+      "image": "assets/img/exp/28531.jpg",
+      "duration": null,
+      "features": [],
+      "freeCancellation": false,
+      "lat": 44.60512,
+      "lng": 26.08544,
+      "isCombo": false,
+      "summary": "Does 4.5 hours in a tropical retreat at Therme Bucharest sound like a plan? Enjoy mineral pools, saunas, thrilling waterslides, and delicious dining options.",
+      "price": {
+        "currency": "USD",
+        "from": 27.97,
+        "original": 27.97,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 28532,
+      "cityId": "bucharest",
+      "popularityRank": 5,
+      "name": "3-hour Therme Bucharest Entry Tickets",
+      "locationId": 4318,
+      "locationName": "Therme Bucuresti",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.4,
+      "reviewCount": 933,
+      "bookedCount": 19383,
+      "image": "assets/img/exp/28532.jpg",
+      "duration": null,
+      "features": [],
+      "freeCancellation": false,
+      "lat": 44.60512,
+      "lng": 26.08544,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 20.14,
+        "original": 20.14,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14008,
+      "cityId": "bucharest",
+      "popularityRank": 6,
+      "name": "From Bucharest: Bran Castle, Peles Castle & Brasov Full-Day Guided Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Day Trips",
+      "rating": 4.2,
+      "reviewCount": 427,
+      "bookedCount": 5670,
+      "image": "assets/img/exp/14008.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Audio guide",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 44.42677,
+      "lng": 26.10254,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 19.58,
+        "original": 39.16,
+        "discountPercent": 50,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14330,
+      "cityId": "bucharest",
+      "popularityRank": 7,
+      "name": "Peles Castle Entry Tickets",
+      "locationId": 2939,
+      "locationName": "Peleș Castle Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.8,
+      "reviewCount": 224,
+      "bookedCount": 4707,
+      "image": "assets/img/exp/14330.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 45.35934,
+      "lng": 25.53919,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 26.85,
+        "original": 26.85,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 21322,
+      "cityId": "bucharest",
+      "popularityRank": 8,
+      "name": "Therme Bucharest Entry Tickets with Transfers",
+      "locationId": 4318,
+      "locationName": "Therme Bucuresti",
+      "category": "Wellness",
+      "subcategory": "Spa",
+      "rating": 4.4,
+      "reviewCount": 63,
+      "bookedCount": 1977,
+      "image": "assets/img/exp/21322.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Transfers available",
+        "Pickup available"
+      ],
+      "freeCancellation": false,
+      "lat": 44.42677,
+      "lng": 26.10254,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 54.83,
+        "original": 54.83,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 37075,
+      "cityId": "bucharest",
+      "popularityRank": 9,
+      "name": "From Bucharest: Bran Castle, Peles Castle & Brasov Full-Day Guided Tour with Castles Audio Guide",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Day Trips",
+      "rating": 3.9,
+      "reviewCount": 84,
+      "bookedCount": 463,
+      "image": "assets/img/exp/37075.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Audio guide",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 44.42677,
+      "lng": 26.10254,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 19.58,
+        "original": 39.16,
+        "discountPercent": 50,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 37087,
+      "cityId": "bucharest",
+      "popularityRank": 10,
+      "name": "Bucharest: Palace of Parliament, Ceaușescu Mansion & Village Museum Guided Tour with Transfers",
+      "locationId": 2739,
+      "locationName": "Palace of Parliament Bucharest Tours",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 3.3,
+      "reviewCount": 35,
+      "bookedCount": 663,
+      "image": "assets/img/exp/37087.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 44.42677,
+      "lng": 26.10254,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 27.97,
+        "original": 27.97,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24376,
+      "cityId": "bucharest",
+      "popularityRank": 11,
+      "name": "Dracula's Castle Halloween Special Tour",
+      "locationId": 2817,
+      "locationName": "Bran Castle Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 3.7,
+      "reviewCount": 15,
+      "bookedCount": 492,
+      "image": "assets/img/exp/24376.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 45.5149,
+      "lng": 25.36716,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 53.71,
+        "original": 53.71,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 31708,
+      "cityId": "bucharest",
+      "popularityRank": 12,
+      "name": "Palace of Parliament Bucharest Guided Tour with Skip-the-Line Tickets",
+      "locationId": 2739,
+      "locationName": "Palace of Parliament Bucharest Tours",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.6,
+      "reviewCount": 360,
+      "bookedCount": 490,
+      "image": "assets/img/exp/31708.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 44.42677,
+      "lng": 26.10254,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 30.27,
+        "original": 30.27,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14261,
+      "cityId": "bucharest",
+      "popularityRank": 13,
+      "name": "Bran Castle Guided Tour",
+      "locationId": 2817,
+      "locationName": "Bran Castle Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.6,
+      "reviewCount": 579,
+      "bookedCount": 3551,
+      "image": "assets/img/exp/14261.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 45.51616,
+      "lng": 25.37074,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 53.71,
+        "original": 53.71,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 37482,
+      "cityId": "bucharest",
+      "popularityRank": 14,
+      "name": "Therme Bucharest Night Experience with Transfers",
+      "locationId": 4318,
+      "locationName": "Therme Bucuresti",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.5,
+      "reviewCount": 25,
+      "bookedCount": 823,
+      "image": "assets/img/exp/37482.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 44.42677,
+      "lng": 26.10254,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 66.01,
+        "original": 66.01,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 21323,
+      "cityId": "bucharest",
+      "popularityRank": 15,
+      "name": "From Bucharest: Slănic Prahova Salt Mine Tickets With Transfers",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Day Trips",
+      "rating": 4.6,
+      "reviewCount": 47,
+      "bookedCount": 345,
+      "image": "assets/img/exp/21323.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Meals included"
+      ],
+      "freeCancellation": true,
+      "lat": 44.42677,
+      "lng": 26.10254,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 54.83,
+        "original": 54.83,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 37076,
+      "cityId": "bucharest",
+      "popularityRank": 16,
+      "name": "From Bucharest: Peles Castle, Bran Castle & Cantacuzino Castle ('Wednesday Castle') Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Day Trips",
+      "rating": 2.6,
+      "reviewCount": 7,
+      "bookedCount": 298,
+      "image": "assets/img/exp/37076.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Audio guide",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 44.42677,
+      "lng": 26.10254,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 28.53,
+        "original": 57.06,
+        "discountPercent": 50,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 31643,
+      "cityId": "bucharest",
+      "popularityRank": 17,
+      "name": "Bran Castle Multilingual Informative Audio Guide Tour",
+      "locationId": 2817,
+      "locationName": "Bran Castle Tickets",
+      "category": "Tours",
+      "subcategory": "Private Tours",
+      "rating": 3.8,
+      "reviewCount": 22,
+      "bookedCount": 1607,
+      "image": "assets/img/exp/31643.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Extended validity",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 45.5149,
+      "lng": 25.36716,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 5.59,
+        "original": 5.59,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13832,
+      "cityId": "bucharest",
+      "popularityRank": 18,
+      "name": "Palace of Parliament Bucharest Skip-the-Line Tickets with Guided Tour",
+      "locationId": 2739,
+      "locationName": "Palace of Parliament Bucharest Tours",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.4,
+      "reviewCount": 1926,
+      "bookedCount": 3314,
+      "image": "assets/img/exp/13832.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 44.42685,
+      "lng": 26.08743,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.57,
+        "original": 33.57,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 25670,
+      "cityId": "bucharest",
+      "popularityRank": 19,
+      "name": "Combo (Save 5%): Skip-the-Line Guided Tour of Palace of Parliament + Entry to Therme Bucuresti Spa Tickets",
+      "locationId": 2739,
+      "locationName": "Palace of Parliament Bucharest Tours",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.5,
+      "reviewCount": 5987,
+      "bookedCount": 81368,
+      "image": "assets/img/exp/25670.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 44.42677,
+      "lng": 26.10254,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 66.97,
+        "original": 70.49,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 52018,
+      "cityId": "bucharest",
+      "popularityRank": 20,
+      "name": "From Bucharest: Peles Castle, Dracula's Castle & Brasov Day Trip",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Day Trips",
+      "rating": null,
+      "reviewCount": 0,
+      "bookedCount": 0,
+      "image": "assets/img/exp/52018.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Guided tour",
+        "Audio guide",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 44.43225,
+      "lng": 26.10626,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 39.16,
+        "original": 39.16,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

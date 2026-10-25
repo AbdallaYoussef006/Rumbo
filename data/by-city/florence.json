@@ -1,0 +1,811 @@
+{
+  "city": {
+    "id": "florence",
+    "name": "Florence",
+    "countryCode": "IT",
+    "country": "Italy",
+    "tagline": "",
+    "image": "assets/img/city/florence.jpg",
+    "lat": 43.84591,
+    "lng": 10.95185,
+    "timeZone": "Europe/Rome",
+    "priceFrom": 6.6,
+    "locationCount": 7,
+    "experienceCount": 20,
+    "rank": 16
+  },
+  "locations": [
+    {
+      "id": 533,
+      "cityId": "florence",
+      "name": "Uffizi Gallery",
+      "description": "Explore a vast collection of masterpieces at the renowned Uffizi Gallery, showcasing art by luminaries such as Caravaggio, Michelangelo, Raphael, and da Vinci. Dive into our selection of Uffizi Gallery tickets to benefit from skip-the-line entry, expert-guided tours, and combo offers with the neighboring Accademia Gallery",
+      "image": "assets/img/loc/533.jpg",
+      "experienceCount": 6,
+      "rating": 4.4,
+      "ratingCount": 25796,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 22.71,
+        "original": 22.71
+      },
+      "experienceIds": [
+        7632,
+        38345,
+        15257,
+        31354,
+        39092,
+        7713
+      ]
+    },
+    {
+      "id": 534,
+      "cityId": "florence",
+      "name": "Accademia Gallery Tickets",
+      "description": "See Michelangelo’s iconic David up close at the Accademia Gallery; a must-see masterpiece in Florence.",
+      "image": "assets/img/loc/534.jpg",
+      "experienceCount": 5,
+      "rating": 4.3,
+      "ratingCount": 31594,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 28.98,
+        "original": 28.98
+      },
+      "experienceIds": [
+        7600,
+        38345,
+        15257,
+        7604,
+        39092
+      ]
+    },
+    {
+      "id": 5417,
+      "cityId": "florence",
+      "name": "Pitti Palace and Boboli Gardens",
+      "description": "Walk through royal apartments at Pitti Palace, then explore Boboli Gardens, a sculpture-filled park overlooking Florence.",
+      "image": "assets/img/loc/5417.jpg",
+      "experienceCount": 2,
+      "rating": 4.4,
+      "ratingCount": 2645,
+      "popularityRank": 3,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 27.41,
+        "original": 27.41
+      },
+      "experienceIds": [
+        15258,
+        10997
+      ]
+    },
+    {
+      "id": 1353,
+      "cityId": "florence",
+      "name": "Florence To Chianti Tours",
+      "description": "Leave the city behind for rolling hills, vineyard visits, and olive oil tastings in Tuscany’s Chianti region.",
+      "image": "assets/img/loc/1353.jpg",
+      "experienceCount": 0,
+      "rating": 4.3,
+      "ratingCount": 2922,
+      "popularityRank": 4,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 535,
+      "cityId": "florence",
+      "name": "Duomo Florence",
+      "description": "Climb Florence’s cathedral to the top of Brunelleschi’s dome and take in views of the entire city skyline.",
+      "image": "assets/img/loc/535.jpg",
+      "experienceCount": 2,
+      "rating": 4.4,
+      "ratingCount": 19421,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 6.6,
+        "original": 6.6
+      },
+      "experienceIds": [
+        13012,
+        35835
+      ]
+    },
+    {
+      "id": 2574,
+      "cityId": "florence",
+      "name": "Palazzo Vecchio",
+      "description": "Step inside Florence’s town hall and uncover political power, Medici history, and Renaissance art in one grand building.",
+      "image": "assets/img/loc/2574.jpg",
+      "experienceCount": 1,
+      "rating": 4.2,
+      "ratingCount": 14898,
+      "popularityRank": 6,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 28.98,
+        "original": 28.98
+      },
+      "experienceIds": [
+        13262
+      ]
+    },
+    {
+      "id": 2726,
+      "cityId": "florence",
+      "name": "Medici Chapel",
+      "description": "Visit the Medici Chapel to see exquisite sculptures and tombs of Florence’s powerful Medici family.",
+      "image": "assets/img/loc/2726.jpg",
+      "experienceCount": 1,
+      "rating": 4.3,
+      "ratingCount": 4949,
+      "popularityRank": 7,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 19.58,
+        "original": 19.58
+      },
+      "experienceIds": [
+        13762
+      ]
+    },
+    {
+      "id": 2568,
+      "cityId": "florence",
+      "name": "Florence to Leaning Tower of Pisa Tours",
+      "description": "Hop over from Florence to see the Leaning Tower of Pisa, famous for its iconic four-degree lean.",
+      "image": "assets/img/loc/2568.jpg",
+      "experienceCount": 2,
+      "rating": 4.5,
+      "ratingCount": 5572,
+      "popularityRank": 8,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 27.97,
+        "original": 27.97
+      },
+      "experienceIds": [
+        7641,
+        15518
+      ]
+    },
+    {
+      "id": 1348,
+      "cityId": "florence",
+      "name": "Florence To Cinque Terre Tours",
+      "description": "From Florence, visit Cinque Terre, a UNESCO World Heritage site famed for scenic hillside villages.",
+      "image": "assets/img/loc/1348.jpg",
+      "experienceCount": 0,
+      "rating": 4.5,
+      "ratingCount": 1437,
+      "popularityRank": 9,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 2722,
+      "cityId": "florence",
+      "name": "Bargello National Museum",
+      "description": "Discover Renaissance masterworks by Donatello, Verrocchio, and more at Florence’s Bargello Museum.",
+      "image": "assets/img/loc/2722.jpg",
+      "experienceCount": 0,
+      "rating": 4.2,
+      "ratingCount": 5041,
+      "popularityRank": 10,
+      "startingPrice": null,
+      "experienceIds": []
+    }
+  ],
+  "experiences": [
+    {
+      "id": 7600,
+      "cityId": "florence",
+      "popularityRank": 1,
+      "name": "Accademia Gallery Timed Entry Tickets",
+      "locationId": 534,
+      "locationName": "Accademia Gallery Tickets",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.5,
+      "reviewCount": 7806,
+      "bookedCount": 438851,
+      "image": "assets/img/exp/7600.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": false,
+      "lat": 43.76997,
+      "lng": 11.25767,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 28.98,
+        "original": 33.45,
+        "discountPercent": 13,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7632,
+      "cityId": "florence",
+      "popularityRank": 2,
+      "name": "Uffizi Gallery Timed Entry Tickets",
+      "locationId": 533,
+      "locationName": "Uffizi Gallery",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.4,
+      "reviewCount": 3590,
+      "bookedCount": 360556,
+      "image": "assets/img/exp/7632.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": false,
+      "lat": 43.76997,
+      "lng": 11.25767,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 22.71,
+        "original": 32.45,
+        "discountPercent": 30,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 38345,
+      "cityId": "florence",
+      "popularityRank": 3,
+      "name": "Combo (Save 26%): Uffizi Gallery + Accademia Gallery Timed Entry Tickets with Audio Guide",
+      "locationId": 534,
+      "locationName": "Accademia Gallery Tickets",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.3,
+      "reviewCount": 2071,
+      "bookedCount": 32253,
+      "image": "assets/img/exp/38345.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 43.76997,
+      "lng": 11.25767,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 49.65,
+        "original": 67.02,
+        "discountPercent": 26,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15258,
+      "cityId": "florence",
+      "popularityRank": 4,
+      "name": "Pitti Palace & Boboli Gardens Timed Entry Tickets",
+      "locationId": 5417,
+      "locationName": "Pitti Palace and Boboli Gardens",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.4,
+      "reviewCount": 762,
+      "bookedCount": 27998,
+      "image": "assets/img/exp/15258.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 43.76956,
+      "lng": 11.25581,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 37.93,
+        "original": 44.76,
+        "discountPercent": 15,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13012,
+      "cityId": "florence",
+      "popularityRank": 5,
+      "name": "Florence Duomo with Brunelleschi Dome Access",
+      "locationId": 535,
+      "locationName": "Duomo Florence",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.5,
+      "reviewCount": 3118,
+      "bookedCount": 172685,
+      "image": "assets/img/exp/13012.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": false,
+      "lat": 43.76997,
+      "lng": 11.25767,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 63.18,
+        "original": 63.18,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13262,
+      "cityId": "florence",
+      "popularityRank": 6,
+      "name": "Palazzo Vecchio Skip-the-Line Tickets",
+      "locationId": 2574,
+      "locationName": "Palazzo Vecchio",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.2,
+      "reviewCount": 5662,
+      "bookedCount": 52641,
+      "image": "assets/img/exp/13262.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": false,
+      "lat": 43.76998,
+      "lng": 11.25591,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 28.98,
+        "original": 28.98,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 23216,
+      "cityId": "florence",
+      "popularityRank": 7,
+      "name": "Skip-the-Line Tickets to Santa Croce Basilica Complex",
+      "locationId": 4654,
+      "locationName": "Basilica of Santa Croce",
+      "category": "Tickets",
+      "subcategory": "Religious Sites",
+      "rating": 4.6,
+      "reviewCount": 499,
+      "bookedCount": 10917,
+      "image": "assets/img/exp/23216.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 43.76857,
+      "lng": 11.26227,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 12.31,
+        "original": 12.31,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15257,
+      "cityId": "florence",
+      "popularityRank": 8,
+      "name": "Combo (Save 31%): Uffizi and Accademia Gallery Timed Entry Tickets",
+      "locationId": 533,
+      "locationName": "Uffizi Gallery",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 2099,
+      "bookedCount": 55279,
+      "image": "assets/img/exp/15257.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 43.76956,
+      "lng": 11.25581,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 48.9,
+        "original": 70.49,
+        "discountPercent": 31,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7641,
+      "cityId": "florence",
+      "popularityRank": 9,
+      "name": "Skip the Line Ticket to Leaning Tower of Pisa",
+      "locationId": 1800,
+      "locationName": "Leaning Tower of Pisa",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.4,
+      "reviewCount": 5096,
+      "bookedCount": 65047,
+      "image": "assets/img/exp/7641.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Transfers available",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 43.72295,
+      "lng": 10.3966,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 27.97,
+        "original": 27.97,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 18884,
+      "cityId": "florence",
+      "popularityRank": 10,
+      "name": "City Sightseeing: Florence Hop-on Hop-off Bus Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Florence",
+      "rating": 4.1,
+      "reviewCount": 585,
+      "bookedCount": 15986,
+      "image": "assets/img/exp/18884.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 43.76956,
+      "lng": 11.25581,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 21.87,
+        "original": 21.87,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 31354,
+      "cityId": "florence",
+      "popularityRank": 11,
+      "name": "Uffizi Gallery Tickets with Vasari Corridor Access",
+      "locationId": 5870,
+      "locationName": "Vasari Corridor",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 3.8,
+      "reviewCount": 35,
+      "bookedCount": 571,
+      "image": "assets/img/exp/31354.jpg",
+      "duration": null,
+      "features": [],
+      "freeCancellation": false,
+      "lat": 43.76778,
+      "lng": 11.25531,
+      "isCombo": false,
+      "summary": "Top off your visit to the Uffizi by strolling its iconic hidden Medici passage all the way to Pitti Palace.",
+      "price": {
+        "currency": "USD",
+        "from": 66.01,
+        "original": 66.01,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 35835,
+      "cityId": "florence",
+      "popularityRank": 12,
+      "name": "Free Entry to Florence Duomo with Audio Guide",
+      "locationId": 535,
+      "locationName": "Duomo Florence",
+      "category": "Tickets",
+      "subcategory": "Religious Sites",
+      "rating": 4.4,
+      "reviewCount": 3947,
+      "bookedCount": 9325,
+      "image": "assets/img/exp/35835.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": false,
+      "lat": 43.77314,
+      "lng": 11.25596,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 6.6,
+        "original": 6.6,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 31246,
+      "cityId": "florence",
+      "popularityRank": 13,
+      "name": "Global eSIM with Unlimited 5G/4G Data: Access to 120 Countries",
+      "locationId": null,
+      "locationName": null,
+      "category": "Travel Services",
+      "subcategory": "Wifi & SIM Cards",
+      "rating": 4.2,
+      "reviewCount": 292,
+      "bookedCount": 4525,
+      "image": "assets/img/exp/31246.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity"
+      ],
+      "freeCancellation": true,
+      "lat": 40.71278,
+      "lng": -74.00597,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 8.91,
+        "original": 9.9,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15518,
+      "cityId": "florence",
+      "popularityRank": 14,
+      "name": "Pisa Monumental Complex Tickets: Leaning Tower, Cathedral, Baptistery & Museums",
+      "locationId": 1800,
+      "locationName": "Leaning Tower of Pisa",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.6,
+      "reviewCount": 757,
+      "bookedCount": 15904,
+      "image": "assets/img/exp/15518.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 43.72323,
+      "lng": 10.39472,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 37.93,
+        "original": 37.93,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13762,
+      "cityId": "florence",
+      "popularityRank": 15,
+      "name": "Medici Chapels Skip-the-Line Tickets",
+      "locationId": 2726,
+      "locationName": "Medici Chapel",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.5,
+      "reviewCount": 1974,
+      "bookedCount": 10182,
+      "image": "assets/img/exp/13762.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 43.76997,
+      "lng": 11.25767,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 19.58,
+        "original": 19.58,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7604,
+      "cityId": "florence",
+      "popularityRank": 16,
+      "name": "Accademia Gallery Guided Tour",
+      "locationId": 534,
+      "locationName": "Accademia Gallery Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.4,
+      "reviewCount": 6094,
+      "bookedCount": 74661,
+      "image": "assets/img/exp/7604.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 43.76956,
+      "lng": 11.25581,
+      "isCombo": false,
+      "summary": "Skip the lines with a guided tour of the Accademia Gallery, home to the iconic Statue of David.",
+      "price": {
+        "currency": "USD",
+        "from": 43.64,
+        "original": 43.64,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24264,
+      "cityId": "florence",
+      "popularityRank": 17,
+      "name": "Interrail Global Flexible Pass: Choose Any 4 to 15 Days Within 1 or 2 Months",
+      "locationId": null,
+      "locationName": null,
+      "category": "Transportation",
+      "subcategory": "Train Passes",
+      "rating": 4.3,
+      "reviewCount": 477,
+      "bookedCount": 1553,
+      "image": "assets/img/exp/24264.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity"
+      ],
+      "freeCancellation": true,
+      "lat": 48.85661,
+      "lng": 2.35222,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 316.65,
+        "original": 316.65,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 39092,
+      "cityId": "florence",
+      "popularityRank": 18,
+      "name": "Combo (Save 18%): Brunelleschi Dome + Accademia Gallery + Uffizi Gallery Tickets with Audioguide",
+      "locationId": 534,
+      "locationName": "Accademia Gallery Tickets",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.4,
+      "reviewCount": 2644,
+      "bookedCount": 46223,
+      "image": "assets/img/exp/39092.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 43.76997,
+      "lng": 11.25767,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 106.72,
+        "original": 130.21,
+        "discountPercent": 18,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10997,
+      "cityId": "florence",
+      "popularityRank": 19,
+      "name": "Pitti Palace Timed Entry Tickets",
+      "locationId": 5417,
+      "locationName": "Pitti Palace and Boboli Gardens",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.3,
+      "reviewCount": 780,
+      "bookedCount": 15197,
+      "image": "assets/img/exp/10997.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide",
+        "Pickup available"
+      ],
+      "freeCancellation": false,
+      "lat": 43.76585,
+      "lng": 11.24975,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 27.41,
+        "original": 33.57,
+        "discountPercent": 18,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7713,
+      "cityId": "florence",
+      "popularityRank": 20,
+      "name": "Uffizi Gallery Guided Tour",
+      "locationId": 533,
+      "locationName": "Uffizi Gallery",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.4,
+      "reviewCount": 5191,
+      "bookedCount": 56302,
+      "image": "assets/img/exp/7713.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 43.76956,
+      "lng": 11.25581,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 60.42,
+        "original": 60.42,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

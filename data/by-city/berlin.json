@@ -1,0 +1,779 @@
+{
+  "city": {
+    "id": "berlin",
+    "name": "Berlin",
+    "countryCode": "DE",
+    "country": "Germany",
+    "tagline": "",
+    "image": "assets/img/city/berlin.jpg",
+    "lat": 52.52437,
+    "lng": 13.41053,
+    "timeZone": "Europe/Berlin",
+    "priceFrom": 8.91,
+    "locationCount": 5,
+    "experienceCount": 20,
+    "rank": 27
+  },
+  "locations": [
+    {
+      "id": 1622,
+      "cityId": "berlin",
+      "name": "Berlin TV Tower",
+      "description": "The Berlin TV Tower is one of the city's most iconic landmarks. Head right to the top for a spectacular view of Berlin's top landmarks such as Brandenburg Gate and Alexanderplatz from 207 m in the sky.",
+      "image": "assets/img/loc/1622.jpg",
+      "experienceCount": 3,
+      "rating": 4.4,
+      "ratingCount": 11714,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 22.38,
+        "original": 22.38
+      },
+      "experienceIds": [
+        10444,
+        10519,
+        24077
+      ]
+    },
+    {
+      "id": 4638,
+      "cityId": "berlin",
+      "name": "Friedrichstadt Palast",
+      "description": "Witness artists from all around the world perform at Friedrichstadt Palast, the #1 theatre in Berlin. Live shows here are attended by half a million guests every year, as The Palast is the first choice for those wishing to experience something utterly unique and thoroughly fascinating!",
+      "image": "assets/img/loc/4638.jpg",
+      "experienceCount": 1,
+      "rating": 4.7,
+      "ratingCount": 465,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 50.24,
+        "original": 50.24
+      },
+      "experienceIds": [
+        35523
+      ]
+    },
+    {
+      "id": 5760,
+      "cityId": "berlin",
+      "name": "Tropical Islands",
+      "description": "Step into a tropical paradise inside a giant domed hangar, where palm trees, warm lagoons, and sandy beaches replace Germany’s seasons. Glide down water slides, float under a rainforest canopy, explore themed worlds, and unwind in the spa and sauna complex. A full-day island escape without leaving mainland Europe.",
+      "image": "assets/img/loc/5760.jpg",
+      "experienceCount": 1,
+      "rating": 4.4,
+      "ratingCount": 186,
+      "popularityRank": 3,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 39.05,
+        "original": 39.05
+      },
+      "experienceIds": [
+        30036
+      ]
+    },
+    {
+      "id": 4765,
+      "cityId": "berlin",
+      "name": "Illuseum Berlin",
+      "description": "Unveil the secrets of perception and artistry at Illuseum Berlin. Enter a captivating world of optical illusions, interactive exhibits, and mind-bending art with our tickets, ensuring a sensory and perceptual journey you won't forget.",
+      "image": "assets/img/loc/4765.jpg",
+      "experienceCount": 1,
+      "rating": 4.3,
+      "ratingCount": 5876,
+      "popularityRank": 4,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 16.78,
+        "original": 16.78
+      },
+      "experienceIds": [
+        17731
+      ]
+    },
+    {
+      "id": 3658,
+      "cityId": "berlin",
+      "name": "Sachsenhausen Concentration Camp",
+      "description": "Honor history at Sachsenhausen Concentration Camp near Berlin. Explore with our guided tours. Choose from various options, including private tours. Visit this poignant site today.",
+      "image": "assets/img/loc/3658.jpg",
+      "experienceCount": 0,
+      "rating": 4.7,
+      "ratingCount": 484,
+      "popularityRank": 5,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 3673,
+      "cityId": "berlin",
+      "name": "DDR Museum",
+      "description": "Dubbed the \"most interactive museum in the world\", the DDR museum in Berlin is a must-visit. Here, you are encouraged to interact with the exhibitions to help you get a true feel of what it was like in former East Germany.",
+      "image": "assets/img/loc/3673.jpg",
+      "experienceCount": 0,
+      "rating": 4.3,
+      "ratingCount": 7126,
+      "popularityRank": 6,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 4749,
+      "cityId": "berlin",
+      "name": "Panoramapunkt Berlin",
+      "description": "Elevate your Berlin visit with vistas from Panoramapunkt. Dive into iconic landmarks with our skip-the-line tickets to the Berlin TV tower.",
+      "image": "assets/img/loc/4749.jpg",
+      "experienceCount": 0,
+      "rating": 4.4,
+      "ratingCount": 8479,
+      "popularityRank": 7,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 2045,
+      "cityId": "berlin",
+      "name": "Hop-On Hop-Off Berlin Tickets",
+      "description": "Big Bus Berlin's hop-on hop-off routes cover Brandenburger Tor, Museum Island, Checkpoint Charlie, Potsdamer Platz, and the East Side Gallery with commentary in multiple languages. Find 24-hour passes, 48-hour tickets, and Spree river cruise combo formats here.",
+      "image": "assets/img/loc/2045.jpg",
+      "experienceCount": 0,
+      "rating": 4.4,
+      "ratingCount": 8395,
+      "popularityRank": 8,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 4236,
+      "cityId": "berlin",
+      "name": "City Sightseeing Berlin Hop-on Hop-off Tours",
+      "description": "Discover the poignant history and culture of Berlin with a hop-on-hop-off bus tour by City Sightseeing. Visit 20+ iconic landmarks like the Brandenburg Gate, Berlin Wall, and Museum Island.",
+      "image": "assets/img/loc/4236.jpg",
+      "experienceCount": 0,
+      "rating": 4.4,
+      "ratingCount": 6450,
+      "popularityRank": 9,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 1782,
+      "cityId": "berlin",
+      "name": "Reichstag Tours",
+      "description": "Visit Reichstag, the German parliament, that has withstood the test of time. Delve into its rich history and learn about all the events it has witnessed, from the Imperial Era to both World Wars. With Reichstag tours, enjoy a detailed guided tour and head to the top of the dome for 360-degree views of the city.",
+      "image": "assets/img/loc/1782.jpg",
+      "experienceCount": 1,
+      "rating": 4.4,
+      "ratingCount": 3962,
+      "popularityRank": 10,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 43.64,
+        "original": 43.64
+      },
+      "experienceIds": [
+        19441
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": 10444,
+      "cityId": "berlin",
+      "popularityRank": 1,
+      "name": "Berlin TV Tower Admission Tickets",
+      "locationId": 1622,
+      "locationName": "Berlin TV Tower",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.4,
+      "reviewCount": 3231,
+      "bookedCount": 61588,
+      "image": "assets/img/exp/10444.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 52.52082,
+      "lng": 13.40942,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 22.38,
+        "original": 22.38,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10519,
+      "cityId": "berlin",
+      "popularityRank": 2,
+      "name": "Berlin TV Tower Entry Tickets & Restaurant Reservation",
+      "locationId": 1622,
+      "locationName": "Berlin TV Tower",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.5,
+      "reviewCount": 1166,
+      "bookedCount": 19488,
+      "image": "assets/img/exp/10519.jpg",
+      "duration": null,
+      "features": [],
+      "freeCancellation": false,
+      "lat": 52.52069,
+      "lng": 13.40925,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 22.38,
+        "original": 22.38,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 35523,
+      "cityId": "berlin",
+      "popularityRank": 3,
+      "name": "BLINDED by DELIGHT Grand Show Tickets",
+      "locationId": 4638,
+      "locationName": "Friedrichstadt Palast",
+      "category": "Entertainment",
+      "subcategory": "Musicals",
+      "rating": 4.7,
+      "reviewCount": 465,
+      "bookedCount": 6574,
+      "image": "assets/img/exp/35523.jpg",
+      "duration": null,
+      "features": [],
+      "freeCancellation": false,
+      "lat": 52.52393,
+      "lng": 13.38882,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 50.24,
+        "original": 50.24,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 16697,
+      "cityId": "berlin",
+      "popularityRank": 4,
+      "name": "Berlin Spree River City Highlights Sightseeing Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.4,
+      "reviewCount": 1276,
+      "bookedCount": 41402,
+      "image": "assets/img/exp/16697.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 52.52001,
+      "lng": 13.40495,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 23.5,
+        "original": 23.5,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10296,
+      "cityId": "berlin",
+      "popularityRank": 5,
+      "name": "Berlin WelcomeCard: Unlimited Public Transport & Discounts",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tickets",
+      "subcategory": "City Cards",
+      "rating": 4.4,
+      "reviewCount": 3905,
+      "bookedCount": 13949,
+      "image": "assets/img/exp/10296.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Transfers available",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 52.52001,
+      "lng": 13.40495,
+      "isCombo": false,
+      "summary": "Enjoy discounted entry to 170+ attractions, unlimited public transport access across 1 or 2 zones, and opt for audio guides with the Berlin WelcomeCard.",
+      "price": {
+        "currency": "USD",
+        "from": 31.89,
+        "original": 31.89,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 30036,
+      "cityId": "berlin",
+      "popularityRank": 6,
+      "name": "Tropical Islands Resort Tickets",
+      "locationId": 5760,
+      "locationName": "Tropical Islands",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.4,
+      "reviewCount": 186,
+      "bookedCount": 6256,
+      "image": "assets/img/exp/30036.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Transfers available"
+      ],
+      "freeCancellation": true,
+      "lat": 52.03899,
+      "lng": 13.74865,
+      "isCombo": false,
+      "summary": "Escape to Europe's largest tropical resort near Berlin, featuring Germany's tallest water slide, an indoor rainforest, a kids' club, and relaxing spa facilities.",
+      "price": {
+        "currency": "USD",
+        "from": 39.05,
+        "original": 39.05,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 31246,
+      "cityId": "berlin",
+      "popularityRank": 7,
+      "name": "Global eSIM with Unlimited 5G/4G Data: Access to 120 Countries",
+      "locationId": null,
+      "locationName": null,
+      "category": "Travel Services",
+      "subcategory": "Wifi & SIM Cards",
+      "rating": 4.2,
+      "reviewCount": 292,
+      "bookedCount": 4525,
+      "image": "assets/img/exp/31246.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity"
+      ],
+      "freeCancellation": true,
+      "lat": 40.71278,
+      "lng": -74.00597,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 8.91,
+        "original": 9.9,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 23969,
+      "cityId": "berlin",
+      "popularityRank": 8,
+      "name": "Berlin: Interactive DeJa Vu Museum Entry Tickets",
+      "locationId": 4989,
+      "locationName": "DeJa Vu Museum",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.5,
+      "reviewCount": 56,
+      "bookedCount": 211,
+      "image": "assets/img/exp/23969.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 52.52282,
+      "lng": 13.40753,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 15.22,
+        "original": 19.02,
+        "discountPercent": 20,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 19794,
+      "cityId": "berlin",
+      "popularityRank": 9,
+      "name": "City Sightseeing: Berlin Hop-On Hop-Off Bus Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Berlin",
+      "rating": 4.2,
+      "reviewCount": 315,
+      "bookedCount": 3177,
+      "image": "assets/img/exp/19794.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 52.52001,
+      "lng": 13.40495,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 27.19,
+        "original": 27.19,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10526,
+      "cityId": "berlin",
+      "popularityRank": 10,
+      "name": "Berlin Legoland Discovery Centre",
+      "locationId": 1638,
+      "locationName": "Berlin Attractions Tickets",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.5,
+      "reviewCount": 860,
+      "bookedCount": 0,
+      "image": "assets/img/exp/10526.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 52.51001,
+      "lng": 13.37329,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 21.82,
+        "original": 21.82,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 17731,
+      "cityId": "berlin",
+      "popularityRank": 11,
+      "name": "Illuseum Berlin Tickets",
+      "locationId": 4765,
+      "locationName": "Illuseum Berlin",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.3,
+      "reviewCount": 813,
+      "bookedCount": 23534,
+      "image": "assets/img/exp/17731.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 52.52157,
+      "lng": 13.40699,
+      "isCombo": false,
+      "summary": "Welcome to the world of illusions at Illuseum Berlin. Defy gravity, fool your brain, and explore interactive exhibits for a unique experience.",
+      "price": {
+        "currency": "USD",
+        "from": 16.78,
+        "original": 16.78,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24264,
+      "cityId": "berlin",
+      "popularityRank": 12,
+      "name": "Interrail Global Flexible Pass: Choose Any 4 to 15 Days Within 1 or 2 Months",
+      "locationId": null,
+      "locationName": null,
+      "category": "Transportation",
+      "subcategory": "Train Passes",
+      "rating": 4.3,
+      "reviewCount": 477,
+      "bookedCount": 1553,
+      "image": "assets/img/exp/24264.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity"
+      ],
+      "freeCancellation": true,
+      "lat": 48.85661,
+      "lng": 2.35222,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 316.65,
+        "original": 316.65,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 11024,
+      "cityId": "berlin",
+      "popularityRank": 13,
+      "name": "Madame Tussauds Berlin Admission Ticket",
+      "locationId": 2385,
+      "locationName": "Madame Tussauds",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.5,
+      "reviewCount": 128,
+      "bookedCount": 1045,
+      "image": "assets/img/exp/11024.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 52.51727,
+      "lng": 13.38157,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 24.62,
+        "original": 24.62,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15885,
+      "cityId": "berlin",
+      "popularityRank": 14,
+      "name": "DDR Museum Berlin Admission Tickets",
+      "locationId": 5910,
+      "locationName": "Museum Island",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.3,
+      "reviewCount": 1529,
+      "bookedCount": 13235,
+      "image": "assets/img/exp/15885.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 52.51929,
+      "lng": 13.40235,
+      "isCombo": false,
+      "summary": "Relive everyday life in former East Germany at one of the most interactive museums in the world!",
+      "price": {
+        "currency": "USD",
+        "from": 15.55,
+        "original": 15.55,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24077,
+      "cityId": "berlin",
+      "popularityRank": 15,
+      "name": "Berlin TV Tower Entry Tickets with Meals & Drinks",
+      "locationId": 1622,
+      "locationName": "Berlin TV Tower",
+      "category": "Tickets",
+      "subcategory": "Observation Decks",
+      "rating": 4.5,
+      "reviewCount": 211,
+      "bookedCount": 1881,
+      "image": "assets/img/exp/24077.jpg",
+      "duration": null,
+      "features": [
+        "Meals included"
+      ],
+      "freeCancellation": false,
+      "lat": 52.52082,
+      "lng": 13.40942,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 54.83,
+        "original": 54.83,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 36033,
+      "cityId": "berlin",
+      "popularityRank": 16,
+      "name": "LEGOLAND® Germany Entry Tickets",
+      "locationId": 6209,
+      "locationName": "LEGOLAND Germany",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.6,
+      "reviewCount": 354,
+      "bookedCount": 4214,
+      "image": "assets/img/exp/36033.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 48.4245,
+      "lng": 10.29961,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 43.64,
+        "original": 43.64,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 28413,
+      "cityId": "berlin",
+      "popularityRank": 17,
+      "name": "Heide Park Entry Tickets",
+      "locationId": 5607,
+      "locationName": "Heide Park Resort Tickets",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.5,
+      "reviewCount": 127,
+      "bookedCount": 3026,
+      "image": "assets/img/exp/28413.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 53.02367,
+      "lng": 9.87819,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 43.64,
+        "original": 43.64,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 19441,
+      "cityId": "berlin",
+      "popularityRank": 18,
+      "name": "Berlin: Reichstag, Dome & Government District Tour",
+      "locationId": 1782,
+      "locationName": "Reichstag Tours",
+      "category": "Tours",
+      "subcategory": "Walking Tours",
+      "rating": 4,
+      "reviewCount": 54,
+      "bookedCount": 1428,
+      "image": "assets/img/exp/19441.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 52.52001,
+      "lng": 13.40495,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 43.64,
+        "original": 43.64,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 17606,
+      "cityId": "berlin",
+      "popularityRank": 19,
+      "name": "Gardaland Park Tickets",
+      "locationId": 4291,
+      "locationName": "Gardaland Park",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.5,
+      "reviewCount": 607,
+      "bookedCount": 23638,
+      "image": "assets/img/exp/17606.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 45.45495,
+      "lng": 10.7137,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 50.35,
+        "original": 50.35,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 11025,
+      "cityId": "berlin",
+      "popularityRank": 20,
+      "name": "Berlin Dungeon Entrance Ticket",
+      "locationId": 2386,
+      "locationName": "Berlin Dungeon",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.4,
+      "reviewCount": 1297,
+      "bookedCount": 0,
+      "image": "assets/img/exp/11025.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 52.52132,
+      "lng": 13.40353,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 26.85,
+        "original": 26.85,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

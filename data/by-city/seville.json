@@ -1,0 +1,778 @@
+{
+  "city": {
+    "id": "seville",
+    "name": "Seville",
+    "countryCode": "ES",
+    "country": "Spain",
+    "tagline": "",
+    "image": "assets/img/city/seville.jpg",
+    "lat": 37.3891,
+    "lng": -5.9845,
+    "timeZone": "Europe/Madrid",
+    "priceFrom": 15.66,
+    "locationCount": 4,
+    "experienceCount": 20,
+    "rank": 25
+  },
+  "locations": [
+    {
+      "id": 1456,
+      "cityId": "seville",
+      "name": "Seville Cathedral Tickets",
+      "description": "Discover the awe-inspiring architecture and history of the majestic Seville Cathedral, said to be the world's largest Gothic cathedral. With your Seville Cathedral tickets, enjoy skip-the-line entry, guided tours, and combo offers that include the Royal Alcazar.",
+      "image": "assets/img/loc/1456.jpg",
+      "experienceCount": 4,
+      "rating": 4.5,
+      "ratingCount": 28675,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 19.58,
+        "original": 19.58
+      },
+      "experienceIds": [
+        11698,
+        18020,
+        10109,
+        10642
+      ]
+    },
+    {
+      "id": 1455,
+      "cityId": "seville",
+      "name": "Alcazar Seville",
+      "description": "Explore the Ummayad Dynasty's luxurious residence and lifestyle at the historic Royal Alcazar of Seville, a UNESCO World Heritage Site. Browse through our collection of Alcazar Seville tickets and get skip-the-line entry, guided tours, and combo visits to Seville Cathedral.",
+      "image": "assets/img/loc/1455.jpg",
+      "experienceCount": 2,
+      "rating": 4.5,
+      "ratingCount": 31867,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 22.38,
+        "original": 22.38
+      },
+      "experienceIds": [
+        9651,
+        10643
+      ]
+    },
+    {
+      "id": 2042,
+      "cityId": "seville",
+      "name": "Seville Flamenco Show Tickets",
+      "description": "Experience the passion and rhythm of Flamenco in Seville. Immerse yourself in an unforgettable night of soul-stirring music and dance. Combine your show with either wine tasting, a tapas walking tour, or a guided tour of Triana.",
+      "image": "assets/img/loc/2042.jpg",
+      "experienceCount": 0,
+      "rating": 4.6,
+      "ratingCount": 21377,
+      "popularityRank": 3,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 4990,
+      "cityId": "seville",
+      "name": "Isla Mágica Tickets",
+      "description": "Experience an enchanting day filled with excitement at Seville's Isla Mágica amusement park.",
+      "image": "assets/img/loc/4990.jpg",
+      "experienceCount": 0,
+      "rating": 4.5,
+      "ratingCount": 2136,
+      "popularityRank": 4,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 2850,
+      "cityId": "seville",
+      "name": "Seville Aquarium Tickets",
+      "description": "Learn all about the ocean ecosystem and meet more than 7,000 marine animals at the fascinating Seville Aquarium. Enjoy unlimited access to all exhibits for an enlightening journey by choosing from our collection of Seville Aquarium tickets.",
+      "image": "assets/img/loc/2850.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 1009,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 19.02,
+        "original": 19.02
+      },
+      "experienceIds": [
+        14080
+      ]
+    },
+    {
+      "id": 2876,
+      "cityId": "seville",
+      "name": "Palacio de las Dueñas",
+      "description": "The gorgeous 15th-century Palacio de las Dueñas Sevilla is a delight to explore. With its Renaissance design, large gardens, and stunning Mudejar patios, it offers you a fascinating glimpse into the life of the Duchess de Alba, who used to live here. It is also where the famous poet Antonio Machado was born, as were Carlos Falcó, Marqués de Griñón, and Marqués de Castelmoncayo!",
+      "image": "assets/img/loc/2876.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 14332,
+      "popularityRank": 6,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 16.78,
+        "original": 16.78
+      },
+      "experienceIds": [
+        14139
+      ]
+    },
+    {
+      "id": 3562,
+      "cityId": "seville",
+      "name": "La Giralda",
+      "description": "Visit La Giralda, the iconic bell tower of the Seville Cathedral, to explore its magnificent Moorish and Renaissance architecutture. Visitors can climb right to the top of the tower and enjoy a brilliant view of Seville's rich landscape.",
+      "image": "assets/img/loc/3562.jpg",
+      "experienceCount": 0,
+      "rating": 4.5,
+      "ratingCount": 28328,
+      "popularityRank": 7,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 4613,
+      "cityId": "seville",
+      "name": "Seville To Cordoba Tours",
+      "description": "Head to Córdoba from Seville and explore the diverse heritage of Spain's ancient Roman city. Visit the mosque-turned-church La Mezquita, the ancient palace-city Medina Azahara, and more with expert guides.",
+      "image": "assets/img/loc/4613.jpg",
+      "experienceCount": 0,
+      "rating": null,
+      "ratingCount": 0,
+      "popularityRank": 8,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 2927,
+      "cityId": "seville",
+      "name": "Dinópolis",
+      "description": "Step into the prehistoric world of dinosaurs at Dinópolis Teruel in Seville. From life-sized replicas to interactive exhibits, your Dinópolis Teruel tickets offer a fascinating journey into the age of the dinosaurs.",
+      "image": "assets/img/loc/2927.jpg",
+      "experienceCount": 0,
+      "rating": null,
+      "ratingCount": 0,
+      "popularityRank": 9,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 4527,
+      "cityId": "seville",
+      "name": "Museum of Illusions Seville",
+      "description": "Discover mind-bending illusions and interactive exhibits at the Museum of Illusions in Seville. Challenge your perception and explore optical illusions firsthand at the Ames room, the Infinity room, and more.",
+      "image": "assets/img/loc/4527.jpg",
+      "experienceCount": 0,
+      "rating": 4.6,
+      "ratingCount": 25,
+      "popularityRank": 10,
+      "startingPrice": null,
+      "experienceIds": []
+    }
+  ],
+  "experiences": [
+    {
+      "id": 41691,
+      "cityId": "seville",
+      "popularityRank": 1,
+      "name": "Official Tickets to Setas de Sevilla",
+      "locationId": 6830,
+      "locationName": "Setas De Sevilla Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.7,
+      "reviewCount": 913,
+      "bookedCount": 23626,
+      "image": "assets/img/exp/41691.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Guided tour",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 37.39327,
+      "lng": -5.99175,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 17.9,
+        "original": 17.9,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 11698,
+      "cityId": "seville",
+      "popularityRank": 2,
+      "name": "Seville Cathedral & La Giralda Skip-the-Line Tickets",
+      "locationId": 1456,
+      "locationName": "Seville Cathedral Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.5,
+      "reviewCount": 9731,
+      "bookedCount": 186839,
+      "image": "assets/img/exp/11698.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.38909,
+      "lng": -5.98446,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 19.58,
+        "original": 19.58,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 18020,
+      "cityId": "seville",
+      "popularityRank": 3,
+      "name": "Combo (Save 8%): Alcázar of Seville + Seville Cathedral + La Giralda Tickets",
+      "locationId": 1456,
+      "locationName": "Seville Cathedral Tickets",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.5,
+      "reviewCount": 19979,
+      "bookedCount": 414430,
+      "image": "assets/img/exp/18020.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 37.33768,
+      "lng": -5.56173,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 38.6,
+        "original": 41.96,
+        "discountPercent": 8,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 9651,
+      "cityId": "seville",
+      "popularityRank": 4,
+      "name": "Alcázar Seville Entry Tickets",
+      "locationId": 1455,
+      "locationName": "Alcazar Seville",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.5,
+      "reviewCount": 16211,
+      "bookedCount": 322617,
+      "image": "assets/img/exp/9651.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.33768,
+      "lng": -5.56173,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 22.38,
+        "original": 22.38,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 44904,
+      "cityId": "seville",
+      "popularityRank": 5,
+      "name": "Sevilla FC: Ramón Sánchez-Pizjuán Stadium Tour with Audio Guide and Pitch Access",
+      "locationId": 6903,
+      "locationName": "Sevilla Fc Stadium Tour Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.6,
+      "reviewCount": 84,
+      "bookedCount": 2266,
+      "image": "assets/img/exp/44904.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.38399,
+      "lng": -5.96955,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 15.66,
+        "original": 15.66,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 23751,
+      "cityId": "seville",
+      "popularityRank": 6,
+      "name": "Las Setas - Flamenco Show",
+      "locationId": null,
+      "locationName": null,
+      "category": "Entertainment",
+      "subcategory": "Flamenco Shows",
+      "rating": 4.8,
+      "reviewCount": 332,
+      "bookedCount": 5569,
+      "image": "assets/img/exp/23751.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 37.3935,
+      "lng": -5.99172,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31.33,
+        "original": 31.33,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10109,
+      "cityId": "seville",
+      "popularityRank": 7,
+      "name": "Seville Cathedral & La Giralda Skip-the-Line Guided Tour",
+      "locationId": 1456,
+      "locationName": "Seville Cathedral Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.5,
+      "reviewCount": 2094,
+      "bookedCount": 12420,
+      "image": "assets/img/exp/10109.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": false,
+      "lat": 37.38909,
+      "lng": -5.98446,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31.33,
+        "original": 31.33,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 26830,
+      "cityId": "seville",
+      "popularityRank": 8,
+      "name": "Triana Theater - Flamenco Show",
+      "locationId": null,
+      "locationName": null,
+      "category": "Entertainment",
+      "subcategory": "Flamenco Shows",
+      "rating": 4.7,
+      "reviewCount": 222,
+      "bookedCount": 3401,
+      "image": "assets/img/exp/26830.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 37.38332,
+      "lng": -6.00061,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 27.97,
+        "original": 27.97,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14139,
+      "cityId": "seville",
+      "popularityRank": 9,
+      "name": "Tickets to Palacio de las Dueñas with Audio Guide",
+      "locationId": 2876,
+      "locationName": "Palacio de las Dueñas",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.4,
+      "reviewCount": 584,
+      "bookedCount": 6603,
+      "image": "assets/img/exp/14139.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 37.39482,
+      "lng": -5.9893,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 16.78,
+        "original": 16.78,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 11512,
+      "cityId": "seville",
+      "popularityRank": 10,
+      "name": "City Sightseeing: Seville Hop-on-Hop-off Bus Tour with Guided Tours and Access to Museums",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Seville",
+      "rating": 4.4,
+      "reviewCount": 1394,
+      "bookedCount": 8002,
+      "image": "assets/img/exp/11512.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 37.38909,
+      "lng": -5.98446,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31.33,
+        "original": 31.33,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10642,
+      "cityId": "seville",
+      "popularityRank": 11,
+      "name": "Alcázar of Seville + Seville Cathedral + La Giralda Skip-the-Line Guided Tour",
+      "locationId": 1456,
+      "locationName": "Seville Cathedral Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.4,
+      "reviewCount": 2971,
+      "bookedCount": 25393,
+      "image": "assets/img/exp/10642.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 37.38909,
+      "lng": -5.98446,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 60.42,
+        "original": 60.42,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 17797,
+      "cityId": "seville",
+      "popularityRank": 12,
+      "name": "Seville Guadalquivir River Cruise with Audio Guide",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.2,
+      "reviewCount": 201,
+      "bookedCount": 3309,
+      "image": "assets/img/exp/17797.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 37.38259,
+      "lng": -5.99687,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 20.14,
+        "original": 22.38,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24759,
+      "cityId": "seville",
+      "popularityRank": 13,
+      "name": "Combo (Save 10%): Seville Hop-on Hop-off Bus Tour + Alcázar + Seville Cathedral & La Giralda Tickets",
+      "locationId": null,
+      "locationName": null,
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.5,
+      "reviewCount": 21325,
+      "bookedCount": 421258,
+      "image": "assets/img/exp/24759.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.38909,
+      "lng": -5.98446,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 65.96,
+        "original": 73.29,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 26394,
+      "cityId": "seville",
+      "popularityRank": 14,
+      "name": "Teatro Flamenco Sevilla: Vive la Experiencia del Flamenco.",
+      "locationId": null,
+      "locationName": null,
+      "category": "Entertainment",
+      "subcategory": "Flamenco Shows",
+      "rating": 4.8,
+      "reviewCount": 227,
+      "bookedCount": 3364,
+      "image": "assets/img/exp/26394.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 37.39179,
+      "lng": -5.99346,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 27.58,
+        "original": 32.45,
+        "discountPercent": 15,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 48085,
+      "cityId": "seville",
+      "popularityRank": 15,
+      "name": "Tablao Casa de la Memoria - Flamenco Show",
+      "locationId": null,
+      "locationName": null,
+      "category": "Entertainment",
+      "subcategory": "Flamenco Shows",
+      "rating": 4.9,
+      "reviewCount": 65,
+      "bookedCount": 178,
+      "image": "assets/img/exp/48085.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 37.3924,
+      "lng": -5.99366,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 26.85,
+        "original": 26.85,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 41804,
+      "cityId": "seville",
+      "popularityRank": 16,
+      "name": "Combo (Save 10%): Setas de Sevilla + Guadalquivir River Cruise",
+      "locationId": 6830,
+      "locationName": "Setas De Sevilla Tickets",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 1114,
+      "bookedCount": 26935,
+      "image": "assets/img/exp/41804.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 37.38259,
+      "lng": -5.99687,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 36.14,
+        "original": 40.28,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10643,
+      "cityId": "seville",
+      "popularityRank": 17,
+      "name": "Alcázar of Seville Skip-the-Line Guided Tour",
+      "locationId": 1455,
+      "locationName": "Alcazar Seville",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.6,
+      "reviewCount": 2007,
+      "bookedCount": 22531,
+      "image": "assets/img/exp/10643.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 37.38909,
+      "lng": -5.98446,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 37.24,
+        "original": 37.24,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 25269,
+      "cityId": "seville",
+      "popularityRank": 18,
+      "name": "Tablao El Arenal - Flamenco Show",
+      "locationId": null,
+      "locationName": null,
+      "category": "Entertainment",
+      "subcategory": "Flamenco Shows",
+      "rating": 4.7,
+      "reviewCount": 368,
+      "bookedCount": 2571,
+      "image": "assets/img/exp/25269.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included"
+      ],
+      "freeCancellation": true,
+      "lat": 37.38511,
+      "lng": -5.99699,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 55.39,
+        "original": 55.39,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14080,
+      "cityId": "seville",
+      "popularityRank": 19,
+      "name": "Seville Aquarium Tickets",
+      "locationId": 2850,
+      "locationName": "Seville Aquarium Tickets",
+      "category": "Tickets",
+      "subcategory": "Aquariums",
+      "rating": 4.6,
+      "reviewCount": 685,
+      "bookedCount": 15033,
+      "image": "assets/img/exp/14080.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 37.38909,
+      "lng": -5.98446,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 19.02,
+        "original": 19.02,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 26549,
+      "cityId": "seville",
+      "popularityRank": 20,
+      "name": "Tablao La Cantaora - Flamenco Show",
+      "locationId": null,
+      "locationName": null,
+      "category": "Entertainment",
+      "subcategory": "Flamenco Shows",
+      "rating": 4.6,
+      "reviewCount": 46,
+      "bookedCount": 1472,
+      "image": "assets/img/exp/26549.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included"
+      ],
+      "freeCancellation": true,
+      "lat": 37.38962,
+      "lng": -5.99601,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 39.16,
+        "original": 39.16,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

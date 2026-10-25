@@ -1,0 +1,787 @@
+{
+  "city": {
+    "id": "kuala_lumpur",
+    "name": "Kuala Lumpur",
+    "countryCode": "MY",
+    "country": "Malaysia",
+    "tagline": "",
+    "image": "assets/img/city/kuala_lumpur.jpg",
+    "lat": 3.1412,
+    "lng": 101.68653,
+    "timeZone": "Asia/Kuala_Lumpur",
+    "priceFrom": 5.83,
+    "locationCount": 6,
+    "experienceCount": 20,
+    "rank": 21
+  },
+  "locations": [
+    {
+      "id": 2054,
+      "cityId": "kuala_lumpur",
+      "name": "KL Tower",
+      "description": "Visit the 7th tallest telecommunication tower in the world at KL Tower Kuala Lumpur. Soak up the view of Kuala Lumpur’s skyline from 421 meters above ground level. Enjoy direct access to the tower, combo offers and best deals with your KL Tower tickets.",
+      "image": "assets/img/loc/2054.jpg",
+      "experienceCount": 2,
+      "rating": 4.6,
+      "ratingCount": 15552,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 6.32,
+        "original": 6.32
+      },
+      "experienceIds": [
+        24870,
+        12426
+      ]
+    },
+    {
+      "id": 3619,
+      "cityId": "kuala_lumpur",
+      "name": "Sunway Lagoon Kuala Lumpur Tickets",
+      "description": "Sunway Lagoon is a massive amusement park in Selangor, comprising a theme park, water park, night park, wildlife park, scream park – and more!",
+      "image": "assets/img/loc/3619.jpg",
+      "experienceCount": 0,
+      "rating": 4.6,
+      "ratingCount": 17560,
+      "popularityRank": 2,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 5267,
+      "cityId": "kuala_lumpur",
+      "name": "Skyline Luge Kuala Lumpur Tickets",
+      "description": "Skyline Luge at Genting Highlands offers gravity-powered luge cart descents on 1.4km of purpose-built track, accessed by chairlift from the resort plateau with views of the Titiwangsa mountains. Find ride count pass options, unlimited ride tickets, and Genting combo attraction formats here.",
+      "image": "assets/img/loc/5267.jpg",
+      "experienceCount": 0,
+      "rating": 4.7,
+      "ratingCount": 134,
+      "popularityRank": 3,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 2581,
+      "cityId": "kuala_lumpur",
+      "name": "Petronas Twin Towers",
+      "description": "The Petronas Towers – undoubtedly one of the most popular attractions in Malaysia – offer a spectacular view from the observation deck on Level 83, about 450m above ground! Choose from our selection of Petronas Twin Tower tickets to enjoy skip-the-line entry, visit the sky-bridge, and combo experiences.",
+      "image": "assets/img/loc/2581.jpg",
+      "experienceCount": 3,
+      "rating": 4.6,
+      "ratingCount": 16217,
+      "popularityRank": 4,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 10.24,
+        "original": 10.24
+      },
+      "experienceIds": [
+        13232,
+        24870,
+        25339
+      ]
+    },
+    {
+      "id": 3588,
+      "cityId": "kuala_lumpur",
+      "name": "Aquaria KLCC Tickets",
+      "description": "Aquaria KLCC is an immersive marine life experience showcasing diverse sea creatures. Enjoy unlimited access to all exhibits, with skip-the-line entry, and combos with top attractions with your Aquaria KLCC tickets.",
+      "image": "assets/img/loc/3588.jpg",
+      "experienceCount": 3,
+      "rating": 4.6,
+      "ratingCount": 15873,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 11,
+        "original": 11
+      },
+      "experienceIds": [
+        12424,
+        21754,
+        25339
+      ]
+    },
+    {
+      "id": 3752,
+      "cityId": "kuala_lumpur",
+      "name": "Genting SkyWorlds Tickets",
+      "description": "At the thrilling Genting SkyWorlds theme park, get your fill of one-of-a-kind rides & attractions across 9 themed zones. Choose from our hand-picked selection of Genting SkyWorlds tickets and take your adventures skywards!",
+      "image": "assets/img/loc/3752.jpg",
+      "experienceCount": 1,
+      "rating": 4.6,
+      "ratingCount": 14757,
+      "popularityRank": 6,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 21.56,
+        "original": 21.56
+      },
+      "experienceIds": [
+        16806
+      ]
+    },
+    {
+      "id": 3742,
+      "cityId": "kuala_lumpur",
+      "name": "Genting Highlands",
+      "description": "Enjoy unmatched panoramas of the Genting Highlands on a cable car ride with a bird's eye view, and feel free to explore the highlands as you hop off of your ride to be enveloped in the tranquility of the Chin Swee Caves Temple. Witness the wonders of nature as you catch sight of the 130 million-year-old rainforest of the Genting Highlands.",
+      "image": "assets/img/loc/3742.jpg",
+      "experienceCount": 0,
+      "rating": 4.7,
+      "ratingCount": 7372,
+      "popularityRank": 7,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 2051,
+      "cityId": "kuala_lumpur",
+      "name": "Berjaya Times Square Tickets",
+      "description": "Browse through our collection of the Berjaya Times Square Kuala Lumpur tickets and experience everything this indoor amusement park and shopping center has to offer.",
+      "image": "assets/img/loc/2051.jpg",
+      "experienceCount": 1,
+      "rating": 4.4,
+      "ratingCount": 1769,
+      "popularityRank": 8,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 13.72,
+        "original": 13.72
+      },
+      "experienceIds": [
+        18068
+      ]
+    },
+    {
+      "id": 5035,
+      "cityId": "kuala_lumpur",
+      "name": "SplashMania",
+      "description": "Experience Malaysia's latest attraction, SplashMania, featuring unique water slides. The iconic pirate ship and 39 thrilling slides ensure a fantastic time for you, your family, and your friends at this 18-acre water park nestled in lush surroundings.",
+      "image": "assets/img/loc/5035.jpg",
+      "experienceCount": 1,
+      "rating": 4.6,
+      "ratingCount": 304,
+      "popularityRank": 9,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 20.82,
+        "original": 20.82
+      },
+      "experienceIds": [
+        21086
+      ]
+    },
+    {
+      "id": 3813,
+      "cityId": "kuala_lumpur",
+      "name": "Batu Caves Tours",
+      "description": "Explore the majestic Batu Caves at your convenience with the tour of your choice! Marvel at the stunning limestone formations, witness vibrant Hindu temples and experience the thrill of climbing the 272 steps to the top.",
+      "image": "assets/img/loc/3813.jpg",
+      "experienceCount": 0,
+      "rating": 4.6,
+      "ratingCount": 857,
+      "popularityRank": 10,
+      "startingPrice": null,
+      "experienceIds": []
+    }
+  ],
+  "experiences": [
+    {
+      "id": 12424,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 1,
+      "name": "Aquaria KLCC Tickets",
+      "locationId": 3588,
+      "locationName": "Aquaria KLCC Tickets",
+      "category": "Tickets",
+      "subcategory": "Aquariums",
+      "rating": 4.5,
+      "reviewCount": 4838,
+      "bookedCount": 172662,
+      "image": "assets/img/exp/12424.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 3.13192,
+      "lng": 101.68406,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 11,
+        "original": 13.23,
+        "discountPercent": 17,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13232,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 2,
+      "name": "Petronas Twin Towers Tickets",
+      "locationId": 2581,
+      "locationName": "Petronas Twin Towers",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.6,
+      "reviewCount": 3856,
+      "bookedCount": 46830,
+      "image": "assets/img/exp/13232.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Transfers available"
+      ],
+      "freeCancellation": false,
+      "lat": 3.15747,
+      "lng": 101.71156,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 10.24,
+        "original": 13.08,
+        "discountPercent": 22,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 21023,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 3,
+      "name": "Petrosains, The Discovery Centre Tickets",
+      "locationId": 5172,
+      "locationName": "Petrosains Discovery Centre",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.7,
+      "reviewCount": 1533,
+      "bookedCount": 102170,
+      "image": "assets/img/exp/21023.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 3.15789,
+      "lng": 101.71198,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 5.83,
+        "original": 9.31,
+        "discountPercent": 37,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 16806,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 4,
+      "name": "Genting SkyWorlds Outdoor Theme Park Tickets",
+      "locationId": 3752,
+      "locationName": "Genting SkyWorlds Tickets",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.6,
+      "reviewCount": 910,
+      "bookedCount": 42005,
+      "image": "assets/img/exp/16806.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 3.42464,
+      "lng": 101.79432,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 21.56,
+        "original": 21.56,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 17481,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 5,
+      "name": "Kuala Lumpur Hop-on Hop-off Bus Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Kuala Lumpur",
+      "rating": 4.2,
+      "reviewCount": 1182,
+      "bookedCount": 30683,
+      "image": "assets/img/exp/17481.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Extended validity"
+      ],
+      "freeCancellation": false,
+      "lat": 3.13192,
+      "lng": 101.68406,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 9.31,
+        "original": 12.25,
+        "discountPercent": 24,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 21086,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 6,
+      "name": "SplashMania Waterpark at Gamuda Cove Selangor Tickets",
+      "locationId": 5035,
+      "locationName": "SplashMania",
+      "category": "Tickets",
+      "subcategory": "Water Parks",
+      "rating": 4.6,
+      "reviewCount": 304,
+      "bookedCount": 18254,
+      "image": "assets/img/exp/21086.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 2.88882,
+      "lng": 101.61642,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 20.82,
+        "original": 20.82,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 17429,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 7,
+      "name": "Train Transfers: KL Sentral to/from Kuala Lumpur International Airport by KLIA Ekspres",
+      "locationId": 5645,
+      "locationName": "Malaysia Airport Transfers",
+      "category": "Transportation",
+      "subcategory": "Airport Transfers",
+      "rating": 4.5,
+      "reviewCount": 395,
+      "bookedCount": 4688,
+      "image": "assets/img/exp/17429.jpg",
+      "duration": null,
+      "features": [
+        "Transfers available"
+      ],
+      "freeCancellation": false,
+      "lat": 3.14992,
+      "lng": 101.69447,
+      "isCombo": false,
+      "summary": "Experience the fastest one-way or round-trip airport transfer in Kuala Lumpur to and from the Kuala Lumpur International Airport (KLIA) in a jiffy!",
+      "price": {
+        "currency": "USD",
+        "from": 12.13,
+        "original": 13.47,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 16156,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 8,
+      "name": "Kuala Lumpur City of Lights Bus Tour (2-Hour Night Tour)",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Kuala Lumpur",
+      "rating": 4.2,
+      "reviewCount": 926,
+      "bookedCount": 20944,
+      "image": "assets/img/exp/16156.jpg",
+      "duration": null,
+      "features": [
+        "Transfers available",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 3.13192,
+      "lng": 101.68406,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 9.8,
+        "original": 13.47,
+        "discountPercent": 27,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 19451,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 9,
+      "name": "Plaza Premium Lounge: KLIA Terminal 1",
+      "locationId": null,
+      "locationName": null,
+      "category": "Travel Services",
+      "subcategory": "Airport Lounges",
+      "rating": 4.3,
+      "reviewCount": 509,
+      "bookedCount": 3965,
+      "image": "assets/img/exp/19451.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 2.75234,
+      "lng": 101.70489,
+      "isCombo": false,
+      "summary": "Unwind with food, drinks & more at Plaza Premium Lounge, located at Terminal 1 of KLIA for 3, 6, or 12 hours before hopping on to your next flight.",
+      "price": {
+        "currency": "USD",
+        "from": 55.29,
+        "original": 73.49,
+        "discountPercent": 25,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 31246,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 10,
+      "name": "Global eSIM with Unlimited 5G/4G Data: Access to 120 Countries",
+      "locationId": null,
+      "locationName": null,
+      "category": "Travel Services",
+      "subcategory": "Wifi & SIM Cards",
+      "rating": 4.2,
+      "reviewCount": 292,
+      "bookedCount": 4525,
+      "image": "assets/img/exp/31246.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity"
+      ],
+      "freeCancellation": true,
+      "lat": 40.71278,
+      "lng": -74.00597,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 8.91,
+        "original": 9.9,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 21754,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 11,
+      "name": "Combo (Save 29%): Aquaria KLCC + Petrosains Discovery Centre Tickets",
+      "locationId": 5172,
+      "locationName": "Petrosains Discovery Centre",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 6009,
+      "bookedCount": 253514,
+      "image": "assets/img/exp/21754.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 3.14163,
+      "lng": 101.69544,
+      "isCombo": true,
+      "summary": "Big savings and double the adventure await with this Aquaria KLCC and Petrosains combo.",
+      "price": {
+        "currency": "USD",
+        "from": 16.05,
+        "original": 22.54,
+        "discountPercent": 29,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 19083,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 12,
+      "name": "Dinner Buffet at ORBIT Revolving Dining in KL Tower",
+      "locationId": 4979,
+      "locationName": "ORBIT Revolving Restaurant",
+      "category": "Food & Drink",
+      "subcategory": "Dining",
+      "rating": 4.5,
+      "reviewCount": 716,
+      "bookedCount": 18533,
+      "image": "assets/img/exp/19083.jpg",
+      "duration": null,
+      "features": [
+        "Meals included"
+      ],
+      "freeCancellation": false,
+      "lat": 3.15231,
+      "lng": 101.70555,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 53.65,
+        "original": 53.65,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24870,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 13,
+      "name": "Combo (Save 24%): KL Tower + Petronas Twin Towers Tickets",
+      "locationId": 2054,
+      "locationName": "KL Tower",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 4760,
+      "bookedCount": 55622,
+      "image": "assets/img/exp/24870.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 3.139,
+      "lng": 101.68685,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 15.58,
+        "original": 20.43,
+        "discountPercent": 24,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 34242,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 14,
+      "name": "Langkawi SkyBridge with Cable Car Tickets",
+      "locationId": 5534,
+      "locationName": "Langkawi Cable Car Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.6,
+      "reviewCount": 960,
+      "bookedCount": 15515,
+      "image": "assets/img/exp/34242.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 6.37106,
+      "lng": 99.67168,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 14.65,
+        "original": 18.37,
+        "discountPercent": 20,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 25339,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 15,
+      "name": "Combo (Save 23%): Aquaria KLCC + Petronas Twin Towers Tickets",
+      "locationId": 3588,
+      "locationName": "Aquaria KLCC Tickets",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 8355,
+      "bookedCount": 200936,
+      "image": "assets/img/exp/25339.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 3.13192,
+      "lng": 101.68406,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 20.19,
+        "original": 26.31,
+        "discountPercent": 23,
+        "type": "PER_PERSON"
+      },
+      "summary": "Save time and money with this unbeatable combo deal that gives you skip-the-line access to the Petronas Twin Towers and entry to Aquaria KLCC."
+    },
+    {
+      "id": 19081,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 16,
+      "name": "Hi-Tea Buffet at ORBIT Revolving Dining in KL Tower",
+      "locationId": 4979,
+      "locationName": "ORBIT Revolving Restaurant",
+      "category": "Food & Drink",
+      "subcategory": "Dining",
+      "rating": 4.7,
+      "reviewCount": 446,
+      "bookedCount": 11639,
+      "image": "assets/img/exp/19081.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Meals included"
+      ],
+      "freeCancellation": false,
+      "lat": 3.15231,
+      "lng": 101.70555,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 24.25,
+        "original": 24.25,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 12426,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 17,
+      "name": "Kuala Lumpur Tower Tickets",
+      "locationId": 2054,
+      "locationName": "KL Tower",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.4,
+      "reviewCount": 1822,
+      "bookedCount": 44986,
+      "image": "assets/img/exp/12426.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 3.15282,
+      "lng": 101.7037,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 6.32,
+        "original": 7.35,
+        "discountPercent": 14,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 20000,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 18,
+      "name": "Plaza Premium First Lounge: KLIA Terminal 1",
+      "locationId": null,
+      "locationName": null,
+      "category": "Travel Services",
+      "subcategory": "Airport Lounges",
+      "rating": 4.6,
+      "reviewCount": 197,
+      "bookedCount": 2031,
+      "image": "assets/img/exp/20000.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included"
+      ],
+      "freeCancellation": true,
+      "lat": 2.75319,
+      "lng": 101.70606,
+      "isCombo": false,
+      "summary": "Refresh and relax before boarding your next flight at the spacious Plaza Premium First at Kuala Lumpur International Airport Terminal 1.",
+      "price": {
+        "currency": "USD",
+        "from": 68.52,
+        "original": 85.74,
+        "discountPercent": 20,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 17911,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 19,
+      "name": "MotoGP™ Malaysia Grand Prix 2026: 3 Day Pass - Grandstand Seat",
+      "locationId": 4878,
+      "locationName": "MotoGP Malaysia Grand Prix 2026",
+      "category": "Entertainment",
+      "subcategory": "Sports",
+      "rating": 5,
+      "reviewCount": 1,
+      "bookedCount": 1151,
+      "image": "assets/img/exp/17911.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 2.76101,
+      "lng": 101.73691,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 35.15,
+        "original": 48.92,
+        "discountPercent": 28,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 18068,
+      "cityId": "kuala_lumpur",
+      "popularityRank": 20,
+      "name": "Berjaya Times Square Theme Park Tickets",
+      "locationId": 2051,
+      "locationName": "Berjaya Times Square Tickets",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.7,
+      "reviewCount": 95,
+      "bookedCount": 4116,
+      "image": "assets/img/exp/18068.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity"
+      ],
+      "freeCancellation": true,
+      "lat": 3.14211,
+      "lng": 101.71058,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 13.72,
+        "original": 19.6,
+        "discountPercent": 30,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

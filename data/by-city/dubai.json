@@ -1,0 +1,787 @@
+{
+  "city": {
+    "id": "dubai",
+    "name": "Dubai",
+    "countryCode": "AE",
+    "country": "United Arab Emirates",
+    "tagline": "An Oasis like no other",
+    "image": "assets/img/city/dubai.jpg",
+    "lat": 25.25817,
+    "lng": 55.30472,
+    "timeZone": "Asia/Dubai",
+    "priceFrom": 6.81,
+    "locationCount": 7,
+    "experienceCount": 20,
+    "rank": 6
+  },
+  "locations": [
+    {
+      "id": 158,
+      "cityId": "dubai",
+      "name": "Burj Khalifa Tickets",
+      "description": "Ascend the world’s tallest building for breathtaking views and a marvel of modern engineering.",
+      "image": "assets/img/loc/158.jpg",
+      "experienceCount": 2,
+      "rating": 4.5,
+      "ratingCount": 174541,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 51.46,
+        "original": 51.46
+      },
+      "experienceIds": [
+        1866,
+        2545
+      ]
+    },
+    {
+      "id": 388,
+      "cityId": "dubai",
+      "name": "IMG Worlds of Adventure Tickets",
+      "description": "Experience thrilling rides and attractions at the world’s largest indoor theme park in Dubai.",
+      "image": "assets/img/loc/388.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 96488,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 69.43,
+        "original": 69.43
+      },
+      "experienceIds": [
+        22584
+      ]
+    },
+    {
+      "id": 384,
+      "cityId": "dubai",
+      "name": "Aquaventure",
+      "description": "A premier waterpark with thrilling slides, river rides, and marine experiences at Atlantis The Palm.",
+      "image": "assets/img/loc/384.jpg",
+      "experienceCount": 2,
+      "rating": 4.5,
+      "ratingCount": 130422,
+      "popularityRank": 3,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 18.52,
+        "original": 18.52
+      },
+      "experienceIds": [
+        1870,
+        1874
+      ]
+    },
+    {
+      "id": 262,
+      "cityId": "dubai",
+      "name": "Dubai Desert Safari Tours",
+      "description": "Experience the iconic Dubai desert thrilling dune rides, camel treks & cultural performances.",
+      "image": "assets/img/loc/262.jpg",
+      "experienceCount": 0,
+      "rating": 4.4,
+      "ratingCount": 47040,
+      "popularityRank": 4,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 111,
+      "cityId": "dubai",
+      "name": "Dubai Dolphinarium",
+      "description": "Enjoy a delightful day with dolphins at the Dubai Dolphinarium. Enjoy a dolphin & seal show, swim with the creatures, and take endless photographs with your Dubai Dolphinarium tickets. You can also book additional experiences such as an exotic bird show.",
+      "image": "assets/img/loc/111.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 11122,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 26.96,
+        "original": 26.96
+      },
+      "experienceIds": [
+        1878
+      ]
+    },
+    {
+      "id": 3166,
+      "cityId": "dubai",
+      "name": "The View at The Palm",
+      "description": "Head to The View at The Palm observatory at the top of the Palm Tower for an unparalleled sight of Dubai's towering skyline.",
+      "image": "assets/img/loc/3166.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 85584,
+      "popularityRank": 6,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 31.31,
+        "original": 31.31
+      },
+      "experienceIds": [
+        14128
+      ]
+    },
+    {
+      "id": 367,
+      "cityId": "dubai",
+      "name": "Dubai Aquarium",
+      "description": "See sharks, rays, and 140+ marine species at the world’s largest suspended aquarium in Dubai Mall.",
+      "image": "assets/img/loc/367.jpg",
+      "experienceCount": 0,
+      "rating": 4.4,
+      "ratingCount": 92404,
+      "popularityRank": 7,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 1505,
+      "cityId": "dubai",
+      "name": "Green Planet Dubai Tickets",
+      "description": "At Green Planet Dubai, traverse the tropical rainforests to discover over 3,000 birds and animals, and a new world of exotic flora.",
+      "image": "assets/img/loc/1505.jpg",
+      "experienceCount": 1,
+      "rating": 4.4,
+      "ratingCount": 59093,
+      "popularityRank": 8,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 31.86,
+        "original": 31.86
+      },
+      "experienceIds": [
+        7809
+      ]
+    },
+    {
+      "id": 4669,
+      "cityId": "dubai",
+      "name": "AYA Universe Tickets",
+      "description": "Step into a world like no other at AYA Universe – a stunning 40,000 sq.ft space filled with cosmic beauty and immersive storytelling. Explore all 12 unique zones, from the starry expanse of Celestia to the hypnotic light displays of Harmonia, with our exclusive, best-priced AYA Universe tickets.",
+      "image": "assets/img/loc/4669.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 116163,
+      "popularityRank": 9,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 25.73,
+        "original": 25.73
+      },
+      "experienceIds": [
+        20869
+      ]
+    },
+    {
+      "id": 5911,
+      "cityId": "dubai",
+      "name": "House Of Hype Dubai Tickets",
+      "description": "House of Hype in Dubai is an immersive experience across themed zones celebrating street art, sneaker culture, and pop culture, with interactive installations and photography opportunities. Find standard entry tickets and group booking options here.",
+      "image": "assets/img/loc/5911.jpg",
+      "experienceCount": 0,
+      "rating": 4.4,
+      "ratingCount": 40604,
+      "popularityRank": 10,
+      "startingPrice": null,
+      "experienceIds": []
+    }
+  ],
+  "experiences": [
+    {
+      "id": 2449,
+      "cityId": "dubai",
+      "popularityRank": 1,
+      "name": "Global Village Entry Tickets",
+      "locationId": 4122,
+      "locationName": "Global Village Dubai Tickets",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.7,
+      "reviewCount": 9584,
+      "bookedCount": 484522,
+      "image": "assets/img/exp/2449.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 25.20485,
+      "lng": 55.27078,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 6.81,
+        "original": 8.17,
+        "discountPercent": 17,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 1866,
+      "cityId": "dubai",
+      "popularityRank": 2,
+      "name": "Burj Khalifa At The Top Tickets: Levels 124 & 125",
+      "locationId": 158,
+      "locationName": "Burj Khalifa Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.4,
+      "reviewCount": 37118,
+      "bookedCount": 616847,
+      "image": "assets/img/exp/1866.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 25.1972,
+      "lng": 55.27438,
+      "isCombo": false,
+      "summary": "Zip up the fastest elevators on the planet to reach the 124th floor of the Burj Khalifa for stunning views of the Dubai skyline.",
+      "price": {
+        "currency": "USD",
+        "from": 51.46,
+        "original": 51.46,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 8541,
+      "cityId": "dubai",
+      "popularityRank": 3,
+      "name": "Dubai Frame Tickets",
+      "locationId": 1447,
+      "locationName": "Dubai Frame Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.5,
+      "reviewCount": 14836,
+      "bookedCount": 577860,
+      "image": "assets/img/exp/8541.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Meals included",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 25.23545,
+      "lng": 55.30034,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 13.31,
+        "original": 14.63,
+        "discountPercent": 9,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 25002,
+      "cityId": "dubai",
+      "popularityRank": 4,
+      "name": "Combo (Save 39%): Dubai Miracle Garden + Dubai Butterfly Garden Tickets",
+      "locationId": 2862,
+      "locationName": "Dubai Miracle Garden",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 15265,
+      "bookedCount": 418381,
+      "image": "assets/img/exp/25002.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 25.20485,
+      "lng": 55.27078,
+      "isCombo": true,
+      "summary": "Breeze past lines with this cost-saving combo to Dubai's Miracle and Butterfly Gardens. Immerse yourself in a floral haven and fluttery fairytale in one go.",
+      "price": {
+        "currency": "USD",
+        "from": 29.68,
+        "original": 49.01,
+        "discountPercent": 39,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13961,
+      "cityId": "dubai",
+      "popularityRank": 5,
+      "name": "Dubai Butterfly Garden Skip-the-Line Tickets",
+      "locationId": 2800,
+      "locationName": "Dubai Butterfly Garden Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.6,
+      "reviewCount": 3082,
+      "bookedCount": 75038,
+      "image": "assets/img/exp/13961.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 25.06172,
+      "lng": 55.24653,
+      "isCombo": false,
+      "summary": "Bypass the long queues and stroll through climate-controlled lush domes housing around 15,000 butterflies at Dubai Butterfly Graden, the largest covered butterfly garden.",
+      "price": {
+        "currency": "USD",
+        "from": 7.08,
+        "original": 20.42,
+        "discountPercent": 65,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 1878,
+      "cityId": "dubai",
+      "popularityRank": 6,
+      "name": "Dubai Dolphinarium: Dolphin & Seal Show Tickets",
+      "locationId": 111,
+      "locationName": "Dubai Dolphinarium",
+      "category": "Tickets",
+      "subcategory": "Zoos",
+      "rating": 4.6,
+      "reviewCount": 5201,
+      "bookedCount": 187117,
+      "image": "assets/img/exp/1878.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 25.23431,
+      "lng": 55.3267,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 26.96,
+        "original": 30.5,
+        "discountPercent": 12,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 20869,
+      "cityId": "dubai",
+      "popularityRank": 7,
+      "name": "AYA Universe Tickets",
+      "locationId": 4669,
+      "locationName": "AYA Universe Tickets",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.7,
+      "reviewCount": 2319,
+      "bookedCount": 74168,
+      "image": "assets/img/exp/20869.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 25.22938,
+      "lng": 55.31872,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 25.73,
+        "original": 36.76,
+        "discountPercent": 30,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 39988,
+      "cityId": "dubai",
+      "popularityRank": 8,
+      "name": "Combo (Save 38%): The Butterfly Gardens + National Aquarium Abu Dhabi Tickets",
+      "locationId": 6760,
+      "locationName": "The Butterfly Gardens Abu Dhabi",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.7,
+      "reviewCount": 3206,
+      "bookedCount": 67101,
+      "image": "assets/img/exp/39988.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 24.40221,
+      "lng": 54.49549,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 27.94,
+        "original": 44.93,
+        "discountPercent": 38,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14122,
+      "cityId": "dubai",
+      "popularityRank": 9,
+      "name": "National Aquarium Abu Dhabi Tickets",
+      "locationId": 3708,
+      "locationName": "National Aquarium Abu Dhabi Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.7,
+      "reviewCount": 2877,
+      "bookedCount": 59017,
+      "image": "assets/img/exp/14122.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 24.40221,
+      "lng": 54.49634,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 20.83,
+        "original": 29.95,
+        "discountPercent": 30,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 1870,
+      "cityId": "dubai",
+      "popularityRank": 10,
+      "name": "Atlantis Aquaventure Waterpark Tickets",
+      "locationId": 384,
+      "locationName": "Aquaventure",
+      "category": "Tickets",
+      "subcategory": "Water Parks",
+      "rating": 4.8,
+      "reviewCount": 200,
+      "bookedCount": 85310,
+      "image": "assets/img/exp/1870.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 25.13399,
+      "lng": 55.12179,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 98.03,
+        "original": 113,
+        "discountPercent": 13,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 1874,
+      "cityId": "dubai",
+      "popularityRank": 11,
+      "name": "The Lost World Aquarium Tickets (Formerly The Lost Chambers)",
+      "locationId": 384,
+      "locationName": "Aquaventure",
+      "category": "Tickets",
+      "subcategory": "Aquariums",
+      "rating": 4.5,
+      "reviewCount": 2032,
+      "bookedCount": 40752,
+      "image": "assets/img/exp/1874.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 25.12506,
+      "lng": 55.11392,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 18.52,
+        "original": 53.1,
+        "discountPercent": 65,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14133,
+      "cityId": "dubai",
+      "popularityRank": 12,
+      "name": "Dubai Miracle Garden Skip-the-Line Tickets",
+      "locationId": 2862,
+      "locationName": "Dubai Miracle Garden",
+      "category": "Tickets",
+      "subcategory": "Parks",
+      "rating": 4.6,
+      "reviewCount": 13732,
+      "bookedCount": 406987,
+      "image": "assets/img/exp/14133.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 25.06001,
+      "lng": 55.24446,
+      "isCombo": false,
+      "summary": "Experience hassle-free entry to Dubai's Miracle Garden, with upgrades available for Butterfly Garden.",
+      "price": {
+        "currency": "USD",
+        "from": 28.59,
+        "original": 28.59,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 22584,
+      "cityId": "dubai",
+      "popularityRank": 13,
+      "name": "IMG Worlds of Adventure Tickets",
+      "locationId": 388,
+      "locationName": "IMG Worlds of Adventure Tickets",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.5,
+      "reviewCount": 37362,
+      "bookedCount": 46901,
+      "image": "assets/img/exp/22584.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 25.0824,
+      "lng": 55.3183,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 69.43,
+        "original": 99.39,
+        "discountPercent": 30,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7809,
+      "cityId": "dubai",
+      "popularityRank": 14,
+      "name": "Green Planet Dubai Tickets",
+      "locationId": 1505,
+      "locationName": "Green Planet Dubai Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.8,
+      "reviewCount": 448,
+      "bookedCount": 70505,
+      "image": "assets/img/exp/7809.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 25.20772,
+      "lng": 55.26237,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31.86,
+        "original": 42.21,
+        "discountPercent": 25,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 2545,
+      "cityId": "dubai",
+      "popularityRank": 15,
+      "name": "Combo (Save 10%): Burj Khalifa At The Top + Dubai Aquarium & Underwater Zoo Tickets",
+      "locationId": 158,
+      "locationName": "Burj Khalifa Tickets",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.4,
+      "reviewCount": 38012,
+      "bookedCount": 750934,
+      "image": "assets/img/exp/2545.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 25.1972,
+      "lng": 55.27438,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 94.74,
+        "original": 105.65,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7658,
+      "cityId": "dubai",
+      "popularityRank": 16,
+      "name": "La Perle by Dragone Show Tickets",
+      "locationId": 1472,
+      "locationName": "La Perle Tickets",
+      "category": "Entertainment",
+      "subcategory": "Immersive Theater",
+      "rating": 4.5,
+      "reviewCount": 2968,
+      "bookedCount": 55794,
+      "image": "assets/img/exp/7658.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 25.1842,
+      "lng": 55.25433,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 48.74,
+        "original": 87.13,
+        "discountPercent": 44,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14620,
+      "cityId": "dubai",
+      "popularityRank": 17,
+      "name": "Warner Bros. World™ Abu Dhabi Tickets",
+      "locationId": 2310,
+      "locationName": "Warner Bros. Abu Dhabi Tickets",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.7,
+      "reviewCount": 1474,
+      "bookedCount": 12193,
+      "image": "assets/img/exp/14620.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Meals included"
+      ],
+      "freeCancellation": false,
+      "lat": 24.49093,
+      "lng": 54.59924,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 93.94,
+        "original": 93.94,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14128,
+      "cityId": "dubai",
+      "popularityRank": 18,
+      "name": "The View At The Palm: General Entry Tickets",
+      "locationId": 3166,
+      "locationName": "The View at The Palm",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.6,
+      "reviewCount": 3808,
+      "bookedCount": 147009,
+      "image": "assets/img/exp/14128.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 25.1137,
+      "lng": 55.13978,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31.31,
+        "original": 31.31,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 8843,
+      "cityId": "dubai",
+      "popularityRank": 19,
+      "name": "Dubai Safari Park Tickets",
+      "locationId": 2858,
+      "locationName": "Dubai Safari Park Tickets",
+      "category": "Tickets",
+      "subcategory": "Zoos",
+      "rating": 4.4,
+      "reviewCount": 9120,
+      "bookedCount": 221415,
+      "image": "assets/img/exp/8843.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 25.17715,
+      "lng": 55.44777,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 12.25,
+        "original": 14.3,
+        "discountPercent": 14,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 33426,
+      "cityId": "dubai",
+      "popularityRank": 20,
+      "name": "teamLab Phenomena Abu Dhabi Tickets",
+      "locationId": 6032,
+      "locationName": "teamLab Phenomena Abu Dhabi",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.8,
+      "reviewCount": 767,
+      "bookedCount": 30780,
+      "image": "assets/img/exp/33426.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 24.52819,
+      "lng": 54.40519,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 40.84,
+        "original": 40.84,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

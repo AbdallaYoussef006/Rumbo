@@ -1,0 +1,783 @@
+{
+  "city": {
+    "id": "cairo",
+    "name": "Cairo",
+    "countryCode": "EG",
+    "country": "Egypt",
+    "tagline": "",
+    "image": "assets/img/city/cairo.jpg",
+    "lat": 30.06263,
+    "lng": 31.24967,
+    "timeZone": "Africa/Cairo",
+    "priceFrom": 16,
+    "locationCount": 4,
+    "experienceCount": 20,
+    "rank": 37
+  },
+  "locations": [
+    {
+      "id": 5223,
+      "cityId": "cairo",
+      "name": "Grand Egyptian Museum Tickets",
+      "description": "Check out this collection to visit the Grand Egyptian Museum, showcasing the wonders of ancient Egypt. See the treasures of Tutankhamun, monumental statues, and fascinating artifacts.",
+      "image": "assets/img/loc/5223.jpg",
+      "experienceCount": 5,
+      "rating": 4.7,
+      "ratingCount": 4291,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 41,
+        "original": 41
+      },
+      "experienceIds": [
+        14142,
+        39147,
+        39302,
+        35840,
+        27702
+      ]
+    },
+    {
+      "id": 2796,
+      "cityId": "cairo",
+      "name": "Pyramids of Giza",
+      "description": "Explore the Pyramids of Giza and the Sphinx in Cairo. Dive deep into Egypt's ancient history and architectural wonders.",
+      "image": "assets/img/loc/2796.jpg",
+      "experienceCount": 4,
+      "rating": 4.6,
+      "ratingCount": 8448,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 23,
+        "original": 23
+      },
+      "experienceIds": [
+        13944,
+        32233,
+        20598,
+        14000
+      ]
+    },
+    {
+      "id": 6016,
+      "cityId": "cairo",
+      "name": "National Museum Of Egyptian Civilization Cairo Tickets",
+      "description": "The National Museum of Egyptian Civilisation in Old Cairo's Fustat district opened its Royal Mummies Hall in 2021, housing 22 pharaonic royal mummies transferred from the Egyptian Museum including Ramesses II. Find standard entry tickets, Royal Mummies Hall access, and guided tour options here.",
+      "image": "assets/img/loc/6016.jpg",
+      "experienceCount": 0,
+      "rating": 4.8,
+      "ratingCount": 26,
+      "popularityRank": 3,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 6141,
+      "cityId": "cairo",
+      "name": "Saqqara And Memphis Tours",
+      "description": "Saqqara and Memphis tours from Cairo visit Egypt's oldest pyramid complex at Saqqara, the open-air museum at Memphis, and optionally Dahshur's Bent and Red Pyramids, all within 30–45 minutes of the city. Find guided day tours, Dahshur combo options, and private tour formats here.",
+      "image": "assets/img/loc/6141.jpg",
+      "experienceCount": 1,
+      "rating": 4,
+      "ratingCount": 144,
+      "popularityRank": 4,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 16,
+        "original": 16
+      },
+      "experienceIds": [
+        32232
+      ]
+    },
+    {
+      "id": 2821,
+      "cityId": "cairo",
+      "name": "Egyptian Museum Tickets",
+      "description": "Discover ancient Egypt with our Egyptian Museum tickets. Choose from curated experiences, including tours of Giza Pyramids & Sphinx. Dive into Egypt's rich history and culture.",
+      "image": "assets/img/loc/2821.jpg",
+      "experienceCount": 0,
+      "rating": 4.6,
+      "ratingCount": 5955,
+      "popularityRank": 5,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 7050,
+      "cityId": "cairo",
+      "name": "Hurghada to Cairo Tours",
+      "description": "Explore Cairo on a guided tour from Hurghada. Visit the Pyramids of Giza, the Sphinx, and the Egyptian Museum with expert guides. Choose from day trips with flights or road transfers, and enjoy a well-planned itinerary with transport, entry tickets, and local insights.",
+      "image": "assets/img/loc/7050.jpg",
+      "experienceCount": 0,
+      "rating": 4.7,
+      "ratingCount": 7,
+      "popularityRank": 6,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 7051,
+      "cityId": "cairo",
+      "name": "Sharm El Sheikh to Cairo Tours",
+      "description": "Travel from Sharm El Sheikh to Cairo with guided tours by flight or road. Visit the Pyramids of Giza, the Sphinx, and the Grand Egyptian Museum with expert guides. Choose full-day trips with transport, entry tickets, lunch, and time to explore key landmarks.",
+      "image": "assets/img/loc/7051.jpg",
+      "experienceCount": 1,
+      "rating": null,
+      "ratingCount": 0,
+      "popularityRank": 7,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 262,
+        "original": 262
+      },
+      "experienceIds": [
+        38060
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": 14142,
+      "cityId": "cairo",
+      "popularityRank": 1,
+      "name": "Grand Egyptian Museum Skip-the-Line Tickets",
+      "locationId": 5223,
+      "locationName": "Grand Egyptian Museum Tickets",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.8,
+      "reviewCount": 1517,
+      "bookedCount": 34723,
+      "image": "assets/img/exp/14142.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Transfers available",
+        "Meals included",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": false,
+      "lat": 29.99358,
+      "lng": 31.11974,
+      "isCombo": false,
+      "summary": "Step into ancient Egypt at the Grand Egyptian Museum. Skip the line and explore 12 new galleries, the Grand Hall, the Hanging Obelisk, and royal artifacts.",
+      "price": {
+        "currency": "USD",
+        "from": 41,
+        "original": 41,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 39147,
+      "cityId": "cairo",
+      "popularityRank": 2,
+      "name": "Combo (Save 8%): Giza Complex Skip-the-Line Entry + Grand Egyptian Museum Skip-the-Line Tickets",
+      "locationId": 5223,
+      "locationName": "Grand Egyptian Museum Tickets",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.7,
+      "reviewCount": 3251,
+      "bookedCount": 33082,
+      "image": "assets/img/exp/39147.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 29.9931,
+      "lng": 31.12459,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 62.7,
+        "original": 68,
+        "discountPercent": 8,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13944,
+      "cityId": "cairo",
+      "popularityRank": 3,
+      "name": "Giza Complex Skip-the-Line Tickets",
+      "locationId": 2796,
+      "locationName": "Pyramids of Giza",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.6,
+      "reviewCount": 2367,
+      "bookedCount": 13885,
+      "image": "assets/img/exp/13944.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Transfers available",
+        "Audio guide",
+        "Pickup available"
+      ],
+      "freeCancellation": false,
+      "lat": 29.97541,
+      "lng": 31.14088,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 23,
+        "original": 24,
+        "discountPercent": 4,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 32233,
+      "cityId": "cairo",
+      "popularityRank": 4,
+      "name": "Inside the Pyramid Experience: Giza Complex Skip-the-Line Tickets + Access Inside the Great Pyramid",
+      "locationId": 2796,
+      "locationName": "Pyramids of Giza",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.9,
+      "reviewCount": 1120,
+      "bookedCount": 4065,
+      "image": "assets/img/exp/32233.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Transfers available",
+        "Pickup available"
+      ],
+      "freeCancellation": false,
+      "lat": 30.04442,
+      "lng": 31.23571,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 63,
+        "original": 72.5,
+        "discountPercent": 13,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 20521,
+      "cityId": "cairo",
+      "popularityRank": 5,
+      "name": "Nile Crystal 4-Star Cairo Dinner Cruise with Live Entertainment",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Dinner Cruises",
+      "rating": 4.4,
+      "reviewCount": 392,
+      "bookedCount": 4192,
+      "image": "assets/img/exp/20521.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Meals included",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 30.04442,
+      "lng": 31.23571,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31,
+        "original": 34,
+        "discountPercent": 9,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 42115,
+      "cityId": "cairo",
+      "popularityRank": 6,
+      "name": "From Cairo: 1 or 2-Hour Private Felucca Ride on the Nile River with Hotel Transfers",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.7,
+      "reviewCount": 26,
+      "bookedCount": 321,
+      "image": "assets/img/exp/42115.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 30.06263,
+      "lng": 31.24967,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 23.5,
+        "original": 23.5,
+        "discountPercent": 0,
+        "type": "PER_GROUP"
+      }
+    },
+    {
+      "id": 48689,
+      "cityId": "cairo",
+      "popularityRank": 7,
+      "name": "Nile Crystal 4-star Cairo Dinner Cruise with Guaranteed Window Seating",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Dinner Cruises",
+      "rating": 4.5,
+      "reviewCount": 340,
+      "bookedCount": 0,
+      "image": "assets/img/exp/48689.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Meals included",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 29.99822,
+      "lng": 31.22774,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 39,
+        "original": 47,
+        "discountPercent": 17,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 36832,
+      "cityId": "cairo",
+      "popularityRank": 8,
+      "name": "Nile Maxim Luxury Cairo Dinner Cruise with Live Entertainment",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Dinner Cruises",
+      "rating": 4.7,
+      "reviewCount": 302,
+      "bookedCount": 1335,
+      "image": "assets/img/exp/36832.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Meals included",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 30.1012,
+      "lng": 31.28367,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 70,
+        "original": 70,
+        "discountPercent": 0,
+        "type": "PER_GROUP"
+      }
+    },
+    {
+      "id": 20598,
+      "cityId": "cairo",
+      "popularityRank": 9,
+      "name": "From Cairo: Full-Day Guided Tour of Giza Pyramids, Sphinx, Grand Egyptian Museum & Bazaar with Entry Tickets, Lunch & Hotel Transfers",
+      "locationId": 2796,
+      "locationName": "Pyramids of Giza",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.8,
+      "reviewCount": 171,
+      "bookedCount": 1011,
+      "image": "assets/img/exp/20598.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Meals included",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 30.04442,
+      "lng": 31.23571,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 87,
+        "original": 93,
+        "discountPercent": 6,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14000,
+      "cityId": "cairo",
+      "popularityRank": 10,
+      "name": "From Cairo: Half-Day Guided Tour of Giza Pyramids & Sphinx with Entry Tickets & Hotel Transfers",
+      "locationId": 2796,
+      "locationName": "Pyramids of Giza",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.9,
+      "reviewCount": 842,
+      "bookedCount": 3206,
+      "image": "assets/img/exp/14000.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 30.04442,
+      "lng": 31.23571,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 46,
+        "original": 76,
+        "discountPercent": 39,
+        "type": "PER_GROUP"
+      }
+    },
+    {
+      "id": 39302,
+      "cityId": "cairo",
+      "popularityRank": 11,
+      "name": "Combo (Save 10%): Grand Egyptian Museum Skip-the-Line Tickets + Nile Dinner Cruise",
+      "locationId": 5223,
+      "locationName": "Grand Egyptian Museum Tickets",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.7,
+      "reviewCount": 1155,
+      "bookedCount": 23944,
+      "image": "assets/img/exp/39302.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Meals included"
+      ],
+      "freeCancellation": false,
+      "lat": 29.9931,
+      "lng": 31.12459,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 70.3,
+        "original": 78,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 35840,
+      "cityId": "cairo",
+      "popularityRank": 12,
+      "name": "Grand Egyptian Museum Skip-the-Line Tickets with Private Hotel Transfers",
+      "locationId": 5223,
+      "locationName": "Grand Egyptian Museum Tickets",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.7,
+      "reviewCount": 81,
+      "bookedCount": 457,
+      "image": "assets/img/exp/35840.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Transfers available",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 31.23571,
+      "lng": 30.04442,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 51,
+        "original": 60,
+        "discountPercent": 15,
+        "type": "PER_GROUP"
+      }
+    },
+    {
+      "id": 27702,
+      "cityId": "cairo",
+      "popularityRank": 13,
+      "name": "Grand Egyptian Museum Guided Tour with Entry Tickets & Hotel Transfers",
+      "locationId": 5223,
+      "locationName": "Grand Egyptian Museum Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.7,
+      "reviewCount": 178,
+      "bookedCount": 1652,
+      "image": "assets/img/exp/27702.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Meals included",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 30.04442,
+      "lng": 31.23571,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 60,
+        "original": 60,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14027,
+      "cityId": "cairo",
+      "popularityRank": 14,
+      "name": "Nile Maxim Luxury Cairo Dinner Cruise with Live Entertainment and Guaranteed Window/Stage Seating",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Dinner Cruises",
+      "rating": 4.7,
+      "reviewCount": 151,
+      "bookedCount": 0,
+      "image": "assets/img/exp/14027.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Meals included",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 30.04442,
+      "lng": 31.23571,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 75,
+        "original": 75,
+        "discountPercent": 0,
+        "type": "PER_GROUP"
+      }
+    },
+    {
+      "id": 32232,
+      "cityId": "cairo",
+      "popularityRank": 15,
+      "name": "Saqqara, Memphis & Dahshur: Skip-the-Line Tickets",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 3.6,
+      "reviewCount": 12,
+      "bookedCount": 311,
+      "image": "assets/img/exp/32232.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 29.87607,
+      "lng": 31.21025,
+      "isCombo": false,
+      "summary": "Ancient Egypt awaits! Skip the lines and explore Saqqara's Step Pyramid, Dahshur's Red and Bent Pyramids, and Memphis's ruins in one day.",
+      "price": {
+        "currency": "USD",
+        "from": 16,
+        "original": 16,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 37746,
+      "cityId": "cairo",
+      "popularityRank": 16,
+      "name": "From Cairo: Private Full-Day All-Inclusive Tour of Luxor West & East Banks with Tickets, Transfers and Lunch",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Day Trips",
+      "rating": null,
+      "reviewCount": 0,
+      "bookedCount": 0,
+      "image": "assets/img/exp/37746.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Meals included",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 25.68682,
+      "lng": 32.65882,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 320,
+        "original": 375,
+        "discountPercent": 15,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 58177,
+      "cityId": "cairo",
+      "popularityRank": 17,
+      "name": "Nile Dahabiya Open Air Cairo Dinner Cruise with Drinks, Live band & DJ",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Dinner Cruises",
+      "rating": 4.8,
+      "reviewCount": 328,
+      "bookedCount": 0,
+      "image": "assets/img/exp/58177.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Meals included",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 30.04442,
+      "lng": 31.23571,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 34,
+        "original": 40,
+        "discountPercent": 15,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 50020,
+      "cityId": "cairo",
+      "popularityRank": 18,
+      "name": "Cairo Nile Jetcar & Sunset Felucca Ride Experience",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Speed Boat Tours",
+      "rating": null,
+      "reviewCount": 0,
+      "bookedCount": 0,
+      "image": "assets/img/exp/50020.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available"
+      ],
+      "freeCancellation": true,
+      "lat": 30.04442,
+      "lng": 31.23571,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 40,
+        "original": 40,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 38060,
+      "cityId": "cairo",
+      "popularityRank": 19,
+      "name": "From Sharm El-Sheikh: Cairo Full-Day Tour with Round-Trip Flight Transfers",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Day Trips",
+      "rating": null,
+      "reviewCount": 0,
+      "bookedCount": 0,
+      "image": "assets/img/exp/38060.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Meals included",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 27.96542,
+      "lng": 34.36178,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 262,
+        "original": 325,
+        "discountPercent": 19,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 35209,
+      "cityId": "cairo",
+      "popularityRank": 20,
+      "name": "From Aswan: 4-Day Nile Cruise with Luxor Hot-Air Balloon Ride & Abu Simbel Visit",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 2,
+      "reviewCount": 1,
+      "bookedCount": 0,
+      "image": "assets/img/exp/35209.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Transfers available",
+        "Meals included",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 24.08894,
+      "lng": 32.89983,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 600,
+        "original": 670,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

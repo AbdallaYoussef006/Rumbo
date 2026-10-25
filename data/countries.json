@@ -1,0 +1,252 @@
+[
+  {
+    "id": "gb",
+    "code": "GB",
+    "name": "United Kingdom",
+    "localCurrency": "GBP",
+    "cityIds": [
+      "london",
+      "edinburgh"
+    ],
+    "image": "assets/img/city/london.jpg",
+    "rank": 1
+  },
+  {
+    "id": "it",
+    "code": "IT",
+    "name": "Italy",
+    "localCurrency": "EUR",
+    "cityIds": [
+      "rome",
+      "naples",
+      "florence",
+      "venice",
+      "milan"
+    ],
+    "image": "assets/img/city/rome.jpg",
+    "rank": 2
+  },
+  {
+    "id": "fr",
+    "code": "FR",
+    "name": "France",
+    "localCurrency": "EUR",
+    "cityIds": [
+      "paris"
+    ],
+    "image": "assets/img/city/paris.jpg",
+    "rank": 3
+  },
+  {
+    "id": "pt",
+    "code": "PT",
+    "name": "Portugal",
+    "localCurrency": "EUR",
+    "cityIds": [
+      "lisbon"
+    ],
+    "image": "assets/img/city/lisbon.jpg",
+    "rank": 4
+  },
+  {
+    "id": "es",
+    "code": "ES",
+    "name": "Spain",
+    "localCurrency": "EUR",
+    "cityIds": [
+      "barcelona",
+      "madrid",
+      "seville",
+      "valencia",
+      "cordoba",
+      "malaga"
+    ],
+    "image": "assets/img/city/barcelona.jpg",
+    "rank": 5
+  },
+  {
+    "id": "ae",
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "localCurrency": "AED",
+    "cityIds": [
+      "dubai",
+      "abu_dhabi"
+    ],
+    "image": "assets/img/city/dubai.jpg",
+    "rank": 6
+  },
+  {
+    "id": "nl",
+    "code": "NL",
+    "name": "Netherlands",
+    "localCurrency": "EUR",
+    "cityIds": [
+      "amsterdam"
+    ],
+    "image": "assets/img/city/amsterdam.jpg",
+    "rank": 7
+  },
+  {
+    "id": "us",
+    "code": "US",
+    "name": "United States",
+    "localCurrency": "USD",
+    "cityIds": [
+      "new_york",
+      "las_vegas",
+      "orlando",
+      "chicago",
+      "los_angeles"
+    ],
+    "image": "assets/img/city/new_york.jpg",
+    "rank": 8
+  },
+  {
+    "id": "jp",
+    "code": "JP",
+    "name": "Japan",
+    "localCurrency": "JPY",
+    "cityIds": [
+      "osaka",
+      "tokyo"
+    ],
+    "image": "assets/img/city/osaka.jpg",
+    "rank": 9
+  },
+  {
+    "id": "sg",
+    "code": "SG",
+    "name": "Singapore",
+    "localCurrency": "SGD",
+    "cityIds": [
+      "singapore"
+    ],
+    "image": "assets/img/city/singapore.jpg",
+    "rank": 10
+  },
+  {
+    "id": "at",
+    "code": "AT",
+    "name": "Austria",
+    "localCurrency": "EUR",
+    "cityIds": [
+      "vienna"
+    ],
+    "image": "assets/img/city/vienna.jpg",
+    "rank": 11
+  },
+  {
+    "id": "hu",
+    "code": "HU",
+    "name": "Hungary",
+    "localCurrency": "EUR",
+    "cityIds": [
+      "budapest"
+    ],
+    "image": "assets/img/city/budapest.jpg",
+    "rank": 12
+  },
+  {
+    "id": "gr",
+    "code": "GR",
+    "name": "Greece",
+    "localCurrency": "EUR",
+    "cityIds": [
+      "athens"
+    ],
+    "image": "assets/img/city/athens.jpg",
+    "rank": 13
+  },
+  {
+    "id": "pl",
+    "code": "PL",
+    "name": "Poland",
+    "localCurrency": "PLN",
+    "cityIds": [
+      "krakow"
+    ],
+    "image": "assets/img/city/krakow.jpg",
+    "rank": 14
+  },
+  {
+    "id": "my",
+    "code": "MY",
+    "name": "Malaysia",
+    "localCurrency": "MYR",
+    "cityIds": [
+      "kuala_lumpur"
+    ],
+    "image": "assets/img/city/kuala_lumpur.jpg",
+    "rank": 15
+  },
+  {
+    "id": "au",
+    "code": "AU",
+    "name": "Australia",
+    "localCurrency": "AUD",
+    "cityIds": [
+      "sydney",
+      "melbourne",
+      "brisbane"
+    ],
+    "image": "assets/img/city/sydney.jpg",
+    "rank": 16
+  },
+  {
+    "id": "de",
+    "code": "DE",
+    "name": "Germany",
+    "localCurrency": "EUR",
+    "cityIds": [
+      "berlin",
+      "hamburg"
+    ],
+    "image": "assets/img/city/berlin.jpg",
+    "rank": 17
+  },
+  {
+    "id": "ro",
+    "code": "RO",
+    "name": "Romania",
+    "localCurrency": "EUR",
+    "cityIds": [
+      "bucharest"
+    ],
+    "image": "assets/img/city/bucharest.jpg",
+    "rank": 18
+  },
+  {
+    "id": "tr",
+    "code": "TR",
+    "name": "Turkey",
+    "localCurrency": "EUR",
+    "cityIds": [
+      "istanbul"
+    ],
+    "image": "assets/img/city/istanbul.jpg",
+    "rank": 19
+  },
+  {
+    "id": "cz",
+    "code": "CZ",
+    "name": "Czech Republic",
+    "localCurrency": "EUR",
+    "cityIds": [
+      "prague"
+    ],
+    "image": "assets/img/city/prague.jpg",
+    "rank": 20
+  },
+  {
+    "id": "eg",
+    "code": "EG",
+    "name": "Egypt",
+    "localCurrency": "USD",
+    "cityIds": [
+      "cairo"
+    ],
+    "image": "assets/img/city/cairo.jpg",
+    "rank": 21
+  }
+]

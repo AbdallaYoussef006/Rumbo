@@ -1,0 +1,818 @@
+{
+  "city": {
+    "id": "edinburgh",
+    "name": "Edinburgh",
+    "countryCode": "GB",
+    "country": "United Kingdom",
+    "tagline": "",
+    "image": "assets/img/city/edinburgh.jpg",
+    "lat": 55.95206,
+    "lng": -3.19648,
+    "timeZone": "Europe/London",
+    "priceFrom": 19.96,
+    "locationCount": 8,
+    "experienceCount": 20,
+    "rank": 32
+  },
+  "locations": [
+    {
+      "id": 3605,
+      "cityId": "edinburgh",
+      "name": "Holyrood Palace",
+      "description": "Step into Holyrood Palace, the official Scottish residence of the British monarch. Delve into history exploring the state apartments and the ruins of Holyrood Abbey.",
+      "image": "assets/img/loc/3605.jpg",
+      "experienceCount": 1,
+      "rating": 4.6,
+      "ratingCount": 10978,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 29.28,
+        "original": 29.28
+      },
+      "experienceIds": [
+        7886
+      ]
+    },
+    {
+      "id": 2361,
+      "cityId": "edinburgh",
+      "name": "Loch Ness Tours",
+      "description": "Explore the best Loch Ness tours, from relaxing cruises across Scotland's most famous loch to full-day Highland adventures with stops at castles, glens, and scenic viewpoints. Compare top-rated experiences, find the right itinerary for your trip, and book your Loch Ness tour today.",
+      "image": "assets/img/loc/2361.jpg",
+      "experienceCount": 0,
+      "rating": 4.6,
+      "ratingCount": 1254,
+      "popularityRank": 2,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 4914,
+      "cityId": "edinburgh",
+      "name": "Edinburgh Ghost Tours",
+      "description": "Whether you’re looking for a fright or just want to learn about this historic city’s spooky past, booking Edinburgh ghost tour tickets is definitely something you'd want to do during your visit. Edinburgh has some of the best ghost tours to help you make the most out of your next visit",
+      "image": "assets/img/loc/4914.jpg",
+      "experienceCount": 5,
+      "rating": 4.4,
+      "ratingCount": 1577,
+      "popularityRank": 3,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 25.29,
+        "original": 25.29
+      },
+      "experienceIds": [
+        39342,
+        39552,
+        8543,
+        39553,
+        39549
+      ]
+    },
+    {
+      "id": 5936,
+      "cityId": "edinburgh",
+      "name": "Edinburgh Whisky",
+      "description": "Located right on Edinburgh’s Royal Mile, The Scotch Whisky Experience takes you on a fun, interactive whisky journey. See how Scotland’s famous spirit is made, explore one of the world’s biggest whisky collections, and enjoy expert-led tastings. For your first time? The Silver Tour is a great start! But if you are a whiskey connoisseur, the Gold Tour is calling your name!",
+      "image": "assets/img/loc/5936.jpg",
+      "experienceCount": 1,
+      "rating": 4.6,
+      "ratingCount": 6434,
+      "popularityRank": 4,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 31.61,
+        "original": 31.61
+      },
+      "experienceIds": [
+        40922
+      ]
+    },
+    {
+      "id": 2357,
+      "cityId": "edinburgh",
+      "name": "Edinburgh Castle",
+      "description": "Discover the history, heritage, and grandeur of Scotland’s iconic castle with Edinburgh Castle tickets. Enjoy guided tours, breathtaking views over Edinburgh, and a journey through the city’s royal past.",
+      "image": "assets/img/loc/2357.jpg",
+      "experienceCount": 3,
+      "rating": 4.6,
+      "ratingCount": 8027,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 51.84,
+        "original": 51.84
+      },
+      "experienceIds": [
+        25331,
+        24555,
+        38729
+      ]
+    },
+    {
+      "id": 5704,
+      "cityId": "edinburgh",
+      "name": "Edinburgh Dungeon",
+      "description": "The Edinburgh Dungeon offers an unforgettable underground experience that immerses you in the city’s most chilling history. Featuring live actors, elaborate theatrical sets, captivating storytelling, and other exciting additions, this attraction brings to life Scotland's dark past, from infamous criminals to haunting tales.",
+      "image": "assets/img/loc/5704.jpg",
+      "experienceCount": 1,
+      "rating": 4.6,
+      "ratingCount": 3233,
+      "popularityRank": 6,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 25.29,
+        "original": 25.29
+      },
+      "experienceIds": [
+        29723
+      ]
+    },
+    {
+      "id": 5008,
+      "cityId": "edinburgh",
+      "name": "Harry Potter Edinburgh",
+      "description": "Experience the magic of the world’s most famous wizard with tours of the city where JK Rowling found inspiration for Hogwarts and her famous characters.",
+      "image": "assets/img/loc/5008.jpg",
+      "experienceCount": 1,
+      "rating": 4.7,
+      "ratingCount": 525,
+      "popularityRank": 7,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 19.96,
+        "original": 19.96
+      },
+      "experienceIds": [
+        24912
+      ]
+    },
+    {
+      "id": 3604,
+      "cityId": "edinburgh",
+      "name": "Royal Yacht Britannia",
+      "description": "Visit the Royal Yacht Britannia, once the private getaway of Queen Elizabeth II. Dive into history and luxury aboard this floating royal residence, now a top-rated attraction in Edinburgh",
+      "image": "assets/img/loc/3604.jpg",
+      "experienceCount": 2,
+      "rating": 4.6,
+      "ratingCount": 13753,
+      "popularityRank": 8,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 33.27,
+        "original": 33.27
+      },
+      "experienceIds": [
+        7972,
+        43414
+      ]
+    },
+    {
+      "id": 4246,
+      "cityId": "edinburgh",
+      "name": "Alnwick Castle",
+      "description": "Fan of Harry Potter, Downton Abbey, or The Transformers? Tour from Edinburgh with a local guide. Explore the magic of the castle in an air-conditioned coach. Reserve your tour today!",
+      "image": "assets/img/loc/4246.jpg",
+      "experienceCount": 0,
+      "rating": 4.7,
+      "ratingCount": 206,
+      "popularityRank": 9,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 6139,
+      "cityId": "edinburgh",
+      "name": "Edinburgh Zoo Tickets",
+      "description": "Edinburgh Zoo in Corstorphine is Scotland's most visited paid attraction, housing the UK's only giant pandas alongside Sumatran tigers, Humboldt penguins, and over 1,000 animals. Find standard entry tickets, keeper experience upgrades, and annual pass options here.",
+      "image": "assets/img/loc/6139.jpg",
+      "experienceCount": 1,
+      "rating": 4.6,
+      "ratingCount": 7291,
+      "popularityRank": 10,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 36.26,
+        "original": 36.26
+      },
+      "experienceIds": [
+        34377
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": 34377,
+      "cityId": "edinburgh",
+      "popularityRank": 1,
+      "name": "Edinburgh Zoo Entrance Tickets",
+      "locationId": 6139,
+      "locationName": "Edinburgh Zoo Tickets",
+      "category": "Tickets",
+      "subcategory": "Zoos",
+      "rating": 4.7,
+      "reviewCount": 842,
+      "bookedCount": 32112,
+      "image": "assets/img/exp/34377.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 55.94236,
+      "lng": -3.2686,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 36.26,
+        "original": 36.26,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 29723,
+      "cityId": "edinburgh",
+      "popularityRank": 2,
+      "name": "Edinburgh Dungeon Entry Tickets",
+      "locationId": 5704,
+      "locationName": "Edinburgh Dungeon",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.7,
+      "reviewCount": 665,
+      "bookedCount": 24906,
+      "image": "assets/img/exp/29723.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 55.95113,
+      "lng": -3.19091,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 25.29,
+        "original": 25.29,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7886,
+      "cityId": "edinburgh",
+      "popularityRank": 3,
+      "name": "Palace of Holyroodhouse Entry Tickets",
+      "locationId": 3605,
+      "locationName": "Holyrood Palace",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.6,
+      "reviewCount": 5585,
+      "bookedCount": 32842,
+      "image": "assets/img/exp/7886.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 55.95271,
+      "lng": -3.17227,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 29.28,
+        "original": 29.28,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7972,
+      "cityId": "edinburgh",
+      "popularityRank": 4,
+      "name": "The Royal Yacht Britannia Tickets with Audio Guide",
+      "locationId": 3604,
+      "locationName": "Royal Yacht Britannia",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.8,
+      "reviewCount": 3547,
+      "bookedCount": 5371,
+      "image": "assets/img/exp/7972.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 55.9822,
+      "lng": -3.17728,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.27,
+        "original": 33.27,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 39342,
+      "cityId": "edinburgh",
+      "popularityRank": 5,
+      "name": "Underground Vaults Tour",
+      "locationId": 4914,
+      "locationName": "Edinburgh Ghost Tours",
+      "category": "Tours",
+      "subcategory": "Walking Tours",
+      "rating": 4.7,
+      "reviewCount": 159,
+      "bookedCount": 1865,
+      "image": "assets/img/exp/39342.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 55.95206,
+      "lng": -3.19648,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31.94,
+        "original": 31.94,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 25331,
+      "cityId": "edinburgh",
+      "popularityRank": 6,
+      "name": "Edinburgh Castle Guided Tour with Entry Tickets",
+      "locationId": 2357,
+      "locationName": "Edinburgh Castle",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.8,
+      "reviewCount": 538,
+      "bookedCount": 8385,
+      "image": "assets/img/exp/25331.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 55.94981,
+      "lng": -3.19127,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 51.84,
+        "original": 54.56,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 39552,
+      "cityId": "edinburgh",
+      "popularityRank": 7,
+      "name": "Haunted Underground Vaults and Graveyard Tour",
+      "locationId": 4914,
+      "locationName": "Edinburgh Ghost Tours",
+      "category": "Tours",
+      "subcategory": "Walking Tours",
+      "rating": 4.8,
+      "reviewCount": 48,
+      "bookedCount": 748,
+      "image": "assets/img/exp/39552.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 55.95206,
+      "lng": -3.19648,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31.14,
+        "original": 31.14,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24264,
+      "cityId": "edinburgh",
+      "popularityRank": 8,
+      "name": "Interrail Global Flexible Pass: Choose Any 4 to 15 Days Within 1 or 2 Months",
+      "locationId": null,
+      "locationName": null,
+      "category": "Transportation",
+      "subcategory": "Train Passes",
+      "rating": 4.3,
+      "reviewCount": 477,
+      "bookedCount": 1553,
+      "image": "assets/img/exp/24264.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity"
+      ],
+      "freeCancellation": true,
+      "lat": 48.85661,
+      "lng": 2.35222,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 316.65,
+        "original": 316.65,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 40922,
+      "cityId": "edinburgh",
+      "popularityRank": 9,
+      "name": "The Scotch Whisky Experience Tours & Tastings",
+      "locationId": 5936,
+      "locationName": "Edinburgh Whisky",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.8,
+      "reviewCount": 174,
+      "bookedCount": 1198,
+      "image": "assets/img/exp/40922.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 55.95325,
+      "lng": -3.18827,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31.61,
+        "original": 33.27,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 41070,
+      "cityId": "edinburgh",
+      "popularityRank": 10,
+      "name": "Camera Obscura & World of Illusions Admission Ticket",
+      "locationId": 6896,
+      "locationName": "Camera Obscura Edinburgh Tickets",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.6,
+      "reviewCount": 11,
+      "bookedCount": 338,
+      "image": "assets/img/exp/41070.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 55.94896,
+      "lng": -3.19567,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.2,
+        "original": 33.2,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 8543,
+      "cityId": "edinburgh",
+      "popularityRank": 11,
+      "name": "Edinburgh Underground Ghost Tour",
+      "locationId": 4914,
+      "locationName": "Edinburgh Ghost Tours",
+      "category": "Tours",
+      "subcategory": "Walking Tours",
+      "rating": 4.6,
+      "reviewCount": 123,
+      "bookedCount": 2011,
+      "image": "assets/img/exp/8543.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 55.94995,
+      "lng": -3.1882,
+      "isCombo": false,
+      "summary": "Uncover the chilling secrets of Edinburgh's past with this underground ghost tour led by expert guides through the city's eeriest sites!",
+      "price": {
+        "currency": "USD",
+        "from": 25.29,
+        "original": 25.29,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 39553,
+      "cityId": "edinburgh",
+      "popularityRank": 12,
+      "name": "Late-Night Underground Vaults Terror Tour",
+      "locationId": 4914,
+      "locationName": "Edinburgh Ghost Tours",
+      "category": "Tours",
+      "subcategory": "Walking Tours",
+      "rating": 4.6,
+      "reviewCount": 37,
+      "bookedCount": 484,
+      "image": "assets/img/exp/39553.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 55.95206,
+      "lng": -3.19648,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31.14,
+        "original": 31.14,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 25084,
+      "cityId": "edinburgh",
+      "popularityRank": 13,
+      "name": "3-Route Edinburgh Hop-On Hop-Off Bus Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Edinburgh",
+      "rating": 4.7,
+      "reviewCount": 654,
+      "bookedCount": 11993,
+      "image": "assets/img/exp/25084.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 55.95325,
+      "lng": -3.18827,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 34.6,
+        "original": 34.6,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 19789,
+      "cityId": "edinburgh",
+      "popularityRank": 14,
+      "name": "City Sightseeing: Edinburgh Hop-on Hop-off Bus Tour KIDS GO FREE Special Offer!",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Edinburgh",
+      "rating": 4.5,
+      "reviewCount": 858,
+      "bookedCount": 22687,
+      "image": "assets/img/exp/19789.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 55.95325,
+      "lng": -3.18827,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 26.62,
+        "original": 26.62,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24555,
+      "cityId": "edinburgh",
+      "popularityRank": 15,
+      "name": "Edinburgh: Royal Attractions Tickets + 48-Hour Hop-On Hop-Off Bus Tour",
+      "locationId": 2357,
+      "locationName": "Edinburgh Castle",
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Edinburgh",
+      "rating": 4.6,
+      "reviewCount": 249,
+      "bookedCount": 3172,
+      "image": "assets/img/exp/24555.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 55.95325,
+      "lng": -3.18827,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 107.8,
+        "original": 107.8,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 43414,
+      "cityId": "edinburgh",
+      "popularityRank": 16,
+      "name": "Combo (Save 5%): Palace of Holyroodhouse + Royal Yacht Britannia Tickets",
+      "locationId": 3604,
+      "locationName": "Royal Yacht Britannia",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 5858,
+      "bookedCount": 36389,
+      "image": "assets/img/exp/43414.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 55.95325,
+      "lng": -3.18827,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 59.42,
+        "original": 62.55,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 38729,
+      "cityId": "edinburgh",
+      "popularityRank": 17,
+      "name": "Combo (Save 5%): Edinburgh Castle Guided Tour + Palace of Holyroodhouse Tickets",
+      "locationId": 2357,
+      "locationName": "Edinburgh Castle",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 5781,
+      "bookedCount": 35758,
+      "image": "assets/img/exp/38729.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 55.95325,
+      "lng": -3.18827,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 79.65,
+        "original": 83.84,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24912,
+      "cityId": "edinburgh",
+      "popularityRank": 18,
+      "name": "Edinburgh Harry Potter Guided Walking Tour",
+      "locationId": 5008,
+      "locationName": "Harry Potter Edinburgh",
+      "category": "Tours",
+      "subcategory": "Walking Tours",
+      "rating": 5,
+      "reviewCount": 33,
+      "bookedCount": 434,
+      "image": "assets/img/exp/24912.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 55.95003,
+      "lng": -3.18775,
+      "isCombo": false,
+      "summary": "Unlock the magic of Harry Potter with a personalized walking tour in Edinburgh, tracing Rowling's inspirations from Diagon Alley to Tom Riddle's Grave!",
+      "price": {
+        "currency": "USD",
+        "from": 19.96,
+        "original": 19.96,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 39549,
+      "cityId": "edinburgh",
+      "popularityRank": 19,
+      "name": "Haunted Vaults Tour",
+      "locationId": 4914,
+      "locationName": "Edinburgh Ghost Tours",
+      "category": "Tours",
+      "subcategory": "Walking Tours",
+      "rating": 4.7,
+      "reviewCount": 13,
+      "bookedCount": 152,
+      "image": "assets/img/exp/39549.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 55.95206,
+      "lng": -3.19648,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 28.75,
+        "original": 28.75,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 43404,
+      "cityId": "edinburgh",
+      "popularityRank": 20,
+      "name": "Edinburgh Airport: Turkish Airlines Lounge by Plaza Premium Group in the Departure Hall",
+      "locationId": null,
+      "locationName": null,
+      "category": "Travel Services",
+      "subcategory": "Airport Lounges",
+      "rating": 3.9,
+      "reviewCount": 22,
+      "bookedCount": 336,
+      "image": "assets/img/exp/43404.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included"
+      ],
+      "freeCancellation": true,
+      "lat": 55.94894,
+      "lng": -3.36298,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 51.24,
+        "original": 61.88,
+        "discountPercent": 17,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

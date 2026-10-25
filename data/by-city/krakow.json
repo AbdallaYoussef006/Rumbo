@@ -1,0 +1,821 @@
+{
+  "city": {
+    "id": "krakow",
+    "name": "Krakow",
+    "countryCode": "PL",
+    "country": "Poland",
+    "tagline": "",
+    "image": "assets/img/city/krakow.jpg",
+    "lat": 50.06143,
+    "lng": 19.93658,
+    "timeZone": "Europe/Warsaw",
+    "priceFrom": 8.91,
+    "locationCount": 7,
+    "experienceCount": 20,
+    "rank": 18
+  },
+  "locations": [
+    {
+      "id": 2660,
+      "cityId": "krakow",
+      "name": "Krakow to Auschwitz Birkenau Tours",
+      "description": "Discover the somber reality of the Holocaust at the Auschwitz-Birkenau concentration camp in Krakow. On an Auschwitz Birkenau tour, explore the memorial, visit not just the prisoner barracks, but the gas chambers as well.",
+      "image": "assets/img/loc/2660.jpg",
+      "experienceCount": 5,
+      "rating": 4.4,
+      "ratingCount": 25915,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 35.78,
+        "original": 35.78
+      },
+      "experienceIds": [
+        15406,
+        10427,
+        45529,
+        14185,
+        46396
+      ]
+    },
+    {
+      "id": 2197,
+      "cityId": "krakow",
+      "name": "Wieliczka Salt Mine",
+      "description": "At the UNESCO-listed Wieliczka Salt Mine, plunge 135 meters deep into a curious world of underground rooms, saline lakes, chapels, tunnels, and even monuments.",
+      "image": "assets/img/loc/2197.jpg",
+      "experienceCount": 3,
+      "rating": 4.5,
+      "ratingCount": 16050,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 24.57,
+        "original": 24.57
+      },
+      "experienceIds": [
+        15757,
+        10430,
+        47656
+      ]
+    },
+    {
+      "id": 2659,
+      "cityId": "krakow",
+      "name": "Oskar Schindler's Factory Tours",
+      "description": "Oskar Schindler's Factory is a museum that serves as a solemn tribute to the horrors of Nazi-led Poland. The museum houses eye-opening exhibits and Schindler's original possessions, giving visitors a deep insight into World War II.",
+      "image": "assets/img/loc/2659.jpg",
+      "experienceCount": 3,
+      "rating": 4.5,
+      "ratingCount": 19067,
+      "popularityRank": 3,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 24.31,
+        "original": 24.31
+      },
+      "experienceIds": [
+        14485,
+        10436,
+        16468
+      ]
+    },
+    {
+      "id": 4935,
+      "cityId": "krakow",
+      "name": "Zakopane Thermal Baths",
+      "description": "Zakopane Thermal Baths, nestled amidst the Tatra Mountains offer a rejuvenating escape. Immerse in thermal waters, outdoor pools, and spa treatments, surrounded by stunning alpine vistas. A serene haven for relaxation and well-being! Choose from our curated list of experiences.",
+      "image": "assets/img/loc/4935.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 2226,
+      "popularityRank": 4,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 29.43,
+        "original": 29.43
+      },
+      "experienceIds": [
+        18875
+      ]
+    },
+    {
+      "id": 2679,
+      "cityId": "krakow",
+      "name": "Wawel Castle",
+      "description": "Visit Wavel Royal Castle, the first UNESCO World Heritage Site, and formerly the luxurious residence of Polish royalty. Admire its European architecture, explore the vast museum, and of course visit the royal chambers and Wavel Cathedral.",
+      "image": "assets/img/loc/2679.jpg",
+      "experienceCount": 3,
+      "rating": 4.5,
+      "ratingCount": 7586,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 9.47,
+        "original": 9.47
+      },
+      "experienceIds": [
+        13830,
+        38517,
+        15764
+      ]
+    },
+    {
+      "id": 2950,
+      "cityId": "krakow",
+      "name": "Energylandia Amusement Park",
+      "description": "Discover Energylandia Amusement Park with our tickets, your passport to thrilling adventures. From roller coasters to shows, your next great adventure awaits.",
+      "image": "assets/img/loc/2950.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 899,
+      "popularityRank": 6,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 53.49,
+        "original": 53.49
+      },
+      "experienceIds": [
+        15619
+      ]
+    },
+    {
+      "id": 2678,
+      "cityId": "krakow",
+      "name": "St Mary's Basilica",
+      "description": "Admire one of Krakow's most important churches, St Mary's Basilica. Admire Its many attractions, breathtaking architecture, and intriguing legends!",
+      "image": "assets/img/loc/2678.jpg",
+      "experienceCount": 0,
+      "rating": 4.1,
+      "ratingCount": 341,
+      "popularityRank": 7,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 3833,
+      "cityId": "krakow",
+      "name": "Krakow Zoo",
+      "description": "Discover over 1500 animals and 260 species at Krakow Zoo, a haven for endangered species. Learn about their conservation efforts and ecosystems on an educational journey. Browse our tickets for a world of penguins, red pandas, flamingos, and more!",
+      "image": "assets/img/loc/3833.jpg",
+      "experienceCount": 0,
+      "rating": 4.8,
+      "ratingCount": 46,
+      "popularityRank": 8,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 4314,
+      "cityId": "krakow",
+      "name": "Plaszow Concentration Camp",
+      "description": "Honor the memory of those who suffered at Plaszow Concentration Camp in Krakow, Poland. Take a guided tour of the camp or combine it with a visit to Schindler's Factory for a profound experience. Never forget this World War II site.",
+      "image": "assets/img/loc/4314.jpg",
+      "experienceCount": 0,
+      "rating": 4.5,
+      "ratingCount": 20,
+      "popularityRank": 9,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 4721,
+      "cityId": "krakow",
+      "name": "Rynek Underground Museum Tickets",
+      "description": "The Rynek Underground Museum features archaeological remains, artifacts, and interactive exhibits that bring the city's history to life. Browse our collection of Rynek Underground Museum tickets to avail yourself of guided tours.",
+      "image": "assets/img/loc/4721.jpg",
+      "experienceCount": 1,
+      "rating": 4.3,
+      "ratingCount": 2115,
+      "popularityRank": 10,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 15.36,
+        "original": 15.36
+      },
+      "experienceIds": [
+        15457
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": 15406,
+      "cityId": "krakow",
+      "popularityRank": 1,
+      "name": "Auschwitz-Birkenau Guided Tour with Fast-Track Tickets & Transfer Options",
+      "locationId": 2660,
+      "locationName": "Krakow to Auschwitz Birkenau Tours",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.4,
+      "reviewCount": 24000,
+      "bookedCount": 159729,
+      "image": "assets/img/exp/15406.jpg",
+      "duration": null,
+      "features": [
+        "Transfers available",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": false,
+      "lat": 50.06465,
+      "lng": 19.94498,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 35.78,
+        "original": 35.78,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15757,
+      "cityId": "krakow",
+      "popularityRank": 2,
+      "name": "Wieliczka Salt Mine Guided Tour with Skip-the-Line Tickets",
+      "locationId": 2197,
+      "locationName": "Wieliczka Salt Mine",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.5,
+      "reviewCount": 7571,
+      "bookedCount": 104936,
+      "image": "assets/img/exp/15757.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Transfers available",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": false,
+      "lat": 50.06465,
+      "lng": 19.94498,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 32.15,
+        "original": 32.15,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14485,
+      "cityId": "krakow",
+      "popularityRank": 3,
+      "name": "Oskar Schindler's Factory Skip-the-Line Tickets",
+      "locationId": 2659,
+      "locationName": "Oskar Schindler's Factory Tours",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.6,
+      "reviewCount": 10486,
+      "bookedCount": 55139,
+      "image": "assets/img/exp/14485.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Transfers available"
+      ],
+      "freeCancellation": false,
+      "lat": 50.04743,
+      "lng": 19.96157,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 24.31,
+        "original": 24.31,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10427,
+      "cityId": "krakow",
+      "popularityRank": 4,
+      "name": "From Krakow: Auschwitz-Birkenau Guided Tour with Transfers",
+      "locationId": 2660,
+      "locationName": "Krakow to Auschwitz Birkenau Tours",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.5,
+      "reviewCount": 14150,
+      "bookedCount": 87570,
+      "image": "assets/img/exp/10427.jpg",
+      "duration": null,
+      "features": [
+        "Transfers available",
+        "Meals included",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": false,
+      "lat": 50.06465,
+      "lng": 19.94498,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 35.78,
+        "original": 35.78,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10436,
+      "cityId": "krakow",
+      "popularityRank": 5,
+      "name": "Oskar Schindler’s Factory Guided Tour",
+      "locationId": 2659,
+      "locationName": "Oskar Schindler's Factory Tours",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.5,
+      "reviewCount": 7650,
+      "bookedCount": 69564,
+      "image": "assets/img/exp/10436.jpg",
+      "duration": null,
+      "features": [
+        "Transfers available",
+        "Meals included",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 50.04743,
+      "lng": 19.96157,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31.63,
+        "original": 31.63,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10430,
+      "cityId": "krakow",
+      "popularityRank": 6,
+      "name": "From Krakow: Wieliczka Salt Mine Guided Tour with Skip-the-Line Tickets",
+      "locationId": 2197,
+      "locationName": "Wieliczka Salt Mine",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.7,
+      "reviewCount": 1864,
+      "bookedCount": 12179,
+      "image": "assets/img/exp/10430.jpg",
+      "duration": null,
+      "features": [
+        "Transfers available",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": false,
+      "lat": 50.06465,
+      "lng": 19.94498,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 59.61,
+        "original": 70.12,
+        "discountPercent": 15,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 18875,
+      "cityId": "krakow",
+      "popularityRank": 7,
+      "name": "Chocholow Thermal Baths Tickets with Transfer Option",
+      "locationId": 4935,
+      "locationName": "Zakopane Thermal Baths",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.8,
+      "reviewCount": 268,
+      "bookedCount": 8697,
+      "image": "assets/img/exp/18875.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Transfers available",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": false,
+      "lat": 49.35179,
+      "lng": 19.82311,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 29.43,
+        "original": 29.43,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 45529,
+      "cityId": "krakow",
+      "popularityRank": 8,
+      "name": "From Krakow: Auschwitz, Birkenau & Monowitz Outdoor Guided Tour",
+      "locationId": 2660,
+      "locationName": "Krakow to Auschwitz Birkenau Tours",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 3.4,
+      "reviewCount": 17,
+      "bookedCount": 580,
+      "image": "assets/img/exp/45529.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 50.06143,
+      "lng": 19.93658,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 44.53,
+        "original": 51.19,
+        "discountPercent": 13,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15682,
+      "cityId": "krakow",
+      "popularityRank": 9,
+      "name": "Krakow Vistula River Evening/Nighttime Sightseeing Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.4,
+      "reviewCount": 827,
+      "bookedCount": 5712,
+      "image": "assets/img/exp/15682.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 50.06465,
+      "lng": 19.94498,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 19.14,
+        "original": 21.75,
+        "discountPercent": 12,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 31246,
+      "cityId": "krakow",
+      "popularityRank": 10,
+      "name": "Global eSIM with Unlimited 5G/4G Data: Access to 120 Countries",
+      "locationId": null,
+      "locationName": null,
+      "category": "Travel Services",
+      "subcategory": "Wifi & SIM Cards",
+      "rating": 4.2,
+      "reviewCount": 292,
+      "bookedCount": 4525,
+      "image": "assets/img/exp/31246.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity"
+      ],
+      "freeCancellation": true,
+      "lat": 40.71278,
+      "lng": -74.00597,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 8.91,
+        "original": 9.9,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14185,
+      "cityId": "krakow",
+      "popularityRank": 11,
+      "name": "From Krakow: Auschwitz-Birkenau Guided Tour with Hotel Transfers",
+      "locationId": 2660,
+      "locationName": "Krakow to Auschwitz Birkenau Tours",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.5,
+      "reviewCount": 6037,
+      "bookedCount": 42397,
+      "image": "assets/img/exp/14185.jpg",
+      "duration": null,
+      "features": [
+        "Transfers available",
+        "Meals included",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": false,
+      "lat": 50.06465,
+      "lng": 19.94498,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 35.78,
+        "original": 35.78,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 47656,
+      "cityId": "krakow",
+      "popularityRank": 12,
+      "name": "From Krakow: Wieliczka Salt Mine Tour",
+      "locationId": 2197,
+      "locationName": "Wieliczka Salt Mine",
+      "category": null,
+      "subcategory": null,
+      "rating": 4.3,
+      "reviewCount": 16,
+      "bookedCount": 400,
+      "image": "assets/img/exp/47656.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 50.06696,
+      "lng": 19.94497,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 24.57,
+        "original": 30.71,
+        "discountPercent": 20,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15457,
+      "cityId": "krakow",
+      "popularityRank": 13,
+      "name": "Rynek Underground Museum Skip-the-Line Tickets with Guided Tour",
+      "locationId": 6498,
+      "locationName": "Museums in Krakow",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.3,
+      "reviewCount": 1533,
+      "bookedCount": 2710,
+      "image": "assets/img/exp/15457.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 50.06194,
+      "lng": 19.93777,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 15.36,
+        "original": 15.36,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15679,
+      "cityId": "krakow",
+      "popularityRank": 14,
+      "name": "Krakow Vistula River Sightseeing Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.4,
+      "reviewCount": 1286,
+      "bookedCount": 4589,
+      "image": "assets/img/exp/15679.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 50.06465,
+      "lng": 19.94498,
+      "isCombo": false,
+      "summary": "Discover the iconic sights and landmarks in Krakow on an elegant boat as you cruise down the Vistula River. Operator: Kapitan Victor",
+      "price": {
+        "currency": "USD",
+        "from": 15.36,
+        "original": 15.36,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 16468,
+      "cityId": "krakow",
+      "popularityRank": 15,
+      "name": "Oskar Schindler’s Factory & Ghetto Guided Tour",
+      "locationId": 2659,
+      "locationName": "Oskar Schindler's Factory Tours",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.7,
+      "reviewCount": 882,
+      "bookedCount": 4250,
+      "image": "assets/img/exp/16468.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 50.06465,
+      "lng": 19.94498,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 49.84,
+        "original": 52.47,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15619,
+      "cityId": "krakow",
+      "popularityRank": 16,
+      "name": "Energylandia Entry Tickets",
+      "locationId": 2950,
+      "locationName": "Energylandia Amusement Park",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.4,
+      "reviewCount": 737,
+      "bookedCount": 5079,
+      "image": "assets/img/exp/15619.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 49.9995,
+      "lng": 19.41148,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 53.49,
+        "original": 53.49,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 46396,
+      "cityId": "krakow",
+      "popularityRank": 17,
+      "name": "From Krakow: Auschwitz-Birkenau Guided Tour with Tickets and Transfers",
+      "locationId": 2660,
+      "locationName": "Krakow to Auschwitz Birkenau Tours",
+      "category": "Tours",
+      "subcategory": "Day Trips",
+      "rating": 4.5,
+      "reviewCount": 29,
+      "bookedCount": 202,
+      "image": "assets/img/exp/46396.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Transfers available",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 50.06465,
+      "lng": 19.94498,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 54.79,
+        "original": 54.79,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13830,
+      "cityId": "krakow",
+      "popularityRank": 18,
+      "name": "Wawel Castle & Cathedral Guided Tour",
+      "locationId": 2679,
+      "locationName": "Wawel Castle",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.4,
+      "reviewCount": 1051,
+      "bookedCount": 4713,
+      "image": "assets/img/exp/13830.jpg",
+      "duration": null,
+      "features": [
+        "Meals included",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 50.05681,
+      "lng": 19.93785,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 29.64,
+        "original": 29.64,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 38517,
+      "cityId": "krakow",
+      "popularityRank": 19,
+      "name": "Wawel Cathedral Guided Tour",
+      "locationId": 2679,
+      "locationName": "Wawel Castle",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.5,
+      "reviewCount": 33,
+      "bookedCount": 665,
+      "image": "assets/img/exp/38517.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 50.0556,
+      "lng": 19.93669,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 9.47,
+        "original": 9.47,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15764,
+      "cityId": "krakow",
+      "popularityRank": 20,
+      "name": "Wawel Castle Skip-the-Line Guided Tour with Optional Exhibitions",
+      "locationId": 2679,
+      "locationName": "Wawel Castle",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.4,
+      "reviewCount": 749,
+      "bookedCount": 2309,
+      "image": "assets/img/exp/15764.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 50.0556,
+      "lng": 19.93669,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 19.58,
+        "original": 19.58,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

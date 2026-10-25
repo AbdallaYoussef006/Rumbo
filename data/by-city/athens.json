@@ -1,0 +1,826 @@
+{
+  "city": {
+    "id": "athens",
+    "name": "Athens",
+    "countryCode": "GR",
+    "country": "Greece",
+    "tagline": "",
+    "image": "assets/img/city/athens.jpg",
+    "lat": 37.97945,
+    "lng": 23.71622,
+    "timeZone": "Europe/Athens",
+    "priceFrom": 8.91,
+    "locationCount": 7,
+    "experienceCount": 20,
+    "rank": 17
+  },
+  "locations": [
+    {
+      "id": 1878,
+      "cityId": "athens",
+      "name": "Acropolis Tickets",
+      "description": "The Acropolis' reputation precedes it. Plunge right into the heart of Ancient Greek culture as you explore historic structures that served as citadels, administrative buildings, and even royal residences. Browse our collection of Acropolis tickets for skip-the-line entry, guided tours, early access tours, and combo experiences.",
+      "image": "assets/img/loc/1878.jpg",
+      "experienceCount": 6,
+      "rating": 4.5,
+      "ratingCount": 69875,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 43.64,
+        "original": 43.64
+      },
+      "experienceIds": [
+        12045,
+        32485,
+        15140,
+        15142,
+        13338,
+        15766
+      ]
+    },
+    {
+      "id": 3640,
+      "cityId": "athens",
+      "name": "Acropolis Museum Tickets",
+      "description": "Explore ancient Greece at Athens' Acropolis Museum. Discover archaeological treasures with our curated tickets. Dive into Athens' history.",
+      "image": "assets/img/loc/3640.jpg",
+      "experienceCount": 2,
+      "rating": 4.5,
+      "ratingCount": 69192,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 28.98,
+        "original": 28.98
+      },
+      "experienceIds": [
+        11988,
+        15430
+      ]
+    },
+    {
+      "id": 3285,
+      "cityId": "athens",
+      "name": "Meteora Tours",
+      "description": "Stand beneath Meteora’s towering sandstone pillars, where centuries-old monasteries cling precariously to sheer cliffs. Marvel at frescoes and relics within these UNESCO-listed spiritual retreats, then wander hiking trails that weave through this surreal landscape. Secure your guided tour tickets with hassle-free transfers for a seamless visit from Athens, Thessaloniki, or Meteora.",
+      "image": "assets/img/loc/3285.jpg",
+      "experienceCount": 3,
+      "rating": 4.5,
+      "ratingCount": 2736,
+      "popularityRank": 3,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 33.57,
+        "original": 33.57
+      },
+      "experienceIds": [
+        16400,
+        21219,
+        16955
+      ]
+    },
+    {
+      "id": 3597,
+      "cityId": "athens",
+      "name": "Delphi Tickets",
+      "description": "Experience ancient Delphi's magic. Visit the Temple of Apollo and connect with the past. Dive into history with our guided tours and transfers.",
+      "image": "assets/img/loc/3597.jpg",
+      "experienceCount": 1,
+      "rating": 4.6,
+      "ratingCount": 4010,
+      "popularityRank": 4,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 27.97,
+        "original": 27.97
+      },
+      "experienceIds": [
+        11913
+      ]
+    },
+    {
+      "id": 3286,
+      "cityId": "athens",
+      "name": "Temple of Poseidon & Cape Sounion",
+      "description": "",
+      "image": "assets/img/loc/3286.jpg",
+      "experienceCount": 2,
+      "rating": 4.2,
+      "ratingCount": 12406,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 31.33,
+        "original": 31.33
+      },
+      "experienceIds": [
+        28104,
+        15636
+      ]
+    },
+    {
+      "id": 3628,
+      "cityId": "athens",
+      "name": "National Archaeological Museum Tickets",
+      "description": "Browse through our collection of National Archaeological Museum Tickets to explore and choose from the various ticket options we provide for this attraction at discounted prices!",
+      "image": "assets/img/loc/3628.jpg",
+      "experienceCount": 1,
+      "rating": 4.6,
+      "ratingCount": 35857,
+      "popularityRank": 6,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 29.09,
+        "original": 29.09
+      },
+      "experienceIds": [
+        27853
+      ]
+    },
+    {
+      "id": 3647,
+      "cityId": "athens",
+      "name": "Temple of Olympian Zeus",
+      "description": "Explore ticket options to visit the Temple of Olympian Zeus, one of the largest temples in the ancient world!",
+      "image": "assets/img/loc/3647.jpg",
+      "experienceCount": 0,
+      "rating": 4.6,
+      "ratingCount": 11296,
+      "popularityRank": 7,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 3636,
+      "cityId": "athens",
+      "name": "Ancient Agora of Athens Tickets",
+      "description": "",
+      "image": "assets/img/loc/3636.jpg",
+      "experienceCount": 1,
+      "rating": 4.4,
+      "ratingCount": 3107,
+      "popularityRank": 8,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 29.09,
+        "original": 29.09
+      },
+      "experienceIds": [
+        36401
+      ]
+    },
+    {
+      "id": 3788,
+      "cityId": "athens",
+      "name": "Museum of Illusions Athens",
+      "description": "Experience mind-bending fun at the Museum of Illusions in Athens. Dive into a world of optical illusions and puzzling exhibits with our tickets, which also include combo deals with other iconic sites like the Acropolis & Parthenon. Go on the ultimate Athens adventure!",
+      "image": "assets/img/loc/3788.jpg",
+      "experienceCount": 0,
+      "rating": 4.6,
+      "ratingCount": 25272,
+      "popularityRank": 9,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 3287,
+      "cityId": "athens",
+      "name": "Athens To Mycenae Tours",
+      "description": "Embark on guided tours from Athens to the ancient city of Mycenae. Explore legendary archaeological sites like the Lion's Gate and the Tomb of Agamemnon. Immerse yourself in Greece's rich history with our expert-led excursions.",
+      "image": "assets/img/loc/3287.jpg",
+      "experienceCount": 0,
+      "rating": 4.5,
+      "ratingCount": 428,
+      "popularityRank": 10,
+      "startingPrice": null,
+      "experienceIds": []
+    }
+  ],
+  "experiences": [
+    {
+      "id": 12045,
+      "cityId": "athens",
+      "popularityRank": 1,
+      "name": "Acropolis & Parthenon Tickets with Audio Guide",
+      "locationId": 1878,
+      "locationName": "Acropolis Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.5,
+      "reviewCount": 40487,
+      "bookedCount": 819123,
+      "image": "assets/img/exp/12045.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.98381,
+      "lng": 23.72754,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 43.64,
+        "original": 43.64,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 32485,
+      "cityId": "athens",
+      "popularityRank": 2,
+      "name": "Combo (Save 13%): Acropolis Parthenon + Acropolis Museum Tickets with Venue’s Audio Guide",
+      "locationId": 1878,
+      "locationName": "Acropolis Tickets",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.2,
+      "reviewCount": 11169,
+      "bookedCount": 0,
+      "image": "assets/img/exp/32485.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.98381,
+      "lng": 23.72754,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 82.87,
+        "original": 95.11,
+        "discountPercent": 13,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 11988,
+      "cityId": "athens",
+      "popularityRank": 3,
+      "name": "Acropolis Museum Tickets",
+      "locationId": 3640,
+      "locationName": "Acropolis Museum Tickets",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.5,
+      "reviewCount": 11067,
+      "bookedCount": 141967,
+      "image": "assets/img/exp/11988.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.96845,
+      "lng": 23.72852,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 28.98,
+        "original": 31.33,
+        "discountPercent": 8,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15140,
+      "cityId": "athens",
+      "popularityRank": 4,
+      "name": "Acropolis & Parthenon Guided Tours with Entry Tickets",
+      "locationId": 1878,
+      "locationName": "Acropolis Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.5,
+      "reviewCount": 9328,
+      "bookedCount": 61831,
+      "image": "assets/img/exp/15140.jpg",
+      "duration": null,
+      "features": [
+        "Transfers available",
+        "Meals included",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 37.98381,
+      "lng": 23.72754,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 67.47,
+        "original": 74.97,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15011,
+      "cityId": "athens",
+      "popularityRank": 5,
+      "name": "Sights of Athens: Athens, Piraeus & Coastline Hop-On Hop-Off Bus Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Athens",
+      "rating": 4.3,
+      "reviewCount": 3302,
+      "bookedCount": 23294,
+      "image": "assets/img/exp/15011.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 37.98381,
+      "lng": 23.72754,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 13.43,
+        "original": 16.78,
+        "discountPercent": 20,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 31246,
+      "cityId": "athens",
+      "popularityRank": 6,
+      "name": "Global eSIM with Unlimited 5G/4G Data: Access to 120 Countries",
+      "locationId": null,
+      "locationName": null,
+      "category": "Travel Services",
+      "subcategory": "Wifi & SIM Cards",
+      "rating": 4.2,
+      "reviewCount": 292,
+      "bookedCount": 4525,
+      "image": "assets/img/exp/31246.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity"
+      ],
+      "freeCancellation": true,
+      "lat": 40.71278,
+      "lng": -74.00597,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 8.91,
+        "original": 9.9,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 27853,
+      "cityId": "athens",
+      "popularityRank": 7,
+      "name": "National Archaeological Museum Entry Ticket with Audio Guide",
+      "locationId": 3628,
+      "locationName": "National Archaeological Museum Tickets",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.6,
+      "reviewCount": 1442,
+      "bookedCount": 13792,
+      "image": "assets/img/exp/27853.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.98902,
+      "lng": 23.73276,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 29.09,
+        "original": 29.09,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 36401,
+      "cityId": "athens",
+      "popularityRank": 8,
+      "name": "Ancient Agora Entry Tickets with Audio Guide",
+      "locationId": 3636,
+      "locationName": "Ancient Agora of Athens Tickets",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.7,
+      "reviewCount": 1450,
+      "bookedCount": 3074,
+      "image": "assets/img/exp/36401.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.9749,
+      "lng": 23.72209,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 29.09,
+        "original": 29.09,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 11913,
+      "cityId": "athens",
+      "popularityRank": 9,
+      "name": "From Athens: Delphi Archaeological Site & Museum Day Trip",
+      "locationId": 3597,
+      "locationName": "Delphi Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.5,
+      "reviewCount": 2124,
+      "bookedCount": 3318,
+      "image": "assets/img/exp/11913.jpg",
+      "duration": null,
+      "features": [
+        "Meals included",
+        "Guided tour",
+        "Audio guide",
+        "Pickup available"
+      ],
+      "freeCancellation": false,
+      "lat": 37.9679,
+      "lng": 23.73209,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 27.97,
+        "original": 55.94,
+        "discountPercent": 50,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15142,
+      "cityId": "athens",
+      "popularityRank": 10,
+      "name": "Acropolis & Parthenon + Acropolis Museum Guided Tour with Entry Tickets",
+      "locationId": 1878,
+      "locationName": "Acropolis Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.6,
+      "reviewCount": 3415,
+      "bookedCount": 18160,
+      "image": "assets/img/exp/15142.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 37.98381,
+      "lng": 23.72754,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 105.74,
+        "original": 117.48,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 16400,
+      "cityId": "athens",
+      "popularityRank": 11,
+      "name": "From Athens: Meteora Monasteries & Caves Full-Day Trip",
+      "locationId": 3285,
+      "locationName": "Meteora Tours",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.7,
+      "reviewCount": 713,
+      "bookedCount": 3953,
+      "image": "assets/img/exp/16400.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Meals included",
+        "Guided tour",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 37.9923,
+      "lng": 23.7208,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 76.76,
+        "original": 109.65,
+        "discountPercent": 30,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13338,
+      "cityId": "athens",
+      "popularityRank": 12,
+      "name": "Combo: Acropolis Parthenon + Acropolis Museum Tickets with Athens Old Town Audio Guide",
+      "locationId": 1878,
+      "locationName": "Acropolis Tickets",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 2.6,
+      "reviewCount": 8,
+      "bookedCount": 47010,
+      "image": "assets/img/exp/13338.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.97153,
+      "lng": 23.72575,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 70.49,
+        "original": 70.49,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 19793,
+      "cityId": "athens",
+      "popularityRank": 13,
+      "name": "City Sightseeing: Athens, Piraeus & Riviera Hop-on Hop-off Bus Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Athens",
+      "rating": 4.4,
+      "reviewCount": 343,
+      "bookedCount": 5282,
+      "image": "assets/img/exp/19793.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 37.98381,
+      "lng": 23.72754,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 19.69,
+        "original": 19.69,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15766,
+      "cityId": "athens",
+      "popularityRank": 14,
+      "name": "Combo (Save 6%): Acropolis & Parthenon Tickets + 2-Day Athens Hop-On Hop-Off Bus Tour",
+      "locationId": 1878,
+      "locationName": "Acropolis Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.5,
+      "reviewCount": 28462,
+      "bookedCount": 575971,
+      "image": "assets/img/exp/15766.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 37.98381,
+      "lng": 23.72754,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 57.06,
+        "original": 60.42,
+        "discountPercent": 6,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15430,
+      "cityId": "athens",
+      "popularityRank": 15,
+      "name": "Acropolis Museum Entry Tickets with Museum's Audio Tour",
+      "locationId": 3640,
+      "locationName": "Acropolis Museum Tickets",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.2,
+      "reviewCount": 2587,
+      "bookedCount": 3294,
+      "image": "assets/img/exp/15430.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.96845,
+      "lng": 23.72852,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.45,
+        "original": 41.4,
+        "discountPercent": 19,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 36751,
+      "cityId": "athens",
+      "popularityRank": 16,
+      "name": "Athens Day Cruise to 3 Islands: Hydra, Poros, Aegina",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 3.8,
+      "reviewCount": 17,
+      "bookedCount": 240,
+      "image": "assets/img/exp/36751.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Meals included",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 37.93711,
+      "lng": 23.6856,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 124.56,
+        "original": 124.56,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 28104,
+      "cityId": "athens",
+      "popularityRank": 17,
+      "name": "Combo (Save 20%): Temple of Poseidon Sunset Half-Day Trip + Acropolis & Parthenon Tickets",
+      "locationId": 3286,
+      "locationName": "Temple of Poseidon & Cape Sounion",
+      "category": "Tours",
+      "subcategory": "Day Trips",
+      "rating": 4.2,
+      "reviewCount": 9390,
+      "bookedCount": 0,
+      "image": "assets/img/exp/28104.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Transfers available",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 37.98381,
+      "lng": 23.72754,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 68.21,
+        "original": 85.04,
+        "discountPercent": 20,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 21219,
+      "cityId": "athens",
+      "popularityRank": 18,
+      "name": "From Athens: Meteora Monasteries & Caves Full-Day Trip with Lunch",
+      "locationId": 3285,
+      "locationName": "Meteora Tours",
+      "category": "Tours",
+      "subcategory": "Day Trips",
+      "rating": 4.7,
+      "reviewCount": 378,
+      "bookedCount": 1167,
+      "image": "assets/img/exp/21219.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Meals included",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 37.98381,
+      "lng": 23.72754,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 83.21,
+        "original": 124.2,
+        "discountPercent": 33,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15636,
+      "cityId": "athens",
+      "popularityRank": 19,
+      "name": "From Athens: Temple of Poseidon & Cape Sounion Sunset Tour",
+      "locationId": 3286,
+      "locationName": "Temple of Poseidon & Cape Sounion",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.5,
+      "reviewCount": 2072,
+      "bookedCount": 8076,
+      "image": "assets/img/exp/15636.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Guided tour",
+        "Audio guide",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 37.98381,
+      "lng": 23.72754,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31.33,
+        "original": 31.33,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 16955,
+      "cityId": "athens",
+      "popularityRank": 20,
+      "name": "From Meteora: Monasteries & Caves Morning or Sunset Guided Tour",
+      "locationId": 3285,
+      "locationName": "Meteora Tours",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.7,
+      "reviewCount": 77,
+      "bookedCount": 815,
+      "image": "assets/img/exp/16955.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Meals included",
+        "Guided tour",
+        "Audio guide",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 39.71648,
+      "lng": 21.61831,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.57,
+        "original": 33.57,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

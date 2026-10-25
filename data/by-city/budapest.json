@@ -1,0 +1,786 @@
+{
+  "city": {
+    "id": "budapest",
+    "name": "Budapest",
+    "countryCode": "HU",
+    "country": "Hungary",
+    "tagline": "",
+    "image": "assets/img/city/budapest.jpg",
+    "lat": 47.49801,
+    "lng": 19.03991,
+    "timeZone": "Europe/Budapest",
+    "priceFrom": 8.91,
+    "locationCount": 6,
+    "experienceCount": 20,
+    "rank": 15
+  },
+  "locations": [
+    {
+      "id": 1152,
+      "cityId": "budapest",
+      "name": "Budapest Bath Tickets",
+      "description": "Treat yourself to a day of relaxation at the Budapest Baths. Unwind at the wonderful hot springs, saunas, and steam cabins, or treat yourself to a massage with Budapest Bath tickets. Your experience would also include skip-the-line entry, VIP access, and live entertainment.",
+      "image": "assets/img/loc/1152.jpg",
+      "experienceCount": 0,
+      "rating": 4.4,
+      "ratingCount": 23269,
+      "popularityRank": 1,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 1293,
+      "cityId": "budapest",
+      "name": "Hungarian Parliament Building",
+      "description": "Tour the neo-Gothic Hungarian Parliament in Budapest. Join our guided tours to uncover its history. Discover combo deals for a complete Budapest experience.",
+      "image": "assets/img/loc/1293.jpg",
+      "experienceCount": 3,
+      "rating": 4.4,
+      "ratingCount": 20608,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 42.41,
+        "original": 42.41
+      },
+      "experienceIds": [
+        16959,
+        16352,
+        16354
+      ]
+    },
+    {
+      "id": 5941,
+      "cityId": "budapest",
+      "name": "St Stephen's Basilica",
+      "description": "Discover St. Stephen’s Basilica in Budapest, Hungary’s largest church. Explore its grand interiors with guided tours and enjoy escorted entry.",
+      "image": "assets/img/loc/5941.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 5680,
+      "popularityRank": 3,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 13.43,
+        "original": 13.43
+      },
+      "experienceIds": [
+        32133
+      ]
+    },
+    {
+      "id": 6952,
+      "cityId": "budapest",
+      "name": "Mandala Day Spa",
+      "description": "Unwind with curated Mandala Day Spa tickets offering soothing massages, tranquil spa access, and indulgent wellness experiences.",
+      "image": "assets/img/loc/6952.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 105,
+      "popularityRank": 4,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 45.87,
+        "original": 45.87
+      },
+      "experienceIds": [
+        41493
+      ]
+    },
+    {
+      "id": 4728,
+      "cityId": "budapest",
+      "name": "Buda Castle",
+      "description": "Explore Buda Castle in Budapest. Witness the majestic castle and enjoy panoramic city views. Dive into history with guided tours or cultural experiences.",
+      "image": "assets/img/loc/4728.jpg",
+      "experienceCount": 0,
+      "rating": 4.5,
+      "ratingCount": 2008,
+      "popularityRank": 5,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 802,
+      "cityId": "budapest",
+      "name": "Sparty Budapest",
+      "description": "Unwind at Sparty Budapest, the world-famous thermal bath party. Enjoy music, lights, and spa vibes under the stars in Széchenyi Baths for an unforgettable mix of relaxation and nightlife in Budapest.",
+      "image": "assets/img/loc/802.jpg",
+      "experienceCount": 1,
+      "rating": 4.3,
+      "ratingCount": 10987,
+      "popularityRank": 6,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 82.8,
+        "original": 82.8
+      },
+      "experienceIds": [
+        18754
+      ]
+    },
+    {
+      "id": 3899,
+      "cityId": "budapest",
+      "name": "Light Art Museum Tickets",
+      "description": "Explore Budapest's rich art and cultural heritage with our collection of Budapest Museum tickets. Explore the Light Art Museum and Memento Park, and take a captivating journey through European art and history. Discover the past and present today!",
+      "image": "assets/img/loc/3899.jpg",
+      "experienceCount": 0,
+      "rating": null,
+      "ratingCount": 0,
+      "popularityRank": 7,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 4973,
+      "cityId": "budapest",
+      "name": "Széchenyi Baths",
+      "description": "Relax at Budapest's Széchenyi Bath. Experience European thermal spa and open-air pools. Secure full-day tickets or explore combo deals for a unique spa experience.",
+      "image": "assets/img/loc/4973.jpg",
+      "experienceCount": 6,
+      "rating": 4.4,
+      "ratingCount": 22495,
+      "popularityRank": 8,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 33.57,
+        "original": 33.57
+      },
+      "experienceIds": [
+        12446,
+        16348,
+        55880,
+        21339,
+        48041,
+        16354
+      ]
+    },
+    {
+      "id": 4971,
+      "cityId": "budapest",
+      "name": "Lukacs Bath",
+      "description": "Relax at Budapest's Lukacs Bath. Enjoy thermal pools, saunas, and treatments. Explore ticket options for a holistic experience.",
+      "image": "assets/img/loc/4971.jpg",
+      "experienceCount": 1,
+      "rating": 4.4,
+      "ratingCount": 5462,
+      "popularityRank": 9,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 17.9,
+        "original": 17.9
+      },
+      "experienceIds": [
+        18292
+      ]
+    },
+    {
+      "id": 4224,
+      "cityId": "budapest",
+      "name": "Big Bus Budapest Hop-on Hop-off Tours",
+      "description": "Explore the enchanting city of Budapest with a Big Bus Tours. Cross the iconic Chain Bridge, admire the grandeur of Buda Castle, and soak in the beauty of the Parliament Building. Enjoy panoramic views of 18 sights, live commentary, budget-friendly combos, and a Danube river cruise.",
+      "image": "assets/img/loc/4224.jpg",
+      "experienceCount": 0,
+      "rating": 4.4,
+      "ratingCount": 8807,
+      "popularityRank": 10,
+      "startingPrice": null,
+      "experienceIds": []
+    }
+  ],
+  "experiences": [
+    {
+      "id": 12446,
+      "cityId": "budapest",
+      "popularityRank": 1,
+      "name": "Széchenyi Spa Entry Tickets",
+      "locationId": 4973,
+      "locationName": "Széchenyi Baths",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.3,
+      "reviewCount": 10472,
+      "bookedCount": 253237,
+      "image": "assets/img/exp/12446.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 47.51866,
+      "lng": 19.08238,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.57,
+        "original": 40.28,
+        "discountPercent": 17,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 33768,
+      "cityId": "budapest",
+      "popularityRank": 2,
+      "name": "Budapest Danube River Nighttime Sightseeing Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.3,
+      "reviewCount": 3853,
+      "bookedCount": 57755,
+      "image": "assets/img/exp/33768.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 47.49791,
+      "lng": 19.04024,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 13.43,
+        "original": 13.43,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 16348,
+      "cityId": "budapest",
+      "popularityRank": 3,
+      "name": "Combo (Save 8%): Széchenyi Spa Entry Tickets + Danube River Sightseeing Cruise",
+      "locationId": 4973,
+      "locationName": "Széchenyi Baths",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.3,
+      "reviewCount": 14279,
+      "bookedCount": 261800,
+      "image": "assets/img/exp/16348.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 47.49791,
+      "lng": 19.04024,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 53.53,
+        "original": 58.18,
+        "discountPercent": 8,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 16959,
+      "cityId": "budapest",
+      "popularityRank": 4,
+      "name": "Hungarian Parliament Audio Guided Tour",
+      "locationId": 1293,
+      "locationName": "Hungarian Parliament Building",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.5,
+      "reviewCount": 6020,
+      "bookedCount": 65183,
+      "image": "assets/img/exp/16959.jpg",
+      "duration": null,
+      "features": [
+        "Transfers available",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 47.50712,
+      "lng": 19.04567,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 42.41,
+        "original": 42.41,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 19151,
+      "cityId": "budapest",
+      "popularityRank": 5,
+      "name": "Budapest Danube River Sightseeing Cruise with Drinks",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.6,
+      "reviewCount": 1420,
+      "bookedCount": 19732,
+      "image": "assets/img/exp/19151.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 47.49791,
+      "lng": 19.04024,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 20.21,
+        "original": 23.5,
+        "discountPercent": 14,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 8772,
+      "cityId": "budapest",
+      "popularityRank": 6,
+      "name": "Budapest Danube River Sightseeing Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.4,
+      "reviewCount": 5429,
+      "bookedCount": 68960,
+      "image": "assets/img/exp/8772.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 47.49791,
+      "lng": 19.04024,
+      "isCombo": false,
+      "summary": "Operator: Silverline Cruises",
+      "price": {
+        "currency": "USD",
+        "from": 13.43,
+        "original": 13.43,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 18292,
+      "cityId": "budapest",
+      "popularityRank": 7,
+      "name": "Lukacs Spa Entry Tickets",
+      "locationId": 4971,
+      "locationName": "Lukacs Bath",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.4,
+      "reviewCount": 255,
+      "bookedCount": 4791,
+      "image": "assets/img/exp/18292.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 47.51778,
+      "lng": 19.0369,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 17.9,
+        "original": 17.9,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 32133,
+      "cityId": "budapest",
+      "popularityRank": 8,
+      "name": "Budapest St. Stephen's Basilica Entry Tickets",
+      "locationId": 5941,
+      "locationName": "St Stephen's Basilica",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.7,
+      "reviewCount": 226,
+      "bookedCount": 12485,
+      "image": "assets/img/exp/32133.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 47.50015,
+      "lng": 19.05361,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 13.43,
+        "original": 13.43,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 31246,
+      "cityId": "budapest",
+      "popularityRank": 9,
+      "name": "Global eSIM with Unlimited 5G/4G Data: Access to 120 Countries",
+      "locationId": null,
+      "locationName": null,
+      "category": "Travel Services",
+      "subcategory": "Wifi & SIM Cards",
+      "rating": 4.2,
+      "reviewCount": 292,
+      "bookedCount": 4525,
+      "image": "assets/img/exp/31246.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity"
+      ],
+      "freeCancellation": true,
+      "lat": 40.71278,
+      "lng": -74.00597,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 8.91,
+        "original": 9.9,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 37844,
+      "cityId": "budapest",
+      "popularityRank": 10,
+      "name": "Budapest Danube River Night Lotus Cruise with Unlimited Aperol & Prosecco",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.7,
+      "reviewCount": 308,
+      "bookedCount": 5389,
+      "image": "assets/img/exp/37844.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 47.49224,
+      "lng": 19.05038,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 29.54,
+        "original": 36.92,
+        "discountPercent": 20,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 16352,
+      "cityId": "budapest",
+      "popularityRank": 11,
+      "name": "Combo (Save 8%): Hungarian Parliament Guided Tour + Danube River Sightseeing Cruise Tickets",
+      "locationId": 1293,
+      "locationName": "Hungarian Parliament Building",
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.4,
+      "reviewCount": 9286,
+      "bookedCount": 116290,
+      "image": "assets/img/exp/16352.jpg",
+      "duration": null,
+      "features": [
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 47.49182,
+      "lng": 19.05058,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 51.37,
+        "original": 55.83,
+        "discountPercent": 8,
+        "type": "PER_PERSON"
+      },
+      "summary": "Get access to a guided tour of the Hungarian Parliament and a relaxing sightseeing cruise on the River Danube with the same pocket-friendly combo ticket."
+    },
+    {
+      "id": 55880,
+      "cityId": "budapest",
+      "popularityRank": 12,
+      "name": "Széchenyi Thermal Bath Evening Entry Ticket",
+      "locationId": 4973,
+      "locationName": "Széchenyi Baths",
+      "category": "Wellness",
+      "subcategory": "Spa",
+      "rating": 4.3,
+      "reviewCount": 12,
+      "bookedCount": 319,
+      "image": "assets/img/exp/55880.jpg",
+      "duration": null,
+      "features": [],
+      "freeCancellation": false,
+      "lat": 47.51866,
+      "lng": 19.08238,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.57,
+        "original": 33.57,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 12142,
+      "cityId": "budapest",
+      "popularityRank": 13,
+      "name": "City Sightseeing: Budapest Hop-on Hop-off Bus Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Budapest",
+      "rating": 4.3,
+      "reviewCount": 1059,
+      "bookedCount": 5620,
+      "image": "assets/img/exp/12142.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 47.49768,
+      "lng": 19.03884,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 43.64,
+        "original": 43.64,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 21339,
+      "cityId": "budapest",
+      "popularityRank": 14,
+      "name": "Széchenyi Spa: Fast Track Entry Tickets with Premium Day Spa Access and Private Cabin",
+      "locationId": 4973,
+      "locationName": "Széchenyi Baths",
+      "category": "Wellness",
+      "subcategory": "Bath",
+      "rating": 4.3,
+      "reviewCount": 156,
+      "bookedCount": 2279,
+      "image": "assets/img/exp/21339.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 47.51866,
+      "lng": 19.08238,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 98.46,
+        "original": 98.46,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 48041,
+      "cityId": "budapest",
+      "popularityRank": 15,
+      "name": "Szechenyi Spa Early-Bird Morning Entry Tickets",
+      "locationId": 4973,
+      "locationName": "Széchenyi Baths",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.3,
+      "reviewCount": 9456,
+      "bookedCount": 0,
+      "image": "assets/img/exp/48041.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 47.51866,
+      "lng": 19.08238,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.57,
+        "original": 40.28,
+        "discountPercent": 17,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 18754,
+      "cityId": "budapest",
+      "popularityRank": 16,
+      "name": "Sparty: Ultimate Late-Night Spa Party in Szechenyi Spa",
+      "locationId": 802,
+      "locationName": "Sparty Budapest",
+      "category": "Wellness",
+      "subcategory": "Spa",
+      "rating": 4.3,
+      "reviewCount": 515,
+      "bookedCount": 9635,
+      "image": "assets/img/exp/18754.jpg",
+      "duration": null,
+      "features": [],
+      "freeCancellation": false,
+      "lat": 47.51866,
+      "lng": 19.08238,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 82.8,
+        "original": 82.8,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 41493,
+      "cityId": "budapest",
+      "popularityRank": 17,
+      "name": "Budapest: Mandala Day Spa Entry & Luxury Pool Experience",
+      "locationId": 6952,
+      "locationName": "Mandala Day Spa",
+      "category": "Wellness",
+      "subcategory": "Spa",
+      "rating": 4.6,
+      "reviewCount": 29,
+      "bookedCount": 481,
+      "image": "assets/img/exp/41493.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 47.52028,
+      "lng": 19.05494,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 45.87,
+        "original": 45.87,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 30958,
+      "cityId": "budapest",
+      "popularityRank": 18,
+      "name": "Budapest Danube River Cruise in a Historic Paddle Steamer",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.8,
+      "reviewCount": 128,
+      "bookedCount": 2958,
+      "image": "assets/img/exp/30958.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 47.49232,
+      "lng": 19.05017,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 19.58,
+        "original": 39.16,
+        "discountPercent": 50,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 16354,
+      "cityId": "budapest",
+      "popularityRank": 19,
+      "name": "Combo (Save 8%): Hungarian Parliament Multilingual Audio Guided Tour + Széchenyi Spa Entry Tickets",
+      "locationId": 4973,
+      "locationName": "Széchenyi Baths",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.4,
+      "reviewCount": 13647,
+      "bookedCount": 252740,
+      "image": "assets/img/exp/16354.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 47.51866,
+      "lng": 19.08238,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 80.19,
+        "original": 87.16,
+        "discountPercent": 8,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 33769,
+      "cityId": "budapest",
+      "popularityRank": 20,
+      "name": "Budapest Danube River Dinner Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.2,
+      "reviewCount": 1914,
+      "bookedCount": 0,
+      "image": "assets/img/exp/33769.jpg",
+      "duration": null,
+      "features": [
+        "Meals included"
+      ],
+      "freeCancellation": false,
+      "lat": 47.49202,
+      "lng": 19.05048,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 86.15,
+        "original": 86.15,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

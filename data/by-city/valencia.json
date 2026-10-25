@@ -1,0 +1,782 @@
+{
+  "city": {
+    "id": "valencia",
+    "name": "Valencia",
+    "countryCode": "ES",
+    "country": "Spain",
+    "tagline": "",
+    "image": "assets/img/city/valencia.jpg",
+    "lat": 39.46975,
+    "lng": -0.37739,
+    "timeZone": "Europe/Madrid",
+    "priceFrom": 7.04,
+    "locationCount": 6,
+    "experienceCount": 20,
+    "rank": 26
+  },
+  "locations": [
+    {
+      "id": 2700,
+      "cityId": "valencia",
+      "name": "Oceanografic Valencia",
+      "description": "Oceanografic Valencia is a captivating marine wonderland nestled in Spain. Home to an array of mesmerizing aquatic life, it offers a remarkable opportunity to explore the world's oceans through immersive exhibits and interactive experiences.",
+      "image": "assets/img/loc/2700.jpg",
+      "experienceCount": 4,
+      "rating": 4.7,
+      "ratingCount": 19838,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 41.4,
+        "original": 41.4
+      },
+      "experienceIds": [
+        13670,
+        13671,
+        20573,
+        24763
+      ]
+    },
+    {
+      "id": 2811,
+      "cityId": "valencia",
+      "name": "Bioparc Valencia",
+      "description": "Experience the wonders of nature at Bioparc Valencia. Dive into diverse ecosystems and encounter a variety of animals in their naturalistic habitats. Browse our collection to enjoy skip-the-line entry, combo offers with other Valencia attractions.",
+      "image": "assets/img/loc/2811.jpg",
+      "experienceCount": 3,
+      "rating": 4.7,
+      "ratingCount": 11211,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 33.01,
+        "original": 33.01
+      },
+      "experienceIds": [
+        37228,
+        13976,
+        26934
+      ]
+    },
+    {
+      "id": 5328,
+      "cityId": "valencia",
+      "name": "Valencia Flamenco Show Tickets",
+      "description": "Leaf through this collection of Valencia Flamenco shows to discover an authentic experience, immersing in traditional Spanish dance and music. Explore the heart of the city and delve into the rich history and culture of Spain through vibrant performances!",
+      "image": "assets/img/loc/5328.jpg",
+      "experienceCount": 0,
+      "rating": 4.7,
+      "ratingCount": 108,
+      "popularityRank": 3,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 2701,
+      "cityId": "valencia",
+      "name": "Príncipe Felipe Science Museum Valencia",
+      "description": "Visit the Príncipe Felipe Science Museum in Valencia, part of the City of Arts and Sciences. With hands-on exhibits, immersive zones, and real-life experiments, this interactive museum brings science, technology, and nature to life for visitors of all ages. From the human body to space exploration, it’s a fun, educational experience for everyone.",
+      "image": "assets/img/loc/2701.jpg",
+      "experienceCount": 0,
+      "rating": 4.7,
+      "ratingCount": 8061,
+      "popularityRank": 4,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 3002,
+      "cityId": "valencia",
+      "name": "Terra Natura Benidorm",
+      "description": "Explore wildlife and conservation at Terra Natura Benidorm, Valencia. Encounter animals in natural habitats. Emphasis on education and conservation bridges humans and nature.",
+      "image": "assets/img/loc/3002.jpg",
+      "experienceCount": 1,
+      "rating": 5,
+      "ratingCount": 3,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 36.92,
+        "original": 36.92
+      },
+      "experienceIds": [
+        14516
+      ]
+    },
+    {
+      "id": 2793,
+      "cityId": "valencia",
+      "name": "San Nicholas Church Valencia",
+      "description": "Explore the spiritual heart of Valencia at San Nicholas Church. Admire stunning architecture and history. Enjoy skip-the-line, audio guides, and combo offers with entry to other landmarks.",
+      "image": "assets/img/loc/2793.jpg",
+      "experienceCount": 1,
+      "rating": 4.9,
+      "ratingCount": 98,
+      "popularityRank": 6,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 17.9,
+        "original": 17.9
+      },
+      "experienceIds": [
+        13940
+      ]
+    },
+    {
+      "id": 5561,
+      "cityId": "valencia",
+      "name": "City of Arts and Sciences",
+      "description": "Imagine a place where futuristic architecture meets arts and science to create pure magic! Dive into Europe's largest aquarium, explore your curiosity at the Science Museum, or catch a mesmerizing show at Hemisfèric. Choose your adventure!",
+      "image": "assets/img/loc/5561.jpg",
+      "experienceCount": 4,
+      "rating": 4.7,
+      "ratingCount": 19838,
+      "popularityRank": 7,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 9.96,
+        "original": 9.96
+      },
+      "experienceIds": [
+        20581,
+        20582,
+        13673,
+        13688
+      ]
+    },
+    {
+      "id": 5567,
+      "cityId": "valencia",
+      "name": "Hemisfèric",
+      "description": "Experience IMAX movies on a 900 square meter dome screen in Spain's largest theater, Hemisfèric. Situated within the City of Arts and Sciences complex, this eye-shaped cinema offers a massive domed planetarium and stargazing opportunities! Begin the AV journey immediately.",
+      "image": "assets/img/loc/5567.jpg",
+      "experienceCount": 0,
+      "rating": 4.6,
+      "ratingCount": 2667,
+      "popularityRank": 8,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 7062,
+      "cityId": "valencia",
+      "name": "Aquopolis Cullera Tickets",
+      "description": "Aquopolis Cullera is a seasonal water park south of Valencia near the Cullera beach resort, featuring wave pools, slides, and dedicated children's zones. Find day tickets, children's passes, and family bundle options here.",
+      "image": "assets/img/loc/7062.jpg",
+      "experienceCount": 2,
+      "rating": 4.7,
+      "ratingCount": 9656,
+      "popularityRank": 9,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 70.99,
+        "original": 70.99
+      },
+      "experienceIds": [
+        43476,
+        43479
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": 13670,
+      "cityId": "valencia",
+      "popularityRank": 1,
+      "name": "Oceanogràfic Tickets",
+      "locationId": 2700,
+      "locationName": "Oceanografic Valencia",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.7,
+      "reviewCount": 14621,
+      "bookedCount": 208635,
+      "image": "assets/img/exp/13670.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 39.45272,
+      "lng": -0.34807,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 41.4,
+        "original": 41.4,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13671,
+      "cityId": "valencia",
+      "popularityRank": 2,
+      "name": "Combo: Oceanogràfic + Science Museum Tickets",
+      "locationId": 2700,
+      "locationName": "Oceanografic Valencia",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.7,
+      "reviewCount": 5742,
+      "bookedCount": 101365,
+      "image": "assets/img/exp/13671.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 39.47383,
+      "lng": -0.37563,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 43.53,
+        "original": 43.53,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 37228,
+      "cityId": "valencia",
+      "popularityRank": 3,
+      "name": "Combo (Save 5%): Bioparc Valencia Tickets + Oceanographic Tickets",
+      "locationId": 2811,
+      "locationName": "Bioparc Valencia",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.7,
+      "reviewCount": 9588,
+      "bookedCount": 202845,
+      "image": "assets/img/exp/37228.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 39.48401,
+      "lng": -0.75328,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 70.68,
+        "original": 74.41,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13976,
+      "cityId": "valencia",
+      "popularityRank": 4,
+      "name": "Bioparc Valencia Tickets",
+      "locationId": 2811,
+      "locationName": "Bioparc Valencia",
+      "category": null,
+      "subcategory": null,
+      "rating": 4.8,
+      "reviewCount": 2538,
+      "bookedCount": 39633,
+      "image": "assets/img/exp/13976.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 39.47803,
+      "lng": -0.40761,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.01,
+        "original": 33.01,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 21458,
+      "cityId": "valencia",
+      "popularityRank": 5,
+      "name": "Valencia Bus Turistic: Valencia Hop-On Hop-Off Bus Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Valencia",
+      "rating": 4.3,
+      "reviewCount": 1555,
+      "bookedCount": 34375,
+      "image": "assets/img/exp/21458.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 39.46991,
+      "lng": -0.37629,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 29.09,
+        "original": 29.09,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 20581,
+      "cityId": "valencia",
+      "popularityRank": 6,
+      "name": "Combo: Oceanogràfic + Science Museum + Hemisfèric Tickets",
+      "locationId": 5561,
+      "locationName": "City of Arts and Sciences",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 1829,
+      "bookedCount": 64302,
+      "image": "assets/img/exp/20581.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 39.46991,
+      "lng": -0.37629,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 50.97,
+        "original": 50.97,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 20573,
+      "cityId": "valencia",
+      "popularityRank": 7,
+      "name": "Combo: Oceanogràfic + Hemisfèric Tickets",
+      "locationId": 2700,
+      "locationName": "Oceanografic Valencia",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 566,
+      "bookedCount": 22935,
+      "image": "assets/img/exp/20573.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Extended validity"
+      ],
+      "freeCancellation": false,
+      "lat": 39.46991,
+      "lng": -0.37629,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 43.19,
+        "original": 43.19,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 20582,
+      "cityId": "valencia",
+      "popularityRank": 8,
+      "name": "Combo: Hemisfèric + Science Museum Tickets",
+      "locationId": 5561,
+      "locationName": "City of Arts and Sciences",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.5,
+      "reviewCount": 219,
+      "bookedCount": 12905,
+      "image": "assets/img/exp/20582.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 39.46991,
+      "lng": -0.37629,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 15.78,
+        "original": 15.78,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13673,
+      "cityId": "valencia",
+      "popularityRank": 9,
+      "name": "Valencia Science Museum Tickets",
+      "locationId": 5561,
+      "locationName": "City of Arts and Sciences",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.6,
+      "reviewCount": 218,
+      "bookedCount": 7855,
+      "image": "assets/img/exp/13673.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 39.45488,
+      "lng": -0.35049,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 11.08,
+        "original": 11.08,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24763,
+      "cityId": "valencia",
+      "popularityRank": 10,
+      "name": "Combo (Save 10%): Oceanogràfic Tickets + Valencia Hop-on Hop-off Bus Tour",
+      "locationId": 2700,
+      "locationName": "Oceanografic Valencia",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 8605,
+      "bookedCount": 197587,
+      "image": "assets/img/exp/24763.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 39.46991,
+      "lng": -0.37629,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 63.44,
+        "original": 70.49,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 25900,
+      "cityId": "valencia",
+      "popularityRank": 11,
+      "name": "El Toro y la Luna - Flamenco Show",
+      "locationId": null,
+      "locationName": null,
+      "category": "Entertainment",
+      "subcategory": "Flamenco Shows",
+      "rating": 4.7,
+      "reviewCount": 108,
+      "bookedCount": 1266,
+      "image": "assets/img/exp/25900.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included"
+      ],
+      "freeCancellation": true,
+      "lat": 39.47195,
+      "lng": -0.33795,
+      "isCombo": false,
+      "summary": "Experience the magic of traditional Flamenco at El Toro y La Luna, complete with an optional gourmet dinner. Theater name: Tablao Flamenco El Toro y La Luna",
+      "price": {
+        "currency": "USD",
+        "from": 22.38,
+        "original": 22.38,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13940,
+      "cityId": "valencia",
+      "popularityRank": 12,
+      "name": "San Nicolas Church: Admission Ticket",
+      "locationId": 2793,
+      "locationName": "San Nicholas Church Valencia",
+      "category": "Tickets",
+      "subcategory": "Religious Sites",
+      "rating": 4.9,
+      "reviewCount": 98,
+      "bookedCount": 1426,
+      "image": "assets/img/exp/13940.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 39.47647,
+      "lng": -0.37869,
+      "isCombo": false,
+      "summary": "Tucked nicely into the city streets, 'Valencia's Sistine Chapel,' the church of San Nicolas, is an absolute must-visit!",
+      "price": {
+        "currency": "USD",
+        "from": 17.9,
+        "original": 17.9,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 26934,
+      "cityId": "valencia",
+      "popularityRank": 13,
+      "name": "Combo: Bioparc Valencia Tickets + Valencia Hop-On Hop-Off Bus Tour",
+      "locationId": 2811,
+      "locationName": "Bioparc Valencia",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 4093,
+      "bookedCount": 74008,
+      "image": "assets/img/exp/26934.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 39.48401,
+      "lng": -0.75328,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 62.1,
+        "original": 62.1,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13688,
+      "cityId": "valencia",
+      "popularityRank": 14,
+      "name": "Hemisfèric Tickets",
+      "locationId": 5561,
+      "locationName": "City of Arts and Sciences",
+      "category": "Entertainment",
+      "subcategory": "Cinema",
+      "rating": 3.8,
+      "reviewCount": 53,
+      "bookedCount": 2444,
+      "image": "assets/img/exp/13688.jpg",
+      "duration": null,
+      "features": [
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 39.45683,
+      "lng": -0.35487,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 9.96,
+        "original": 9.96,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14516,
+      "cityId": "valencia",
+      "popularityRank": 15,
+      "name": "Fast Track Access to Terra Natura Benidorm",
+      "locationId": 3002,
+      "locationName": "Terra Natura Benidorm",
+      "category": "Tickets",
+      "subcategory": "Zoos",
+      "rating": 5,
+      "reviewCount": 3,
+      "bookedCount": 109,
+      "image": "assets/img/exp/14516.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 38.54106,
+      "lng": -0.12249,
+      "isCombo": false,
+      "summary": "Journey across three continents all in one ticket with this fast-track access to Terra Natura in Benidorm and explore wildlife and more from America, Europe, Asia as well as the Pangea supercontinent.",
+      "price": {
+        "currency": "USD",
+        "from": 36.92,
+        "original": 36.92,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 22129,
+      "cityId": "valencia",
+      "popularityRank": 16,
+      "name": "2-Hour Guided Tour of Valencia on Tuk Tuk",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.9,
+      "reviewCount": 16,
+      "bookedCount": 251,
+      "image": "assets/img/exp/22129.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 39.46711,
+      "lng": -0.37748,
+      "isCombo": false,
+      "summary": "Zip through the charming streets of Valencia on a 2-hour tour. Hop on the tuk tuk and explore the city’s historic spots with a local guide-driver.",
+      "price": {
+        "currency": "USD",
+        "from": 44.76,
+        "original": 44.76,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 57666,
+      "cityId": "valencia",
+      "popularityRank": 17,
+      "name": "Valencia Holy Grail Research: Self-Guided City Exploration Game",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Walking Tours",
+      "rating": null,
+      "reviewCount": 0,
+      "bookedCount": 0,
+      "image": "assets/img/exp/57666.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 39.47936,
+      "lng": -0.37596,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 7.04,
+        "original": 7.82,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 43476,
+      "cityId": "valencia",
+      "popularityRank": 18,
+      "name": "Combo: Oceanogràfic + Aquopolis Cullera Tickets",
+      "locationId": 7062,
+      "locationName": "Aquopolis Cullera Tickets",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.7,
+      "reviewCount": 7118,
+      "bookedCount": 163452,
+      "image": "assets/img/exp/43476.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 39.45272,
+      "lng": -0.34807,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 79.39,
+        "original": 79.39,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 43479,
+      "cityId": "valencia",
+      "popularityRank": 19,
+      "name": "Combo:  Bioparc + Aquopolis Cullera Tickets",
+      "locationId": 7062,
+      "locationName": "Aquopolis Cullera Tickets",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.8,
+      "reviewCount": 2606,
+      "bookedCount": 39873,
+      "image": "assets/img/exp/43479.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 39.47803,
+      "lng": -0.40761,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 70.99,
+        "original": 70.99,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 51352,
+      "cityId": "valencia",
+      "popularityRank": 20,
+      "name": "From Valencia: Terra Mítica Entry Ticket with Transfer",
+      "locationId": 4517,
+      "locationName": "Terra Mitica",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": null,
+      "reviewCount": 0,
+      "bookedCount": 0,
+      "image": "assets/img/exp/51352.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 39.46975,
+      "lng": -0.37739,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 95.11,
+        "original": 95.11,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

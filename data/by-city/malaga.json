@@ -1,0 +1,794 @@
+{
+  "city": {
+    "id": "malaga",
+    "name": "Malaga",
+    "countryCode": "ES",
+    "country": "Spain",
+    "tagline": "",
+    "image": "assets/img/city/malaga.jpg",
+    "lat": 36.72016,
+    "lng": -4.42034,
+    "timeZone": "Europe/Madrid",
+    "priceFrom": 4.48,
+    "locationCount": 6,
+    "experienceCount": 20,
+    "rank": 39
+  },
+  "locations": [
+    {
+      "id": 2564,
+      "cityId": "malaga",
+      "name": "Picasso Museum Malaga",
+      "description": "Discover the artistic legacy of Pablo Picasso in his birthplace, Malaga, with our tickets to the Picasso Museum Malaga. Explore a vast collection of his remarkable works, and for a deeper insight, opt for our guided tour. You can also save with our combo offers.",
+      "image": "assets/img/loc/2564.jpg",
+      "experienceCount": 4,
+      "rating": 4.6,
+      "ratingCount": 2327,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 4.48,
+        "original": 4.48
+      },
+      "experienceIds": [
+        13129,
+        30663,
+        13124,
+        24039
+      ]
+    },
+    {
+      "id": 2562,
+      "cityId": "malaga",
+      "name": "Centre Pompidou",
+      "description": "Explore the captivating world of contemporary art at the Centre Pompidou Málaga with our skip-the-line tickets, granting you easy access to a vast collection of modern masterpieces, including both permanent collections and exciting temporary exhibitions.",
+      "image": "assets/img/loc/2562.jpg",
+      "experienceCount": 1,
+      "rating": 4.1,
+      "ratingCount": 124,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 10.07,
+        "original": 10.07
+      },
+      "experienceIds": [
+        13127
+      ]
+    },
+    {
+      "id": 5157,
+      "cityId": "malaga",
+      "name": "Malaga Flamenco Show Tickets",
+      "description": "See traditional dancing, hear beautiful singing, and listen to the strum of the guitar in an Alegría Flamenco & Gastronomia show. Watch the dancers perform a short scene before the singer and guitarist join them on stage. As you watch, relax with drinks and traditional tapas.",
+      "image": "assets/img/loc/5157.jpg",
+      "experienceCount": 0,
+      "rating": 4.6,
+      "ratingCount": 2098,
+      "popularityRank": 3,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 2565,
+      "cityId": "malaga",
+      "name": "Malaga Russian Museum",
+      "description": "Immerse yourself in Russian art and culture at the Malaga Russian Museum with our skip-the-line tickets. Explore centuries of artistic achievements with ease, and enjoy flexible durations for your visit.",
+      "image": "assets/img/loc/2565.jpg",
+      "experienceCount": 0,
+      "rating": 4.1,
+      "ratingCount": 30,
+      "popularityRank": 4,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 3606,
+      "cityId": "malaga",
+      "name": "Benalmadena Cable Car Tickets",
+      "description": "Soar high with Benalmadena Cable Car Tickets, ascending Mount Calamorro for breathtaking panoramic views of the Costa del Sol's sparkling coastline and dramatic landscapes. Enjoy a journey above the azure Mediterranean waters and the picturesque towns below.",
+      "image": "assets/img/loc/3606.jpg",
+      "experienceCount": 3,
+      "rating": 4.3,
+      "ratingCount": 3431,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 18.91,
+        "original": 18.91
+      },
+      "experienceIds": [
+        14064,
+        14541,
+        49716
+      ]
+    },
+    {
+      "id": 3607,
+      "cityId": "malaga",
+      "name": "Alcazaba & Roman Theater",
+      "description": "Explore the rich history of Malaga with Alcazaba & Roman Theater Tickets. Wander through the ancient Alcazaba fortress, known for its stunning Moorish architecture, and discover the well-preserved Roman Theater, offering a glimpse into the city's past.",
+      "image": "assets/img/loc/3607.jpg",
+      "experienceCount": 1,
+      "rating": 4.3,
+      "ratingCount": 3431,
+      "popularityRank": 6,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 26.85,
+        "original": 26.85
+      },
+      "experienceIds": [
+        49716
+      ]
+    },
+    {
+      "id": 3160,
+      "cityId": "malaga",
+      "name": "Crocodile Park",
+      "description": "Experience the thrill of coming face-to-face with some of the world's most powerful reptiles with your Crocodile Park tickets in Malaga. Dive into a world of fascinating creatures, learn about their habitats, and witness these ancient predators up close.",
+      "image": "assets/img/loc/3160.jpg",
+      "experienceCount": 1,
+      "rating": 3.8,
+      "ratingCount": 13,
+      "popularityRank": 7,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 20.7,
+        "original": 20.7
+      },
+      "experienceIds": [
+        14747
+      ]
+    },
+    {
+      "id": 3020,
+      "cityId": "malaga",
+      "name": "Selwo Aventura",
+      "description": "Go on a wildlife adventure with these tickets to Selwo Aventura Zoo in Spain.",
+      "image": "assets/img/loc/3020.jpg",
+      "experienceCount": 0,
+      "rating": 4,
+      "ratingCount": 1,
+      "popularityRank": 8,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 3021,
+      "cityId": "malaga",
+      "name": "Selwo Marina",
+      "description": "Here is your chance to visit Andalusia's only marine park that has a bunch of different activities like going on a cable car ride and an interactive encounter with exotic animals.",
+      "image": "assets/img/loc/3021.jpg",
+      "experienceCount": 1,
+      "rating": 4.1,
+      "ratingCount": 29,
+      "popularityRank": 9,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 27.86,
+        "original": 27.86
+      },
+      "experienceIds": [
+        14541
+      ]
+    },
+    {
+      "id": 4959,
+      "cityId": "malaga",
+      "name": "Malaga to Granada Tours",
+      "description": "Explore the Alhambra Palace's enchanting history and the charm of Granada with a full-day guided tour from Malaga. Enjoy seamless travel with included transfers.",
+      "image": "assets/img/loc/4959.jpg",
+      "experienceCount": 0,
+      "rating": 4.6,
+      "ratingCount": 7,
+      "popularityRank": 10,
+      "startingPrice": null,
+      "experienceIds": []
+    }
+  ],
+  "experiences": [
+    {
+      "id": 13129,
+      "cityId": "malaga",
+      "popularityRank": 1,
+      "name": "Picasso Museum Malaga Tickets",
+      "locationId": 2564,
+      "locationName": "Picasso Museum Malaga",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.6,
+      "reviewCount": 2076,
+      "bookedCount": 45105,
+      "image": "assets/img/exp/13129.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 36.72174,
+      "lng": -4.41843,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 14.55,
+        "original": 14.55,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 30284,
+      "cityId": "malaga",
+      "popularityRank": 2,
+      "name": "Bioparc Fuengirola Tickets",
+      "locationId": 5749,
+      "locationName": "Bioparc Fuengirola",
+      "category": "Tickets",
+      "subcategory": "Zoos",
+      "rating": 4.8,
+      "reviewCount": 49,
+      "bookedCount": 1778,
+      "image": "assets/img/exp/30284.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 36.53684,
+      "lng": -4.62776,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.01,
+        "original": 33.01,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 30663,
+      "cityId": "malaga",
+      "popularityRank": 3,
+      "name": "Combo: Picasso Museum Malaga + Picasso's Birthplace Museum Tickets",
+      "locationId": 2564,
+      "locationName": "Picasso Museum Malaga",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.6,
+      "reviewCount": 2187,
+      "bookedCount": 44533,
+      "image": "assets/img/exp/30663.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 36.71783,
+      "lng": -4.42556,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 19.02,
+        "original": 19.02,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13124,
+      "cityId": "malaga",
+      "popularityRank": 4,
+      "name": "Picasso's Birthplace Museum Tickets",
+      "locationId": 2564,
+      "locationName": "Picasso Museum Malaga",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.6,
+      "reviewCount": 166,
+      "bookedCount": 1375,
+      "image": "assets/img/exp/13124.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 36.72404,
+      "lng": -4.41757,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 4.48,
+        "original": 4.48,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14064,
+      "cityId": "malaga",
+      "popularityRank": 5,
+      "name": "Benalmadena Cable Car Tickets",
+      "locationId": 3606,
+      "locationName": "Benalmadena Cable Car Tickets",
+      "category": "Aerial Sightseeing",
+      "subcategory": "Cable Car Tours",
+      "rating": 3.7,
+      "reviewCount": 524,
+      "bookedCount": 1596,
+      "image": "assets/img/exp/14064.jpg",
+      "duration": null,
+      "features": [],
+      "freeCancellation": false,
+      "lat": 36.5807,
+      "lng": -4.58824,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 18.91,
+        "original": 18.91,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15914,
+      "cityId": "malaga",
+      "popularityRank": 6,
+      "name": "City Sightseeing: Malaga Hop-on Hop-off Bus Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Malaga",
+      "rating": 4.3,
+      "reviewCount": 877,
+      "bookedCount": 4495,
+      "image": "assets/img/exp/15914.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 36.72118,
+      "lng": -4.42172,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.56,
+        "original": 33.56,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 26628,
+      "cityId": "malaga",
+      "popularityRank": 7,
+      "name": "Teatro Flamenco Málaga: Vive la Experiencia del Flamenco",
+      "locationId": null,
+      "locationName": null,
+      "category": "Entertainment",
+      "subcategory": "Flamenco Shows",
+      "rating": 4.8,
+      "reviewCount": 52,
+      "bookedCount": 570,
+      "image": "assets/img/exp/26628.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 36.72245,
+      "lng": -4.42128,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 35.8,
+        "original": 35.8,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 43010,
+      "cityId": "malaga",
+      "popularityRank": 8,
+      "name": "Aqualand Torremolinos 1-Day Entry Ticket",
+      "locationId": 7055,
+      "locationName": "Aqualand Torremolinos Tickets",
+      "category": "Tickets",
+      "subcategory": "Water Parks",
+      "rating": 4.5,
+      "reviewCount": 62,
+      "bookedCount": 2507,
+      "image": "assets/img/exp/43010.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 36.62597,
+      "lng": -4.50818,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 43.64,
+        "original": 43.64,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24039,
+      "cityId": "malaga",
+      "popularityRank": 9,
+      "name": "Picasso Museum Malaga Guided Tour",
+      "locationId": 2564,
+      "locationName": "Picasso Museum Malaga",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 5,
+      "reviewCount": 33,
+      "bookedCount": 219,
+      "image": "assets/img/exp/24039.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 36.72174,
+      "lng": -4.41843,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 29.09,
+        "original": 29.09,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13127,
+      "cityId": "malaga",
+      "popularityRank": 10,
+      "name": "Skip-the-Line Tickets to Centre Pompidou Málaga",
+      "locationId": 2562,
+      "locationName": "Centre Pompidou",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.1,
+      "reviewCount": 111,
+      "bookedCount": 1096,
+      "image": "assets/img/exp/13127.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 36.71869,
+      "lng": -4.41275,
+      "isCombo": false,
+      "summary": "Enter the Centre Pompidou, also known as El Cubo, a colorful cuboid on Málaga's waterfront. Explore modern and contemporary art inside at your own pace!",
+      "price": {
+        "currency": "USD",
+        "from": 10.07,
+        "original": 10.07,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 42061,
+      "cityId": "malaga",
+      "popularityRank": 11,
+      "name": "Combo (Save 5%): Picasso Museum Malaga + Teatro Flamenco Essence Flamenco Show Tickets",
+      "locationId": null,
+      "locationName": null,
+      "category": "Entertainment",
+      "subcategory": "Flamenco Shows",
+      "rating": 4.6,
+      "reviewCount": 2076,
+      "bookedCount": 43783,
+      "image": "assets/img/exp/42061.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 36.72174,
+      "lng": -4.41843,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 47.83,
+        "original": 50.35,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 23972,
+      "cityId": "malaga",
+      "popularityRank": 12,
+      "name": "Guided Tour of Setenil de las Bodegas and Ronda",
+      "locationId": 5027,
+      "locationName": "Málaga to Ronda Day Tours",
+      "category": "Tours",
+      "subcategory": "Day Trips",
+      "rating": 4.7,
+      "reviewCount": 26,
+      "bookedCount": 177,
+      "image": "assets/img/exp/23972.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Transfers available",
+        "Guided tour",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 36.7181,
+      "lng": -4.42681,
+      "isCombo": false,
+      "summary": "Unearth the charm of Andalusia with a captivating day-long guided tour featuring the unique Setenil de las Bodegas and the historic city of Ronda.",
+      "price": {
+        "currency": "USD",
+        "from": 66.01,
+        "original": 66.01,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 50357,
+      "cityId": "malaga",
+      "popularityRank": 13,
+      "name": "Gibralfaro Castle Tickets",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": null,
+      "reviewCount": 0,
+      "bookedCount": 0,
+      "image": "assets/img/exp/50357.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 36.72016,
+      "lng": -4.42034,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 19.02,
+        "original": 19.02,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 23987,
+      "cityId": "malaga",
+      "popularityRank": 14,
+      "name": "Málaga Cathedral and Surrondings Guided Walking Tour",
+      "locationId": 4977,
+      "locationName": "Málaga Cathedral",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 3.2,
+      "reviewCount": 9,
+      "bookedCount": 0,
+      "image": "assets/img/exp/23987.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 36.72112,
+      "lng": -4.41723,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 26.85,
+        "original": 26.85,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14541,
+      "cityId": "malaga",
+      "popularityRank": 15,
+      "name": "Combo: Selwo Marina + Benalmádena Cable Car",
+      "locationId": 3606,
+      "locationName": "Benalmadena Cable Car Tickets",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.2,
+      "reviewCount": 23,
+      "bookedCount": 557,
+      "image": "assets/img/exp/14541.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 36.59238,
+      "lng": -4.53222,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 27.86,
+        "original": 27.86,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 49629,
+      "cityId": "malaga",
+      "popularityRank": 16,
+      "name": "Historic Málaga Walking Tour",
+      "locationId": 4977,
+      "locationName": "Málaga Cathedral",
+      "category": "Tours",
+      "subcategory": "Walking Tours",
+      "rating": 3,
+      "reviewCount": 1,
+      "bookedCount": 0,
+      "image": "assets/img/exp/49629.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 36.72016,
+      "lng": -4.42034,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 21.26,
+        "original": 22.38,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 52343,
+      "cityId": "malaga",
+      "popularityRank": 17,
+      "name": "From Málaga: Caves of Nerja, Nerja & Frigiliana Day Tour",
+      "locationId": 7377,
+      "locationName": "Caves Of Nerja",
+      "category": "Tours",
+      "subcategory": "Day Trips",
+      "rating": null,
+      "reviewCount": 0,
+      "bookedCount": 0,
+      "image": "assets/img/exp/52343.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Transfers available",
+        "Audio guide",
+        "Pickup available"
+      ],
+      "freeCancellation": true,
+      "lat": 36.71807,
+      "lng": -4.42685,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 77.2,
+        "original": 77.2,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 14747,
+      "cityId": "malaga",
+      "popularityRank": 18,
+      "name": "Skip-the-Line Tickets to Crocodile Park",
+      "locationId": 3160,
+      "locationName": "Crocodile Park",
+      "category": "Tickets",
+      "subcategory": "Zoos",
+      "rating": 3.8,
+      "reviewCount": 13,
+      "bookedCount": 305,
+      "image": "assets/img/exp/14747.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 36.62439,
+      "lng": -4.50899,
+      "isCombo": false,
+      "summary": "Set out on a day of adventure and learning at Crocodile Park, and see more than 200 crocodiles of different species from around the world!",
+      "price": {
+        "currency": "USD",
+        "from": 20.7,
+        "original": 20.7,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 52690,
+      "cityId": "malaga",
+      "popularityRank": 19,
+      "name": "Málaga Wine Tasting with 5 Spanish Wines and Tapas Pairings",
+      "locationId": null,
+      "locationName": null,
+      "category": "Food & Drink",
+      "subcategory": "Wineries",
+      "rating": null,
+      "reviewCount": 0,
+      "bookedCount": 0,
+      "image": "assets/img/exp/52690.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 36.72016,
+      "lng": -4.42034,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 36.92,
+        "original": 36.92,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 49716,
+      "cityId": "malaga",
+      "popularityRank": 20,
+      "name": "Málaga Alcazaba & Roman Theatre Guided Tour",
+      "locationId": 3606,
+      "locationName": "Benalmadena Cable Car Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 5,
+      "reviewCount": 1,
+      "bookedCount": 0,
+      "image": "assets/img/exp/49716.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 36.72016,
+      "lng": -4.42034,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 26.85,
+        "original": 33.57,
+        "discountPercent": 20,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

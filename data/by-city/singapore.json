@@ -1,0 +1,803 @@
+{
+  "city": {
+    "id": "singapore",
+    "name": "Singapore",
+    "countryCode": "SG",
+    "country": "Singapore",
+    "tagline": "",
+    "image": "assets/img/city/singapore.jpg",
+    "lat": 1.3521,
+    "lng": 103.8198,
+    "timeZone": "Asia/Singapore",
+    "priceFrom": 5.7,
+    "locationCount": 8,
+    "experienceCount": 20,
+    "rank": 13
+  },
+  "locations": [
+    {
+      "id": 3715,
+      "cityId": "singapore",
+      "name": "Mandai Wildlife Reserve",
+      "description": "Explore Mandai Wildlife Reserve, Singapore’s unique integrated nature and wildlife destination. Discover 5 iconic wildlife parks and 2 indoor attractions, including Singapore Zoo, Night Safari, Exploria and more.",
+      "image": "assets/img/loc/3715.jpg",
+      "experienceCount": 1,
+      "rating": 4.7,
+      "ratingCount": 14001,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 68.75,
+        "original": 68.75
+      },
+      "experienceIds": [
+        7616
+      ]
+    },
+    {
+      "id": 1173,
+      "cityId": "singapore",
+      "name": "Gardens by the Bay",
+      "description": "Futuristic gardens with towering Supertrees, a vast glass greenhouse, and stunning floral displays.",
+      "image": "assets/img/loc/1173.jpg",
+      "experienceCount": 3,
+      "rating": 4.7,
+      "ratingCount": 44001,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 33.86,
+        "original": 33.86
+      },
+      "experienceIds": [
+        13843,
+        20717,
+        17237
+      ]
+    },
+    {
+      "id": 517,
+      "cityId": "singapore",
+      "name": "Universal Studios Singapore",
+      "description": "Southeast Asia’s top Hollywood theme park with thrilling rides & blockbuster-inspired adventures.",
+      "image": "assets/img/loc/517.jpg",
+      "experienceCount": 4,
+      "rating": 4.7,
+      "ratingCount": 52911,
+      "popularityRank": 3,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 56.67,
+        "original": 56.67
+      },
+      "experienceIds": [
+        7442,
+        21213,
+        37400,
+        18233
+      ]
+    },
+    {
+      "id": 522,
+      "cityId": "singapore",
+      "name": "Night Safari Singapore",
+      "description": "World’s first nocturnal zoo, offering moonlit safaris and tropical wildlife adventures.",
+      "image": "assets/img/loc/522.jpg",
+      "experienceCount": 3,
+      "rating": 4.7,
+      "ratingCount": 11680,
+      "popularityRank": 4,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 45.32,
+        "original": 45.32
+      },
+      "experienceIds": [
+        7366,
+        39925,
+        7616
+      ]
+    },
+    {
+      "id": 1496,
+      "cityId": "singapore",
+      "name": "Wings of Time Show Tickets",
+      "description": "Take in the cool sea breeze as you enjoy the multi-sensory storytelling of friendship and courage on the shores of Siloso Beach, Sentosa. Wings of Time light show is a great way to end your Sentosa Island exploration. Browse through the Wings of Time ticket options and more below!",
+      "image": "assets/img/loc/1496.jpg",
+      "experienceCount": 1,
+      "rating": 4.7,
+      "ratingCount": 22188,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 15.63,
+        "original": 15.63
+      },
+      "experienceIds": [
+        7365
+      ]
+    },
+    {
+      "id": 4461,
+      "cityId": "singapore",
+      "name": "Plaza Premium Lounge Singapore",
+      "description": "Relax and refresh during your layover in the comfort of a premium lounge at Changi Airport and access abundant amenities like dining options, free Wi-Fi, comfortable lounge bays, and more.",
+      "image": "assets/img/loc/4461.jpg",
+      "experienceCount": 1,
+      "rating": 4.7,
+      "ratingCount": 4234,
+      "popularityRank": 6,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 36.72,
+        "original": 36.72
+      },
+      "experienceIds": [
+        22560
+      ]
+    },
+    {
+      "id": 5940,
+      "cityId": "singapore",
+      "name": "Disney Adventure Cruise Singapore",
+      "description": "Experience the magic of Disney at sea with cruises departing from Singapore. Enjoy unforgettable shows, character meet-and-greets, themed dining, and family fun on board the Disney Adventure.",
+      "image": "assets/img/loc/5940.jpg",
+      "experienceCount": 0,
+      "rating": 5,
+      "ratingCount": 2,
+      "popularityRank": 7,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 521,
+      "cityId": "singapore",
+      "name": "Singapore Zoo",
+      "description": "Iconic open-concept zoo with immersive habitats & encounters with wildlife from around the world.",
+      "image": "assets/img/loc/521.jpg",
+      "experienceCount": 1,
+      "rating": 4.7,
+      "ratingCount": 11204,
+      "popularityRank": 8,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 38.28,
+        "original": 38.28
+      },
+      "experienceIds": [
+        7360
+      ]
+    },
+    {
+      "id": 525,
+      "cityId": "singapore",
+      "name": "Bird Paradise Singapore",
+      "description": "Asia’s largest bird park with 3,500+ birds thriving in rainforests, wetlands, and vibrant habitats.",
+      "image": "assets/img/loc/525.jpg",
+      "experienceCount": 0,
+      "rating": 4.7,
+      "ratingCount": 15726,
+      "popularityRank": 9,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 518,
+      "cityId": "singapore",
+      "name": "Singapore Oceanarium",
+      "description": "Explore 100,000 marine animals from 1,000+ species in immersive exhibits and up-close encounters.",
+      "image": "assets/img/loc/518.jpg",
+      "experienceCount": 1,
+      "rating": 4.8,
+      "ratingCount": 33777,
+      "popularityRank": 10,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 37.5,
+        "original": 37.5
+      },
+      "experienceIds": [
+        7443
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": 7442,
+      "cityId": "singapore",
+      "popularityRank": 1,
+      "name": "Universal Studios Singapore Admission Tickets with Minion Land Entry",
+      "locationId": 517,
+      "locationName": "Universal Studios Singapore",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.8,
+      "reviewCount": 10467,
+      "bookedCount": 186082,
+      "image": "assets/img/exp/7442.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Meals included",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 1.25404,
+      "lng": 103.82381,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 56.67,
+        "original": 56.67,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7366,
+      "cityId": "singapore",
+      "popularityRank": 2,
+      "name": "Night Safari Tickets with Tram Ride",
+      "locationId": 522,
+      "locationName": "Night Safari Singapore",
+      "category": "Tickets",
+      "subcategory": "Zoos",
+      "rating": 4.5,
+      "reviewCount": 1896,
+      "bookedCount": 124411,
+      "image": "assets/img/exp/7366.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 1.40461,
+      "lng": 103.79063,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 45.32,
+        "original": 45.32,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13843,
+      "cityId": "singapore",
+      "popularityRank": 3,
+      "name": "Gardens by the Bay Tickets: Cloud Forest ft. Jurassic World Experience + Flower Dome",
+      "locationId": 1173,
+      "locationName": "Gardens by the Bay",
+      "category": "Tickets",
+      "subcategory": "Parks",
+      "rating": 4.7,
+      "reviewCount": 3741,
+      "bookedCount": 63498,
+      "image": "assets/img/exp/13843.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 1.28157,
+      "lng": 103.86362,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.86,
+        "original": 33.86,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 37003,
+      "cityId": "singapore",
+      "popularityRank": 4,
+      "name": "Terminal 3: Ambassador Transit Lounge at Singapore Changi Airport",
+      "locationId": 6471,
+      "locationName": "Airport Lounges Singapore",
+      "category": "Travel Services",
+      "subcategory": "Airport Lounges",
+      "rating": 4,
+      "reviewCount": 608,
+      "bookedCount": 7414,
+      "image": "assets/img/exp/37003.jpg",
+      "duration": null,
+      "features": [
+        "Meals included"
+      ],
+      "freeCancellation": false,
+      "lat": 1.358,
+      "lng": 103.98647,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 39.06,
+        "original": 39.06,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13614,
+      "cityId": "singapore",
+      "popularityRank": 5,
+      "name": "Jewel Changi Canopy Park Tickets with Nets",
+      "locationId": 2695,
+      "locationName": "Jewel Changi Airport Attraction Tickets",
+      "category": "Tickets",
+      "subcategory": "Parks",
+      "rating": 4.1,
+      "reviewCount": 1226,
+      "bookedCount": 14243,
+      "image": "assets/img/exp/13614.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 1.34724,
+      "lng": 103.98418,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 5.7,
+        "original": 5.7,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 20717,
+      "cityId": "singapore",
+      "popularityRank": 6,
+      "name": "Gardens by the Bay Tickets: Cloud Forest ft. Jurassic World Experience +  Flower Dome + Supertree Observatory (Entry Before 12PM/4PM)",
+      "locationId": 1173,
+      "locationName": "Gardens by the Bay",
+      "category": "Tickets",
+      "subcategory": "Parks",
+      "rating": 4.7,
+      "reviewCount": 443,
+      "bookedCount": 47503,
+      "image": "assets/img/exp/20717.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Extended validity",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 1.28157,
+      "lng": 103.86361,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 43.75,
+        "original": 43.75,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7371,
+      "cityId": "singapore",
+      "popularityRank": 7,
+      "name": "Marina Bay Sands SkyPark Observation Deck Tickets",
+      "locationId": 1492,
+      "locationName": "Marina Bay Sands Skypark",
+      "category": "Tickets",
+      "subcategory": "Observation Decks",
+      "rating": 4.5,
+      "reviewCount": 1438,
+      "bookedCount": 106023,
+      "image": "assets/img/exp/7371.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 1.2852,
+      "lng": 103.86103,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 25.56,
+        "original": 25.56,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 10005,
+      "cityId": "singapore",
+      "popularityRank": 8,
+      "name": "Big Bus: Singapore Hop-on Hop-off Bus Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Singapore",
+      "rating": 4.3,
+      "reviewCount": 3067,
+      "bookedCount": 37996,
+      "image": "assets/img/exp/10005.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 1.35208,
+      "lng": 103.81984,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 52.35,
+        "original": 52.35,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7443,
+      "cityId": "singapore",
+      "popularityRank": 9,
+      "name": "Singapore Oceanarium Tickets",
+      "locationId": 518,
+      "locationName": "Singapore Oceanarium",
+      "category": "Tickets",
+      "subcategory": "Aquariums",
+      "rating": 4.7,
+      "reviewCount": 1698,
+      "bookedCount": 62739,
+      "image": "assets/img/exp/7443.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 1.25832,
+      "lng": 103.82051,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 37.5,
+        "original": 42.97,
+        "discountPercent": 13,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 21213,
+      "cityId": "singapore",
+      "popularityRank": 10,
+      "name": "Universal Studios Singapore Express Pass - save upto 4 hours!",
+      "locationId": 517,
+      "locationName": "Universal Studios Singapore",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.8,
+      "reviewCount": 14140,
+      "bookedCount": 21939,
+      "image": "assets/img/exp/21213.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Meals included",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 1.25404,
+      "lng": 103.82381,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 67.43,
+        "original": 67.43,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7365,
+      "cityId": "singapore",
+      "popularityRank": 11,
+      "name": "Wings of Time Fireworks Symphony Tickets",
+      "locationId": 1496,
+      "locationName": "Wings of Time Show Tickets",
+      "category": "Tickets",
+      "subcategory": "Immersive Experiences",
+      "rating": 4.9,
+      "reviewCount": 3300,
+      "bookedCount": 42335,
+      "image": "assets/img/exp/7365.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Meals included"
+      ],
+      "freeCancellation": false,
+      "lat": 1.25117,
+      "lng": 103.81696,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 15.63,
+        "original": 17.19,
+        "discountPercent": 9,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7360,
+      "cityId": "singapore",
+      "popularityRank": 12,
+      "name": "Singapore Zoo Tickets with Tram Ride",
+      "locationId": 521,
+      "locationName": "Singapore Zoo",
+      "category": "Tickets",
+      "subcategory": "Zoos",
+      "rating": 4.5,
+      "reviewCount": 897,
+      "bookedCount": 55720,
+      "image": "assets/img/exp/7360.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 1.40435,
+      "lng": 103.79302,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 38.28,
+        "original": 38.28,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 37400,
+      "cityId": "singapore",
+      "popularityRank": 13,
+      "name": "Universal Studios Singapore Tickets + Express Pass - Save upto 4 hrs!",
+      "locationId": 517,
+      "locationName": "Universal Studios Singapore",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.7,
+      "reviewCount": 6621,
+      "bookedCount": 0,
+      "image": "assets/img/exp/37400.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Meals included",
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 1.25404,
+      "lng": 103.82381,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 119.84,
+        "original": 119.84,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 22560,
+      "cityId": "singapore",
+      "popularityRank": 14,
+      "name": "Terminal 1: Plaza Premium Lounge at Singapore Changi Airport",
+      "locationId": 6471,
+      "locationName": "Airport Lounges Singapore",
+      "category": "Travel Services",
+      "subcategory": "Airport Lounges",
+      "rating": 4,
+      "reviewCount": 281,
+      "bookedCount": 3607,
+      "image": "assets/img/exp/22560.jpg",
+      "duration": null,
+      "features": [
+        "Extended validity",
+        "Meals included"
+      ],
+      "freeCancellation": false,
+      "lat": 1.36277,
+      "lng": 103.98913,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 36.72,
+        "original": 42.97,
+        "discountPercent": 15,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 39925,
+      "cityId": "singapore",
+      "popularityRank": 15,
+      "name": "Night Safari with Tram Ride + Creatures of the Night Tickets",
+      "locationId": 522,
+      "locationName": "Night Safari Singapore",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.4,
+      "reviewCount": 1771,
+      "bookedCount": 73436,
+      "image": "assets/img/exp/39925.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 1.40554,
+      "lng": 103.78857,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 49.73,
+        "original": 52.35,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 17237,
+      "cityId": "singapore",
+      "popularityRank": 16,
+      "name": "Combo (Save 5%): Marina Bay Sands SkyPark + Gardens by the Bay: Cloud Forest + Flower Dome Tickets",
+      "locationId": 1173,
+      "locationName": "Gardens by the Bay",
+      "category": "Specials",
+      "subcategory": "Combos",
+      "rating": 4.7,
+      "reviewCount": 11351,
+      "bookedCount": 102533,
+      "image": "assets/img/exp/17237.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 1.35208,
+      "lng": 103.81984,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 60.86,
+        "original": 64.07,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 18233,
+      "cityId": "singapore",
+      "popularityRank": 17,
+      "name": "Universal Studios Singapore - Halloween Horror Nights Tickets",
+      "locationId": 517,
+      "locationName": "Universal Studios Singapore",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.3,
+      "reviewCount": 22,
+      "bookedCount": 1687,
+      "image": "assets/img/exp/18233.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 1.25404,
+      "lng": 103.82381,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 61.14,
+        "original": 61.14,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 31246,
+      "cityId": "singapore",
+      "popularityRank": 18,
+      "name": "Global eSIM with Unlimited 5G/4G Data: Access to 120 Countries",
+      "locationId": null,
+      "locationName": null,
+      "category": "Travel Services",
+      "subcategory": "Wifi & SIM Cards",
+      "rating": 4.2,
+      "reviewCount": 292,
+      "bookedCount": 4525,
+      "image": "assets/img/exp/31246.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity"
+      ],
+      "freeCancellation": true,
+      "lat": 40.71278,
+      "lng": -74.00597,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 8.91,
+        "original": 9.9,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 13149,
+      "cityId": "singapore",
+      "popularityRank": 19,
+      "name": "Singapore Flyer Tickets",
+      "locationId": 1537,
+      "locationName": "Singapore Flyer",
+      "category": "Tickets",
+      "subcategory": "Observation Decks",
+      "rating": 4.7,
+      "reviewCount": 2950,
+      "bookedCount": 50100,
+      "image": "assets/img/exp/13149.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 1.28936,
+      "lng": 103.86301,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 35.94,
+        "original": 35.94,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7616,
+      "cityId": "singapore",
+      "popularityRank": 20,
+      "name": "Super-Saver: Mandai Wildlife Multi-Park Combo",
+      "locationId": 522,
+      "locationName": "Night Safari Singapore",
+      "category": "Tickets",
+      "subcategory": "Zoos",
+      "rating": 4.6,
+      "reviewCount": 607,
+      "bookedCount": 15754,
+      "image": "assets/img/exp/7616.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 1.35208,
+      "lng": 103.81984,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 68.75,
+        "original": 86.72,
+        "discountPercent": 21,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}
