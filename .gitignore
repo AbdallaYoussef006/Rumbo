@@ -1,0 +1,17 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Node (only if someone uses npx serve / tools)
+node_modules/
+
+# Local secrets — never commit real keys or passwords
+.env
+*.local.js
+
+# Exports and archives
+*.zip
