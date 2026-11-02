@@ -1,0 +1,768 @@
+{
+  "city": {
+    "id": "prague",
+    "name": "Prague",
+    "countryCode": "CZ",
+    "country": "Czech Republic",
+    "tagline": "",
+    "image": "assets/img/city/prague.jpg",
+    "lat": 50.08804,
+    "lng": 14.42076,
+    "timeZone": "Europe/Prague",
+    "priceFrom": 5.59,
+    "locationCount": 5,
+    "experienceCount": 19,
+    "rank": 36
+  },
+  "locations": [
+    {
+      "id": 1214,
+      "cityId": "prague",
+      "name": "Prague Castle",
+      "description": "Visit Prague Castle, a UNESCO World Heritage Site, and the largest palace in the world. Here, witness the grandeur of Vladislav Hall, Daliborka Tower, Old Royal Palace & more.",
+      "image": "assets/img/loc/1214.jpg",
+      "experienceCount": 4,
+      "rating": 4.4,
+      "ratingCount": 22954,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 5.59,
+        "original": 5.59
+      },
+      "experienceIds": [
+        8905,
+        8908,
+        15475,
+        31641
+      ]
+    },
+    {
+      "id": 3659,
+      "cityId": "prague",
+      "name": "Prague Astronomical Clock",
+      "description": "The 600-year-old Prague Astronomical Clock Tower is a striking Gothic masterpiece and a testament to medieval ingenuity. Opt for combo tickets to explore more of Prague’s iconic landmarks.",
+      "image": "assets/img/loc/3659.jpg",
+      "experienceCount": 1,
+      "rating": 4.4,
+      "ratingCount": 11471,
+      "popularityRank": 2,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 31.91,
+        "original": 31.91
+      },
+      "experienceIds": [
+        15767
+      ]
+    },
+    {
+      "id": 6145,
+      "cityId": "prague",
+      "name": "Prague Live Shows & Entertainment",
+      "description": "Catch a black light theatre show, hear Mozart in historic concert halls, or laugh through edgy Czech stand-up. Prague’s live entertainment blends classical roots with theatrics—think puppetry, jazz cellars, street performances in Old Town, and medieval tavern shows with fire acts and sword fights.",
+      "image": "assets/img/loc/6145.jpg",
+      "experienceCount": 1,
+      "rating": 4.5,
+      "ratingCount": 2074,
+      "popularityRank": 3,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 26.85,
+        "original": 26.85
+      },
+      "experienceIds": [
+        31127
+      ]
+    },
+    {
+      "id": 6661,
+      "cityId": "prague",
+      "name": "Towers of Prague",
+      "description": "Discover Prague from above with tickets to its most iconic towers. Climb historic lookout points, explore small exhibitions inside, and enjoy 360° views over the city’s bridges, squares, and red-roofed skyline. Choose from standalone tower entries, the official Prague City Pass, or short guided tours that reveal medieval architecture and hidden underground chambers.",
+      "image": "assets/img/loc/6661.jpg",
+      "experienceCount": 0,
+      "rating": 3.4,
+      "ratingCount": 14,
+      "popularityRank": 4,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 5440,
+      "cityId": "prague",
+      "name": "Prague Zoo",
+      "description": "Discover a range of experiences at Prague Zoo, where you can interact with a variety of fascinating animals. From guided tours to special encounters, there's something for everyone to enjoy.",
+      "image": "assets/img/loc/5440.jpg",
+      "experienceCount": 1,
+      "rating": 4.4,
+      "ratingCount": 6113,
+      "popularityRank": 5,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 14.55,
+        "original": 14.55
+      },
+      "experienceIds": [
+        18632
+      ]
+    },
+    {
+      "id": 1217,
+      "cityId": "prague",
+      "name": "Day Trips From Prague",
+      "description": "Day trips from Prague reach Kutná Hora's Bone Church in 1 hour, Český Krumlov's castle town in 3 hours, and Karlovy Vary's spa colonnade in 2 hours. Find guided group tours, private day trip options, and transfer-only formats here.",
+      "image": "assets/img/loc/1217.jpg",
+      "experienceCount": 0,
+      "rating": 4.2,
+      "ratingCount": 2763,
+      "popularityRank": 6,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 5859,
+      "cityId": "prague",
+      "name": "Prague Beer Tours",
+      "description": "Discover Prague’s rich beer culture on Prague beer tours. Taste world-famous Czech Pilsners, visit historic breweries, relax in beer spas, and explore local pubs while learning about the country’s centuries-old brewing traditions.",
+      "image": "assets/img/loc/5859.jpg",
+      "experienceCount": 0,
+      "rating": 4.3,
+      "ratingCount": 619,
+      "popularityRank": 7,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 5449,
+      "cityId": "prague",
+      "name": "Big Bus Prague",
+      "description": "Make your Prague trip a hassle-free affair with hop-on hop-off bus tours. Choose from 24 or 48-hour tickets and travel across 2 routes with stops at Prague Castle, Old Town Square, Charles Bridge, and more. You can also opt for 1-hour Vltava River cruise.",
+      "image": "assets/img/loc/5449.jpg",
+      "experienceCount": 0,
+      "rating": 4.3,
+      "ratingCount": 2539,
+      "popularityRank": 8,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 3688,
+      "cityId": "prague",
+      "name": "Prague National Museum",
+      "description": "Explore the city in all its beauty as you walk through Old Town Square and marvel at the architectural medieval buildings. Discover 14 million historical and artistic items in the Prague National Museum",
+      "image": "assets/img/loc/3688.jpg",
+      "experienceCount": 1,
+      "rating": 4.4,
+      "ratingCount": 3495,
+      "popularityRank": 9,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 20.98,
+        "original": 20.98
+      },
+      "experienceIds": [
+        53227
+      ]
+    },
+    {
+      "id": 3645,
+      "cityId": "prague",
+      "name": "Vyšehrad Castle",
+      "description": "Vyšehrad Castle is a historic fort in Prague, dating back to the 10th century. Explore its fascinating attractions, such as Basilica of St. Peter and St. Paul, Rotunda of St. Martin, Libuše's bath and more.",
+      "image": "assets/img/loc/3645.jpg",
+      "experienceCount": 0,
+      "rating": 4.5,
+      "ratingCount": 1647,
+      "popularityRank": 10,
+      "startingPrice": null,
+      "experienceIds": []
+    }
+  ],
+  "experiences": [
+    {
+      "id": 8905,
+      "cityId": "prague",
+      "popularityRank": 1,
+      "name": "Prague Castle Tickets",
+      "locationId": 1214,
+      "locationName": "Prague Castle",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.3,
+      "reviewCount": 2004,
+      "bookedCount": 180850,
+      "image": "assets/img/exp/8905.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": true,
+      "lat": 50.07554,
+      "lng": 14.4378,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 25.73,
+        "original": 25.73,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 53227,
+      "cityId": "prague",
+      "popularityRank": 2,
+      "name": "Prague National Museum Entry Tickets",
+      "locationId": 3688,
+      "locationName": "Prague National Museum",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.7,
+      "reviewCount": 204,
+      "bookedCount": 997,
+      "image": "assets/img/exp/53227.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 50.07918,
+      "lng": 14.42969,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 20.98,
+        "original": 20.98,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 18632,
+      "cityId": "prague",
+      "popularityRank": 3,
+      "name": "Prague Zoo Tickets",
+      "locationId": 5440,
+      "locationName": "Prague Zoo",
+      "category": "Tickets",
+      "subcategory": "Zoos",
+      "rating": 4.5,
+      "reviewCount": 1389,
+      "bookedCount": 22115,
+      "image": "assets/img/exp/18632.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 50.11664,
+      "lng": 14.41119,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 14.55,
+        "original": 14.55,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 31246,
+      "cityId": "prague",
+      "popularityRank": 4,
+      "name": "Global eSIM with Unlimited 5G/4G Data: Access to 120 Countries",
+      "locationId": null,
+      "locationName": null,
+      "category": "Travel Services",
+      "subcategory": "Wifi & SIM Cards",
+      "rating": 4.2,
+      "reviewCount": 292,
+      "bookedCount": 4525,
+      "image": "assets/img/exp/31246.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity"
+      ],
+      "freeCancellation": true,
+      "lat": 40.71278,
+      "lng": -74.00597,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 8.91,
+        "original": 9.9,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 38679,
+      "cityId": "prague",
+      "popularityRank": 5,
+      "name": "Prague Vltava River Evening Sightseeing Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Prague River Cruise",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.5,
+      "reviewCount": 302,
+      "bookedCount": 6139,
+      "image": "assets/img/exp/38679.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 50.09206,
+      "lng": 14.41659,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 20.14,
+        "original": 20.14,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 24264,
+      "cityId": "prague",
+      "popularityRank": 6,
+      "name": "Interrail Global Flexible Pass: Choose Any 4 to 15 Days Within 1 or 2 Months",
+      "locationId": null,
+      "locationName": null,
+      "category": "Transportation",
+      "subcategory": "Train Passes",
+      "rating": 4.3,
+      "reviewCount": 477,
+      "bookedCount": 1553,
+      "image": "assets/img/exp/24264.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Extended validity"
+      ],
+      "freeCancellation": true,
+      "lat": 48.85661,
+      "lng": 2.35222,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 316.65,
+        "original": 316.65,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 8908,
+      "cityId": "prague",
+      "popularityRank": 7,
+      "name": "Prague Castle Guided Tour",
+      "locationId": 1214,
+      "locationName": "Prague Castle",
+      "category": null,
+      "subcategory": null,
+      "rating": 4.4,
+      "reviewCount": 3074,
+      "bookedCount": 15500,
+      "image": "assets/img/exp/8908.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 50.07554,
+      "lng": 14.4378,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 21.26,
+        "original": 27.97,
+        "discountPercent": 24,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 8916,
+      "cityId": "prague",
+      "popularityRank": 8,
+      "name": "Prague Vltava River Sightseeing Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Prague River Cruise",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.4,
+      "reviewCount": 3619,
+      "bookedCount": 20583,
+      "image": "assets/img/exp/8916.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 50.09208,
+      "lng": 14.4166,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 20.14,
+        "original": 20.14,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 12140,
+      "cityId": "prague",
+      "popularityRank": 9,
+      "name": "City Sightseeing: Prague Hop-on Hop-off Bus Tour with Optional River Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Prague",
+      "rating": 4.1,
+      "reviewCount": 210,
+      "bookedCount": 3747,
+      "image": "assets/img/exp/12140.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 50.07554,
+      "lng": 14.4378,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 33.57,
+        "original": 33.57,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 12100,
+      "cityId": "prague",
+      "popularityRank": 10,
+      "name": "Prague Dinner Cruise on an Open-Top Glass Boat with Live Music",
+      "locationId": null,
+      "locationName": null,
+      "category": "Prague River Cruise",
+      "subcategory": "Dinner Cruises",
+      "rating": 4.4,
+      "reviewCount": 4864,
+      "bookedCount": 0,
+      "image": "assets/img/exp/12100.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 50.09327,
+      "lng": 14.4277,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 88.39,
+        "original": 88.39,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 18970,
+      "cityId": "prague",
+      "popularityRank": 11,
+      "name": "IAM Illusion Art Museum Prague Entry Ticket",
+      "locationId": 7516,
+      "locationName": "Illusion Museums Prague",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.4,
+      "reviewCount": 74,
+      "bookedCount": 1580,
+      "image": "assets/img/exp/18970.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Guided tour",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 50.08515,
+      "lng": 14.42174,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 12.53,
+        "original": 12.53,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15713,
+      "cityId": "prague",
+      "popularityRank": 12,
+      "name": "Big Bus: Prague Hop-on Hop-off Bus Tour with Optional Vltava River Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Prague",
+      "rating": 4.5,
+      "reviewCount": 1299,
+      "bookedCount": 2821,
+      "image": "assets/img/exp/15713.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 50.07554,
+      "lng": 14.4378,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 36.92,
+        "original": 36.92,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15475,
+      "cityId": "prague",
+      "popularityRank": 13,
+      "name": "Combo (Save 8%): Prague Castle + 1-Hour Prague River Cruise Tickets",
+      "locationId": 1214,
+      "locationName": "Prague Castle",
+      "category": "Prague River Cruise",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.4,
+      "reviewCount": 4977,
+      "bookedCount": 116291,
+      "image": "assets/img/exp/15475.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 50.07554,
+      "lng": 14.4378,
+      "isCombo": true,
+      "price": {
+        "currency": "USD",
+        "from": 49.22,
+        "original": 53.71,
+        "discountPercent": 8,
+        "type": "PER_PERSON"
+      },
+      "summary": "Book this money-saving combo for two of Prague's must-try experiences and save 5%!"
+    },
+    {
+      "id": 31127,
+      "cityId": "prague",
+      "popularityRank": 14,
+      "name": "Reduta Jazz Club Concert Tickets",
+      "locationId": 6145,
+      "locationName": "Prague Live Shows & Entertainment",
+      "category": "Entertainment",
+      "subcategory": "Musicals",
+      "rating": 4.3,
+      "reviewCount": 12,
+      "bookedCount": 216,
+      "image": "assets/img/exp/31127.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 50.08191,
+      "lng": 14.41853,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 26.85,
+        "original": 26.85,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15767,
+      "cityId": "prague",
+      "popularityRank": 15,
+      "name": "Prague Astronomical Clock Tower: Tickets, Audio Guide & Tours",
+      "locationId": 3659,
+      "locationName": "Prague Astronomical Clock",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.5,
+      "reviewCount": 2306,
+      "bookedCount": 6648,
+      "image": "assets/img/exp/15767.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 50.08848,
+      "lng": 14.41842,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31.91,
+        "original": 34.69,
+        "discountPercent": 8,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 15474,
+      "cityId": "prague",
+      "popularityRank": 16,
+      "name": "Prague Dinner Cruise with Live Music",
+      "locationId": null,
+      "locationName": null,
+      "category": "Prague River Cruise",
+      "subcategory": "Dinner Cruises",
+      "rating": 4.1,
+      "reviewCount": 137,
+      "bookedCount": 2788,
+      "image": "assets/img/exp/15474.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Meals included",
+        "Guided tour"
+      ],
+      "freeCancellation": true,
+      "lat": 50.09184,
+      "lng": 14.41634,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 77.2,
+        "original": 77.2,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 19472,
+      "cityId": "prague",
+      "popularityRank": 17,
+      "name": "Tourist Tram: Prague Hop-on Hop-off Tram Tour",
+      "locationId": null,
+      "locationName": null,
+      "category": "Tours",
+      "subcategory": "Hop-on Hop-off Tours Prague",
+      "rating": 4.5,
+      "reviewCount": 257,
+      "bookedCount": 1563,
+      "image": "assets/img/exp/19472.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 50.08879,
+      "lng": 14.43018,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 21.26,
+        "original": 21.26,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 12096,
+      "cityId": "prague",
+      "popularityRank": 18,
+      "name": "Prague Vltava River Daytime Panoramic Sightseeing Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Prague River Cruise",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.5,
+      "reviewCount": 1083,
+      "bookedCount": 2930,
+      "image": "assets/img/exp/12096.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 50.09341,
+      "lng": 14.42533,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 17.12,
+        "original": 19.02,
+        "discountPercent": 10,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 31641,
+      "cityId": "prague",
+      "popularityRank": 19,
+      "name": "Prague Castle Audio Guide",
+      "locationId": 1214,
+      "locationName": "Prague Castle",
+      "category": "Tours",
+      "subcategory": "Private Tours",
+      "rating": 2.9,
+      "reviewCount": 21,
+      "bookedCount": 696,
+      "image": "assets/img/exp/31641.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Extended validity",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 50.09109,
+      "lng": 14.40162,
+      "isCombo": false,
+      "summary": "Explore Prague Castle with a detailed online audio guide, offering a self-paced, immersive journey through its iconic landmarks and timeless stories.",
+      "price": {
+        "currency": "USD",
+        "from": 5.59,
+        "original": 5.59,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}

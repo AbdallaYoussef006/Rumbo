@@ -1,0 +1,737 @@
+{
+  "city": {
+    "id": "paris",
+    "name": "Paris",
+    "countryCode": "FR",
+    "country": "France",
+    "tagline": "C'est La Vie",
+    "image": "assets/img/city/paris.jpg",
+    "lat": 48.85341,
+    "lng": 2.3488,
+    "timeZone": "Europe/Paris",
+    "priceFrom": 5.59,
+    "locationCount": 5,
+    "experienceCount": 19,
+    "rank": 3
+  },
+  "locations": [
+    {
+      "id": 254,
+      "cityId": "paris",
+      "name": "Disneyland® Paris Tickets",
+      "description": "Step into a magical world of thrilling rides, fairy-tale adventures, and unforgettable Disney charm.",
+      "image": "assets/img/loc/254.jpg",
+      "experienceCount": 3,
+      "rating": 4.5,
+      "ratingCount": 45680,
+      "popularityRank": 1,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 58.18,
+        "original": 58.18
+      },
+      "experienceIds": [
+        10209,
+        37399,
+        6645
+      ]
+    },
+    {
+      "id": 5558,
+      "cityId": "paris",
+      "name": "Bateaux Parisiens Seine Cruise Tickets",
+      "description": "Bateaux Parisiens departs from the Pont d'Iéna below the Eiffel Tower and offers glass-topped sightseeing cruises, lunch sailings, and dinner cruises along the Paris Seine. Find 1-hour sightseeing tickets, lunch cruise options, and dinner sailing formats here.",
+      "image": "assets/img/loc/5558.jpg",
+      "experienceCount": 0,
+      "rating": 4.5,
+      "ratingCount": 83697,
+      "popularityRank": 2,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 243,
+      "cityId": "paris",
+      "name": "Eiffel Tower Tickets",
+      "description": "Enjoy sweeping Paris views from 300m high atop the city’s most iconic symbol.",
+      "image": "assets/img/loc/243.jpg",
+      "experienceCount": 2,
+      "rating": 4.4,
+      "ratingCount": 166247,
+      "popularityRank": 3,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 43.64,
+        "original": 43.64
+      },
+      "experienceIds": [
+        23604,
+        39257
+      ]
+    },
+    {
+      "id": 253,
+      "cityId": "paris",
+      "name": "Paris Catacombs",
+      "description": "Descend into Paris’s eerie underground, home to skeletal remains of over six million people.",
+      "image": "assets/img/loc/253.jpg",
+      "experienceCount": 1,
+      "rating": 4.4,
+      "ratingCount": 31513,
+      "popularityRank": 4,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 52.03,
+        "original": 52.03
+      },
+      "experienceIds": [
+        2920
+      ]
+    },
+    {
+      "id": 6940,
+      "cityId": "paris",
+      "name": "Hop-On Hop-Off Paris Tickets",
+      "description": "Multiple routes past the Eiffel Tower, Louvre, Notre-Dame, and Montmartre. Compare 1-day, 2-day, and river cruise combo formats.",
+      "image": "assets/img/loc/6940.jpg",
+      "experienceCount": 0,
+      "rating": 4.4,
+      "ratingCount": 73012,
+      "popularityRank": 5,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 269,
+      "cityId": "paris",
+      "name": "Versailles Tickets",
+      "description": "Walk through gilded halls, the iconic Hall of Mirrors, and gardens that epitomize French royalty.",
+      "image": "assets/img/loc/269.jpg",
+      "experienceCount": 1,
+      "rating": 4.4,
+      "ratingCount": 135155,
+      "popularityRank": 6,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 27.97,
+        "original": 27.97
+      },
+      "experienceIds": [
+        7654
+      ]
+    },
+    {
+      "id": 4703,
+      "cityId": "paris",
+      "name": "PSG Stadium Tours",
+      "description": "Explore Parc des Princes, home to Paris Saint-Germain FC. Walk through iconic tunnels, visit the trophy room, and get behind-the-scenes insights into the football club's history with PSG Stadium tours. A must for soccer enthusiasts and fans of the beautiful game.",
+      "image": "assets/img/loc/4703.jpg",
+      "experienceCount": 1,
+      "rating": 4.7,
+      "ratingCount": 923,
+      "popularityRank": 7,
+      "startingPrice": {
+        "currency": "USD",
+        "from": 31.33,
+        "original": 31.33
+      },
+      "experienceIds": [
+        17827
+      ]
+    },
+    {
+      "id": 7046,
+      "cityId": "paris",
+      "name": "Madame Brasserie Eiffel Tower Tickets",
+      "description": "Madame Brasserie occupies the Eiffel Tower's first floor at 57 metres and offers contemporary French cuisine with panoramic Seine views included in the dining experience. Find lunch, dinner, and à la carte booking options here.",
+      "image": "assets/img/loc/7046.jpg",
+      "experienceCount": 0,
+      "rating": 4.4,
+      "ratingCount": 3326,
+      "popularityRank": 8,
+      "startingPrice": null,
+      "experienceIds": []
+    },
+    {
+      "id": 486,
+      "cityId": "paris",
+      "name": "Paradis Latin Tickets",
+      "description": "A legendary cabaret by Gustave Eiffel, featuring dazzling performances and the iconic can-can.",
+      "image": "assets/img/loc/486.jpg",
+      "experienceCount": 0,
+      "rating": 4.7,
+      "ratingCount": 14286,
+      "popularityRank": 9,
+      "startingPrice": null,
+      "experienceIds": []
+    }
+  ],
+  "experiences": [
+    {
+      "id": 10209,
+      "cityId": "paris",
+      "popularityRank": 1,
+      "name": "1-Day Ticket to Disneyland® Paris",
+      "locationId": 254,
+      "locationName": "Disneyland® Paris Tickets",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.5,
+      "reviewCount": 33428,
+      "bookedCount": 655574,
+      "image": "assets/img/exp/10209.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 48.86739,
+      "lng": 2.78359,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 58.18,
+        "original": 58.18,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7944,
+      "cityId": "paris",
+      "popularityRank": 2,
+      "name": "1-Hour Paris Illuminated Evening Sightseeing Cruise",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.5,
+      "reviewCount": 11179,
+      "bookedCount": 211809,
+      "image": "assets/img/exp/7944.jpg",
+      "duration": null,
+      "features": [
+        "Free cancellation",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 48.86143,
+      "lng": 2.29594,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 20.14,
+        "original": 23.5,
+        "discountPercent": 14,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 21786,
+      "cityId": "paris",
+      "popularityRank": 3,
+      "name": "Beauvais Airport to/from Paris Bus Transfer (Porte Maillot & La Villette)",
+      "locationId": null,
+      "locationName": null,
+      "category": "Transportation",
+      "subcategory": "Airport Transfers",
+      "rating": 4.5,
+      "reviewCount": 2733,
+      "bookedCount": 165211,
+      "image": "assets/img/exp/21786.jpg",
+      "duration": null,
+      "features": [
+        "Transfers available"
+      ],
+      "freeCancellation": false,
+      "lat": 48.85755,
+      "lng": 2.35138,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 20.03,
+        "original": 20.03,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7654,
+      "cityId": "paris",
+      "popularityRank": 4,
+      "name": "Palace of Versailles Full Access Tickets",
+      "locationId": 269,
+      "locationName": "Versailles Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.4,
+      "reviewCount": 17732,
+      "bookedCount": 678666,
+      "image": "assets/img/exp/7654.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": false,
+      "lat": 48.85755,
+      "lng": 2.35138,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 27.97,
+        "original": 27.97,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 8002,
+      "cityId": "paris",
+      "popularityRank": 5,
+      "name": "Orangerie Museum Tickets",
+      "locationId": 2629,
+      "locationName": "Musee de l'Orangerie Tickets",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.5,
+      "reviewCount": 3196,
+      "bookedCount": 52895,
+      "image": "assets/img/exp/8002.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": false,
+      "lat": 48.86379,
+      "lng": 2.32267,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 16.22,
+        "original": 16.78,
+        "discountPercent": 3,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 37399,
+      "cityId": "paris",
+      "popularityRank": 6,
+      "name": "1-Day 2 Park Ticket to Disneyland® Paris",
+      "locationId": 254,
+      "locationName": "Disneyland® Paris Tickets",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.6,
+      "reviewCount": 7897,
+      "bookedCount": 51110,
+      "image": "assets/img/exp/37399.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 48.85755,
+      "lng": 2.35138,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 97.34,
+        "original": 97.34,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 5730,
+      "cityId": "paris",
+      "popularityRank": 7,
+      "name": "Seine River 1-Hour Sightseeing Cruise from the Eiffel Tower",
+      "locationId": null,
+      "locationName": null,
+      "category": "Cruises",
+      "subcategory": "Sightseeing Cruises",
+      "rating": 4.7,
+      "reviewCount": 12755,
+      "bookedCount": 292611,
+      "image": "assets/img/exp/5730.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation",
+        "Meals included",
+        "Audio guide"
+      ],
+      "freeCancellation": true,
+      "lat": 48.85755,
+      "lng": 2.35138,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 20.14,
+        "original": 23.5,
+        "discountPercent": 14,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 23604,
+      "cityId": "paris",
+      "popularityRank": 8,
+      "name": "Eiffel Tower Guided Tour by Elevator: Reserved Entry to the Summit or Second Floor",
+      "locationId": 243,
+      "locationName": "Eiffel Tower Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.4,
+      "reviewCount": 21952,
+      "bookedCount": 233503,
+      "image": "assets/img/exp/23604.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 48.85755,
+      "lng": 2.35138,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 43.64,
+        "original": 43.64,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 3909,
+      "cityId": "paris",
+      "popularityRank": 9,
+      "name": "Louvre Museum Pre-Reserved Entry",
+      "locationId": 252,
+      "locationName": "Louvre Museum Tickets",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.1,
+      "reviewCount": 7339,
+      "bookedCount": 492668,
+      "image": "assets/img/exp/3909.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": false,
+      "lat": 48.85755,
+      "lng": 2.35138,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 58.97,
+        "original": 62.32,
+        "discountPercent": 5,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 6235,
+      "cityId": "paris",
+      "popularityRank": 10,
+      "name": "Orsay Museum Entry Tickets",
+      "locationId": 471,
+      "locationName": "Orsay Museum",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.5,
+      "reviewCount": 13135,
+      "bookedCount": 254014,
+      "image": "assets/img/exp/6235.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide",
+        "Includes immersive AI audioguide"
+      ],
+      "freeCancellation": false,
+      "lat": 48.85755,
+      "lng": 2.35138,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 14.55,
+        "original": 14.55,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 17827,
+      "cityId": "paris",
+      "popularityRank": 11,
+      "name": "PSG Parc des Princes Stadium Tour with Behind-the-Scenes Access",
+      "locationId": 4703,
+      "locationName": "PSG Stadium Tours",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.7,
+      "reviewCount": 923,
+      "bookedCount": 21348,
+      "image": "assets/img/exp/17827.jpg",
+      "duration": null,
+      "features": [
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 48.84143,
+      "lng": 2.25305,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 31.33,
+        "original": 31.33,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 7504,
+      "cityId": "paris",
+      "popularityRank": 12,
+      "name": "Arc de Triomphe Entry Tickets with Rooftop Access",
+      "locationId": 575,
+      "locationName": "Arc De Triomphe Tickets",
+      "category": "Tickets",
+      "subcategory": "Landmarks",
+      "rating": 4.4,
+      "reviewCount": 8185,
+      "bookedCount": 170872,
+      "image": "assets/img/exp/7504.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 48.87379,
+      "lng": 2.29583,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 17.9,
+        "original": 17.9,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 6645,
+      "cityId": "paris",
+      "popularityRank": 13,
+      "name": "Multi-Day Ticket to Disneyland® Paris",
+      "locationId": 254,
+      "locationName": "Disneyland® Paris Tickets",
+      "category": "Tickets",
+      "subcategory": "Theme Parks",
+      "rating": 4.4,
+      "reviewCount": 4852,
+      "bookedCount": 51217,
+      "image": "assets/img/exp/6645.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Free cancellation"
+      ],
+      "freeCancellation": true,
+      "lat": 48.87215,
+      "lng": 2.77583,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 163.36,
+        "original": 163.36,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 39257,
+      "cityId": "paris",
+      "popularityRank": 14,
+      "name": "Eiffel Tower Dedicated Reserved Summit Access by Elevator",
+      "locationId": 243,
+      "locationName": "Eiffel Tower Tickets",
+      "category": null,
+      "subcategory": null,
+      "rating": 4.5,
+      "reviewCount": 10634,
+      "bookedCount": 0,
+      "image": "assets/img/exp/39257.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 48.85755,
+      "lng": 2.35138,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 50.35,
+        "original": 50.35,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 9928,
+      "cityId": "paris",
+      "popularityRank": 15,
+      "name": "Invalides: Napoleon's Tomb & Army Museum Skip-the-Line Entry Tickets",
+      "locationId": 1534,
+      "locationName": "Les Invalides Tickets",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.5,
+      "reviewCount": 2207,
+      "bookedCount": 52192,
+      "image": "assets/img/exp/9928.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 48.85653,
+      "lng": 2.31271,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 19.02,
+        "original": 19.02,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 35334,
+      "cityId": "paris",
+      "popularityRank": 16,
+      "name": "Paris Notre-Dame Guided Tour with Cathedral Free Entry",
+      "locationId": 256,
+      "locationName": "Notre-Dame Paris Tickets",
+      "category": "Tours",
+      "subcategory": "Guided Tours",
+      "rating": 4.3,
+      "reviewCount": 579,
+      "bookedCount": 8309,
+      "image": "assets/img/exp/35334.jpg",
+      "duration": null,
+      "features": [
+        "Guided tour"
+      ],
+      "freeCancellation": false,
+      "lat": 48.85755,
+      "lng": 2.35138,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 5.59,
+        "original": 11.19,
+        "discountPercent": 50,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 32004,
+      "cityId": "paris",
+      "popularityRank": 17,
+      "name": "The Lion King Musical",
+      "locationId": null,
+      "locationName": null,
+      "category": "Entertainment",
+      "subcategory": "Musicals",
+      "rating": 4.9,
+      "reviewCount": 9,
+      "bookedCount": 640,
+      "image": "assets/img/exp/32004.jpg",
+      "duration": null,
+      "features": [],
+      "freeCancellation": false,
+      "lat": 48.87535,
+      "lng": 2.33107,
+      "isCombo": false,
+      "summary": "The third-longest running Broadway show, with over 70 awards and 27 global productions under its belt, is making its triumphant return to Paris! Great for Disney fans | Musical enthusiasts | Fantasy lovers",
+      "price": {
+        "currency": "USD",
+        "from": 32.17,
+        "original": 32.17,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 2920,
+      "cityId": "paris",
+      "popularityRank": 18,
+      "name": "Paris Catacombs Reserved Access Tickets",
+      "locationId": 253,
+      "locationName": "Paris Catacombs",
+      "category": "Tickets",
+      "subcategory": "Museums",
+      "rating": 4.5,
+      "reviewCount": 8119,
+      "bookedCount": 135625,
+      "image": "assets/img/exp/2920.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace",
+        "Audio guide"
+      ],
+      "freeCancellation": false,
+      "lat": 48.83383,
+      "lng": 2.33242,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 52.03,
+        "original": 52.03,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    },
+    {
+      "id": 8008,
+      "cityId": "paris",
+      "popularityRank": 19,
+      "name": "Sainte-Chapelle & Conciergerie Entry Tickets",
+      "locationId": 1305,
+      "locationName": "Sainte Chapelle Tickets",
+      "category": "Tickets",
+      "subcategory": "Religious Sites",
+      "rating": 4.4,
+      "reviewCount": 2049,
+      "bookedCount": 31567,
+      "image": "assets/img/exp/8008.jpg",
+      "duration": "Flexible",
+      "features": [
+        "Explore at your pace"
+      ],
+      "freeCancellation": false,
+      "lat": 48.85542,
+      "lng": 2.34499,
+      "isCombo": false,
+      "price": {
+        "currency": "USD",
+        "from": 29.09,
+        "original": 29.09,
+        "discountPercent": 0,
+        "type": "PER_PERSON"
+      }
+    }
+  ]
+}
