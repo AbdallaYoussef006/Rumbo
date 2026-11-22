@@ -1,0 +1,69 @@
+/* =====================================================================
+   components/globe.css — the 3D globe block in "Explore more destinations" (logic: js/components/globe.js)
+   .globe         the glass panel: city card on the left, globe on the right
+   --g-…          the globe's colours — the canvas reads them, so light and dark are both set here
+   ===================================================================== */
+
+.globe{
+  --g-ocean-1:#F4FAFF; --g-ocean-2:#C9E0F6; --g-rim:rgba(21,114,200,.28); --g-glow:rgba(21,114,200,.20);
+  --g-dot:#1572C8; --g-pin:#13B0A5; --g-here:#F29E38; --g-arc:#F29E38; --g-shine:rgba(255,255,255,.55);
+  --g-label-bg:rgba(4,45,94,.92); --g-label-ink:#FFFFFF; --g-group-ink:#FFFFFF;
+  display:grid;grid-template-columns:minmax(260px,360px) minmax(0,1fr);align-items:center;gap:24px;
+  margin-bottom:26px;padding:22px 30px;border-radius:26px;overflow:hidden;
+  background:var(--glass-fill);border:1px solid var(--glass-rim);box-shadow:var(--glass-glow),var(--glass-drop);
+}
+.globe:empty{display:none}
+:root[data-theme="dark"] .globe{
+  --g-ocean-1:#1D3A5C; --g-ocean-2:#0A1522; --g-rim:rgba(91,168,240,.35); --g-glow:rgba(60,140,230,.30);
+  --g-dot:#6DB6F5; --g-pin:#2FE3C6; --g-here:#F2A541; --g-arc:#F2A541; --g-shine:rgba(255,255,255,.14);
+  --g-label-bg:rgba(255,255,255,.94); --g-label-ink:#0F151B; --g-group-ink:#06302B;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .globe{
+    --g-ocean-1:#1D3A5C; --g-ocean-2:#0A1522; --g-rim:rgba(91,168,240,.35); --g-glow:rgba(60,140,230,.30);
+    --g-dot:#6DB6F5; --g-pin:#2FE3C6; --g-here:#F2A541; --g-arc:#F2A541; --g-shine:rgba(255,255,255,.14);
+    --g-label-bg:rgba(255,255,255,.94); --g-label-ink:#0F151B; --g-group-ink:#06302B;
+  }
+}
+
+/* left side: title chip, city card, ‹ › buttons */
+.globe__side{display:flex;flex-direction:column;gap:16px;min-width:0}
+.globe__kicker{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;padding:7px 14px 7px 10px;border-radius:999px;
+  font-size:13px;font-weight:700;color:var(--brand-dark);background:var(--brand-soft)}
+.globe__card{display:flex;flex-direction:column;border-radius:18px;overflow:hidden;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow)}
+.globe__photo{aspect-ratio:16/9;background:var(--bg-2);overflow:hidden}
+.globe__photo img{width:100%;height:100%;object-fit:cover}
+.globe__info{display:flex;flex-direction:column;gap:2px;padding:14px 16px 16px}
+.globe__info b{font-size:22px;letter-spacing:-.4px;line-height:1.15}
+.globe__info span{font-size:14px;color:var(--ink-2)}
+.globe__info small{font-size:13px;color:var(--ink-3);margin-top:4px}
+.globe__info .btn{margin-top:14px;height:44px;border-radius:999px}
+.globe__nav{display:flex;align-items:center;gap:8px}
+.globe__nav .arrow{width:40px;height:40px;flex:0 0 auto}
+.globe__hint{margin-left:6px;font-size:12.5px;line-height:1.4;color:var(--ink-3)}
+
+/* right side: the canvas (always a square) */
+.globe__stage{position:relative;display:grid;place-items:center;min-width:0}
+.globe__canvas{display:block;width:min(100%,500px);aspect-ratio:1;cursor:grab;touch-action:pan-y;-webkit-user-select:none;user-select:none;
+  filter:drop-shadow(0 26px 30px rgba(20,50,90,.18))}
+
+/* + / − zoom buttons, bottom-right of the globe */
+.globe__zoom{position:absolute;right:max(0px,calc(50% - 250px));bottom:6px;display:flex;flex-direction:column;border-radius:12px;overflow:hidden;
+  background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow)}
+.globe__zoom button{width:36px;height:36px;display:grid;place-items:center;font:700 20px/1 var(--font);color:var(--ink);background:none;border:0;cursor:pointer;transition:background .15s,color .15s}
+.globe__zoom button + button{border-top:1px solid var(--line)}
+.globe__zoom button:hover{background:var(--brand-soft);color:var(--brand-dark)}
+.globe__zoom button:focus-visible{outline:2px solid var(--brand);outline-offset:-2px}
+
+/* while the plane is flying to the chosen city */
+.globe.is-flying #globe-go{opacity:.6}
+.globe.is-flying .globe__nav,.globe.is-flying .globe__zoom{opacity:.45;pointer-events:none}
+
+@media (max-width:860px){
+  .globe__zoom{right:max(0px,calc(50% - 190px))}
+  .globe{grid-template-columns:1fr;padding:18px;gap:8px}
+  .globe__stage{order:-1}
+  .globe__canvas{width:min(100%,380px)}
+  .globe__card{flex-direction:row}
+  .globe__photo{flex:0 0 38%;aspect-ratio:auto}
+}
