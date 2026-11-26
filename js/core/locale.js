@@ -1,0 +1,491 @@
+/**
+ * core/locale.js — language and currency for Rumbo.
+ *   - Locale.t('key', { vars })   → text in the chosen language (falls back to English)
+ *   - Locale.money(usd)           → a USD amount converted and formatted in the chosen currency
+ *   - Locale.setLang('fr') / Locale.setCurrency('EUR') → saved in the browser, page reloads
+ * Load after core/travelDB.js and before core/app.js. Experience and place names stay in English (they come from the data).
+ */
+(function () {
+  /* ---------------- Languages ---------------- */
+  const LANGS = [
+    ['en', 'English', 'English'], ['es', 'Español', 'Spanish'], ['fr', 'Français', 'French'],
+    ['it', 'Italiano', 'Italian'], ['de', 'Deutsch', 'German'], ['pt', 'Português', 'Portuguese'],
+    ['nl', 'Nederlands', 'Dutch'], ['pl', 'Polski', 'Polish'], ['ru', 'Русский', 'Russian'],
+    ['tr', 'Türkçe', 'Turkish'], ['ro', 'Română', 'Romanian'], ['nb', 'Norsk', 'Norwegian'],
+    ['da', 'Dansk', 'Danish'], ['sv', 'Svenska', 'Swedish'],
+  ].map(([code, native, english]) => ({ code, native, english }));
+
+  const T = {
+    en: {
+      clear: "Clear", today: "Today", done: "Done",
+      chooseCity: "Choose city", searchCity: "Search city", noCity: "No cities found",
+      discover: "Discover {country}", picsHint: "Scroll or use the arrows · click any photo to open it",
+      when: "When", anyDate: "Any date", guests: "Guests", trav1: "1 traveler", travN: "{n} travelers", filters: "Filters", allTypes: "All types", searchExp: "Search experiences", prevPhoto: "Previous photo", nextPhoto: "Next photo",
+      destinations: "Destinations", planner: "Trip planner", signIn: "Sign in", logOut: "Log out", myTrip: "My trip",
+      search: "Search experiences, places or cities", from: "from", freeCancel: "Free cancellation", bestseller: "Bestseller",
+      off: "{n}% off", save: "Save {n}%", new: "New", exp1: "1 experience", expN: "{n} experiences",
+      cities: "Cities", places: "Places", experiences: "Experiences", noResults: "No results",
+      tagline: "Your smart trip advisor — discover, compare and plan the best experiences in 40 cities.",
+      explore: "Explore", yourTrip: "Your trip", favorites: "Favorites", about: "About", ourTeam: "Our team", project: "The project", pricesIn: "Prices in {c}",
+      language: "Language", currency: "Currency", suggested: "Suggested for you", more: "More currencies",
+      ratesNote: "Prices are converted from US dollars at approximate exchange rates.",
+      thingsTo: "Things to do in {city}", heroSub: "Tickets, tours and experiences in {city}, hand-picked by popularity and rating.",
+      statTop: "top experiences", statPlaces: "must-see places", statPrice: "starting price", statRating: "average rating",
+      inPictures: "{city} in pictures", reelHint: "Drag, scroll or use the arrow keys · click any photo to open it",
+      topIn: "Top experiences in {city}", topHint: "The most booked tickets and tours right now",
+      placesIn: "Must-see places in {city}", placesHint: "Click a place to see its experiences",
+      allIn: "All experiences in {city}", catIn: "{cat} in {city}", at: "Experiences at {place}",
+      res1: "1 result", resN: "{n} results", empty: "No experiences match these filters.",
+      deals: "Deals", under: "Under {p}", allThings: "All things to do",
+      sortPop: "Sort: Popular", sortRating: "Sort: Top rated", sortAsc: "Sort: Price low → high", sortDesc: "Sort: Price high → low", sortDisc: "Sort: Biggest discount",
+      moreDest: "Explore more destinations", destSub: "40 top cities in 21 countries", showAll: "Show all {n} cities", showFewer: "Show fewer",
+      v1t: "Real ratings", v1p: "Every experience shows real reviews and how many people booked it.",
+      v2t: "Smart trip planner", v2p: "Tell us your days and budget — get a full plan in seconds.",
+      v3t: "Clear prices", v3p: "See the starting price and any discount before you decide.",
+      v4t: "40 cities", v4p: "From Cairo to Tokyo, the best things to do in one place.",
+    },
+    es: {
+      clear: "Borrar", today: "Hoy", done: "Listo",
+      chooseCity: "Elige ciudad", searchCity: "Buscar ciudad", noCity: "No se encontraron ciudades",
+      discover: "Descubre {country}", picsHint: "Desplázate o usa las flechas · haz clic en una foto para abrirla",
+      when: "Cuándo", anyDate: "Cualquier fecha", guests: "Viajeros", trav1: "1 viajero", travN: "{n} viajeros", filters: "Filtros", allTypes: "Todos los tipos", searchExp: "Buscar experiencias", prevPhoto: "Foto anterior", nextPhoto: "Foto siguiente",
+      destinations: "Destinos", planner: "Planificador", signIn: "Iniciar sesión", logOut: "Cerrar sesión", myTrip: "Mi viaje",
+      search: "Busca experiencias, lugares o ciudades", from: "desde", freeCancel: "Cancelación gratuita", bestseller: "Más vendido",
+      off: "{n}% dto.", save: "Ahorra {n}%", new: "Nuevo", exp1: "1 experiencia", expN: "{n} experiencias",
+      cities: "Ciudades", places: "Lugares", experiences: "Experiencias", noResults: "Sin resultados",
+      tagline: "Tu asesor de viajes inteligente: descubre, compara y planifica las mejores experiencias en 40 ciudades.",
+      explore: "Explorar", yourTrip: "Tu viaje", favorites: "Favoritos", about: "Acerca de", ourTeam: "Nuestro equipo", project: "El proyecto", pricesIn: "Precios en {c}",
+      language: "Idioma", currency: "Moneda", suggested: "Sugeridas para ti", more: "Más monedas",
+      ratesNote: "Los precios se convierten desde dólares estadounidenses con tipos de cambio aproximados.",
+      thingsTo: "Qué hacer en {city}", heroSub: "Entradas, tours y experiencias en {city}, seleccionados por popularidad y valoración.",
+      statTop: "experiencias top", statPlaces: "lugares imprescindibles", statPrice: "precio desde", statRating: "valoración media",
+      inPictures: "{city} en imágenes", reelHint: "Arrastra, desplázate o usa las flechas · haz clic en una foto para abrirla",
+      topIn: "Mejores experiencias en {city}", topHint: "Las entradas y tours más reservados ahora mismo",
+      placesIn: "Lugares imprescindibles en {city}", placesHint: "Haz clic en un lugar para ver sus experiencias",
+      allIn: "Todas las experiencias en {city}", catIn: "{cat} en {city}", at: "Experiencias en {place}",
+      res1: "1 resultado", resN: "{n} resultados", empty: "Ninguna experiencia coincide con estos filtros.",
+      deals: "Ofertas", under: "Menos de {p}", allThings: "Todo lo que hacer",
+      sortPop: "Ordenar: Populares", sortRating: "Ordenar: Mejor valorados", sortAsc: "Ordenar: Precio menor → mayor", sortDesc: "Ordenar: Precio mayor → menor", sortDisc: "Ordenar: Mayor descuento",
+      moreDest: "Explora más destinos", destSub: "40 ciudades top en 21 países", showAll: "Ver las {n} ciudades", showFewer: "Ver menos",
+      v1t: "Valoraciones reales", v1p: "Cada experiencia muestra reseñas reales y cuántas personas la reservaron.",
+      v2t: "Planificador inteligente", v2p: "Dinos tus días y tu presupuesto y obtén un plan completo en segundos.",
+      v3t: "Precios claros", v3p: "Ve el precio inicial y cualquier descuento antes de decidir.",
+      v4t: "40 ciudades", v4p: "De El Cairo a Tokio, lo mejor que hacer en un solo lugar.",
+    },
+    fr: {
+      clear: "Effacer", today: "Aujourd’hui", done: "OK",
+      chooseCity: "Choisir une ville", searchCity: "Rechercher une ville", noCity: "Aucune ville trouvée",
+      discover: "Découvrez {country}", picsHint: "Faites défiler ou utilisez les flèches · cliquez sur une photo pour l’ouvrir",
+      when: "Quand", anyDate: "N’importe quelle date", guests: "Voyageurs", trav1: "1 voyageur", travN: "{n} voyageurs", filters: "Filtres", allTypes: "Tous les types", searchExp: "Rechercher", prevPhoto: "Photo précédente", nextPhoto: "Photo suivante",
+      destinations: "Destinations", planner: "Planificateur", signIn: "Se connecter", logOut: "Se déconnecter", myTrip: "Mon voyage",
+      search: "Rechercher des expériences, lieux ou villes", from: "à partir de", freeCancel: "Annulation gratuite", bestseller: "Meilleure vente",
+      off: "-{n} %", save: "Économisez {n} %", new: "Nouveau", exp1: "1 expérience", expN: "{n} expériences",
+      cities: "Villes", places: "Lieux", experiences: "Expériences", noResults: "Aucun résultat",
+      tagline: "Votre conseiller de voyage intelligent : découvrez, comparez et planifiez les meilleures expériences dans 40 villes.",
+      explore: "Explorer", yourTrip: "Votre voyage", favorites: "Favoris", about: "À propos", ourTeam: "Notre équipe", project: "Le projet", pricesIn: "Prix en {c}",
+      language: "Langue", currency: "Devise", suggested: "Suggérées pour vous", more: "Autres devises",
+      ratesNote: "Les prix sont convertis depuis le dollar américain à des taux de change approximatifs.",
+      thingsTo: "Que faire à {city}", heroSub: "Billets, visites et expériences à {city}, choisis selon la popularité et les avis.",
+      statTop: "meilleures expériences", statPlaces: "lieux incontournables", statPrice: "prix de départ", statRating: "note moyenne",
+      inPictures: "{city} en images", reelHint: "Faites glisser, défilez ou utilisez les flèches · cliquez sur une photo pour l’ouvrir",
+      topIn: "Meilleures expériences à {city}", topHint: "Les billets et visites les plus réservés en ce moment",
+      placesIn: "Lieux incontournables à {city}", placesHint: "Cliquez sur un lieu pour voir ses expériences",
+      allIn: "Toutes les expériences à {city}", catIn: "{cat} à {city}", at: "Expériences à {place}",
+      res1: "1 résultat", resN: "{n} résultats", empty: "Aucune expérience ne correspond à ces filtres.",
+      deals: "Promos", under: "Moins de {p}", allThings: "Toutes les activités",
+      sortPop: "Trier : Populaires", sortRating: "Trier : Mieux notées", sortAsc: "Trier : Prix croissant", sortDesc: "Trier : Prix décroissant", sortDisc: "Trier : Plus grosse remise",
+      moreDest: "Découvrez d’autres destinations", destSub: "40 grandes villes dans 21 pays", showAll: "Voir les {n} villes", showFewer: "Voir moins",
+      v1t: "Vrais avis", v1p: "Chaque expérience affiche de vrais avis et le nombre de réservations.",
+      v2t: "Planificateur intelligent", v2p: "Indiquez vos jours et votre budget : un plan complet en quelques secondes.",
+      v3t: "Prix clairs", v3p: "Voyez le prix de départ et les remises avant de décider.",
+      v4t: "40 villes", v4p: "Du Caire à Tokyo, les meilleures activités au même endroit.",
+    },
+    it: {
+      clear: "Cancella", today: "Oggi", done: "Fatto",
+      chooseCity: "Scegli la città", searchCity: "Cerca città", noCity: "Nessuna città trovata",
+      discover: "Scopri {country}", picsHint: "Scorri o usa le frecce · clicca una foto per aprirla",
+      when: "Quando", anyDate: "Qualsiasi data", guests: "Ospiti", trav1: "1 viaggiatore", travN: "{n} viaggiatori", filters: "Filtri", allTypes: "Tutti i tipi", searchExp: "Cerca esperienze", prevPhoto: "Foto precedente", nextPhoto: "Foto successiva",
+      destinations: "Destinazioni", planner: "Pianificatore", signIn: "Accedi", logOut: "Esci", myTrip: "Il mio viaggio",
+      search: "Cerca esperienze, luoghi o città", from: "da", freeCancel: "Cancellazione gratuita", bestseller: "Più venduto",
+      off: "-{n}%", save: "Risparmi il {n}%", new: "Nuovo", exp1: "1 esperienza", expN: "{n} esperienze",
+      cities: "Città", places: "Luoghi", experiences: "Esperienze", noResults: "Nessun risultato",
+      tagline: "Il tuo consulente di viaggio intelligente: scopri, confronta e pianifica le migliori esperienze in 40 città.",
+      explore: "Esplora", yourTrip: "Il tuo viaggio", favorites: "Preferiti", about: "Chi siamo", ourTeam: "Il nostro team", project: "Il progetto", pricesIn: "Prezzi in {c}",
+      language: "Lingua", currency: "Valuta", suggested: "Suggerite per te", more: "Altre valute",
+      ratesNote: "I prezzi sono convertiti dal dollaro USA a tassi di cambio approssimativi.",
+      thingsTo: "Cosa fare a {city}", heroSub: "Biglietti, tour ed esperienze a {city}, scelti per popolarità e valutazione.",
+      statTop: "esperienze top", statPlaces: "luoghi da non perdere", statPrice: "prezzo di partenza", statRating: "valutazione media",
+      inPictures: "{city} in foto", reelHint: "Trascina, scorri o usa le frecce · clicca una foto per aprirla",
+      topIn: "Le migliori esperienze a {city}", topHint: "I biglietti e i tour più prenotati del momento",
+      placesIn: "Luoghi da non perdere a {city}", placesHint: "Clicca un luogo per vederne le esperienze",
+      allIn: "Tutte le esperienze a {city}", catIn: "{cat} a {city}", at: "Esperienze a {place}",
+      res1: "1 risultato", resN: "{n} risultati", empty: "Nessuna esperienza corrisponde a questi filtri.",
+      deals: "Offerte", under: "Sotto {p}", allThings: "Tutte le attività",
+      sortPop: "Ordina: Popolari", sortRating: "Ordina: Più votati", sortAsc: "Ordina: Prezzo crescente", sortDesc: "Ordina: Prezzo decrescente", sortDisc: "Ordina: Sconto maggiore",
+      moreDest: "Scopri altre destinazioni", destSub: "40 grandi città in 21 paesi", showAll: "Mostra tutte le {n} città", showFewer: "Mostra meno",
+      v1t: "Valutazioni reali", v1p: "Ogni esperienza mostra recensioni reali e quante persone l’hanno prenotata.",
+      v2t: "Pianificatore intelligente", v2p: "Dicci giorni e budget: un piano completo in pochi secondi.",
+      v3t: "Prezzi chiari", v3p: "Vedi il prezzo di partenza e gli sconti prima di decidere.",
+      v4t: "40 città", v4p: "Dal Cairo a Tokyo, le cose migliori da fare in un unico posto.",
+    },
+    de: {
+      clear: "Löschen", today: "Heute", done: "Fertig",
+      chooseCity: "Stadt wählen", searchCity: "Stadt suchen", noCity: "Keine Städte gefunden",
+      discover: "Entdecke {country}", picsHint: "Scrollen oder Pfeile nutzen · Foto anklicken zum Öffnen",
+      when: "Wann", anyDate: "Beliebiges Datum", guests: "Gäste", trav1: "1 Reisender", travN: "{n} Reisende", filters: "Filter", allTypes: "Alle Arten", searchExp: "Erlebnisse suchen", prevPhoto: "Vorheriges Foto", nextPhoto: "Nächstes Foto",
+      destinations: "Reiseziele", planner: "Reiseplaner", signIn: "Anmelden", logOut: "Abmelden", myTrip: "Meine Reise",
+      search: "Erlebnisse, Orte oder Städte suchen", from: "ab", freeCancel: "Kostenlose Stornierung", bestseller: "Bestseller",
+      off: "-{n} %", save: "{n} % sparen", new: "Neu", exp1: "1 Erlebnis", expN: "{n} Erlebnisse",
+      cities: "Städte", places: "Orte", experiences: "Erlebnisse", noResults: "Keine Ergebnisse",
+      tagline: "Dein smarter Reiseberater – entdecke, vergleiche und plane die besten Erlebnisse in 40 Städten.",
+      explore: "Entdecken", yourTrip: "Deine Reise", favorites: "Favoriten", about: "Über uns", ourTeam: "Unser Team", project: "Das Projekt", pricesIn: "Preise in {c}",
+      language: "Sprache", currency: "Währung", suggested: "Vorschläge für dich", more: "Weitere Währungen",
+      ratesNote: "Die Preise werden zu ungefähren Wechselkursen aus US-Dollar umgerechnet.",
+      thingsTo: "Aktivitäten in {city}", heroSub: "Tickets, Touren und Erlebnisse in {city}, ausgewählt nach Beliebtheit und Bewertung.",
+      statTop: "Top-Erlebnisse", statPlaces: "Sehenswürdigkeiten", statPrice: "Startpreis", statRating: "Durchschnittsbewertung",
+      inPictures: "{city} in Bildern", reelHint: "Ziehen, scrollen oder Pfeiltasten nutzen · Foto anklicken zum Öffnen",
+      topIn: "Top-Erlebnisse in {city}", topHint: "Die aktuell meistgebuchten Tickets und Touren",
+      placesIn: "Sehenswürdigkeiten in {city}", placesHint: "Klicke auf einen Ort, um seine Erlebnisse zu sehen",
+      allIn: "Alle Erlebnisse in {city}", catIn: "{cat} in {city}", at: "Erlebnisse bei {place}",
+      res1: "1 Ergebnis", resN: "{n} Ergebnisse", empty: "Keine Erlebnisse passen zu diesen Filtern.",
+      deals: "Angebote", under: "Unter {p}", allThings: "Alle Aktivitäten",
+      sortPop: "Sortieren: Beliebt", sortRating: "Sortieren: Bestbewertet", sortAsc: "Sortieren: Preis aufsteigend", sortDesc: "Sortieren: Preis absteigend", sortDisc: "Sortieren: Größter Rabatt",
+      moreDest: "Weitere Reiseziele entdecken", destSub: "40 Top-Städte in 21 Ländern", showAll: "Alle {n} Städte anzeigen", showFewer: "Weniger anzeigen",
+      v1t: "Echte Bewertungen", v1p: "Jedes Erlebnis zeigt echte Bewertungen und wie viele es gebucht haben.",
+      v2t: "Smarter Reiseplaner", v2p: "Nenne Tage und Budget – und erhalte in Sekunden einen kompletten Plan.",
+      v3t: "Klare Preise", v3p: "Sieh Startpreis und Rabatte, bevor du dich entscheidest.",
+      v4t: "40 Städte", v4p: "Von Kairo bis Tokio – die besten Aktivitäten an einem Ort.",
+    },
+    pt: {
+      clear: "Limpar", today: "Hoje", done: "Pronto",
+      chooseCity: "Escolha a cidade", searchCity: "Buscar cidade", noCity: "Nenhuma cidade encontrada",
+      discover: "Descubra {country}", picsHint: "Role ou use as setas · clique em uma foto para abri-la",
+      when: "Quando", anyDate: "Qualquer data", guests: "Viajantes", trav1: "1 viajante", travN: "{n} viajantes", filters: "Filtros", allTypes: "Todos os tipos", searchExp: "Buscar experiências", prevPhoto: "Foto anterior", nextPhoto: "Próxima foto",
+      destinations: "Destinos", planner: "Planejador", signIn: "Entrar", logOut: "Sair", myTrip: "Minha viagem",
+      search: "Pesquise experiências, lugares ou cidades", from: "a partir de", freeCancel: "Cancelamento grátis", bestseller: "Mais vendido",
+      off: "{n}% off", save: "Economize {n}%", new: "Novo", exp1: "1 experiência", expN: "{n} experiências",
+      cities: "Cidades", places: "Lugares", experiences: "Experiências", noResults: "Nenhum resultado",
+      tagline: "Seu consultor de viagens inteligente: descubra, compare e planeje as melhores experiências em 40 cidades.",
+      explore: "Explorar", yourTrip: "Sua viagem", favorites: "Favoritos", about: "Sobre", ourTeam: "Nossa equipe", project: "O projeto", pricesIn: "Preços em {c}",
+      language: "Idioma", currency: "Moeda", suggested: "Sugeridas para você", more: "Mais moedas",
+      ratesNote: "Os preços são convertidos do dólar americano com taxas de câmbio aproximadas.",
+      thingsTo: "O que fazer em {city}", heroSub: "Ingressos, passeios e experiências em {city}, escolhidos por popularidade e avaliação.",
+      statTop: "experiências top", statPlaces: "lugares imperdíveis", statPrice: "preço inicial", statRating: "avaliação média",
+      inPictures: "{city} em fotos", reelHint: "Arraste, role ou use as setas · clique em uma foto para abri-la",
+      topIn: "Melhores experiências em {city}", topHint: "Os ingressos e passeios mais reservados agora",
+      placesIn: "Lugares imperdíveis em {city}", placesHint: "Clique em um lugar para ver suas experiências",
+      allIn: "Todas as experiências em {city}", catIn: "{cat} em {city}", at: "Experiências em {place}",
+      res1: "1 resultado", resN: "{n} resultados", empty: "Nenhuma experiência corresponde a estes filtros.",
+      deals: "Ofertas", under: "Até {p}", allThings: "Tudo o que fazer",
+      sortPop: "Ordenar: Populares", sortRating: "Ordenar: Mais bem avaliados", sortAsc: "Ordenar: Menor preço", sortDesc: "Ordenar: Maior preço", sortDisc: "Ordenar: Maior desconto",
+      moreDest: "Explore mais destinos", destSub: "40 cidades top em 21 países", showAll: "Ver todas as {n} cidades", showFewer: "Ver menos",
+      v1t: "Avaliações reais", v1p: "Cada experiência mostra avaliações reais e quantas pessoas a reservaram.",
+      v2t: "Planejador inteligente", v2p: "Informe seus dias e orçamento e receba um plano completo em segundos.",
+      v3t: "Preços claros", v3p: "Veja o preço inicial e os descontos antes de decidir.",
+      v4t: "40 cidades", v4p: "Do Cairo a Tóquio, o melhor para fazer em um só lugar.",
+    },
+    nl: {
+      clear: "Wissen", today: "Vandaag", done: "Klaar",
+      chooseCity: "Kies een stad", searchCity: "Zoek een stad", noCity: "Geen steden gevonden",
+      discover: "Ontdek {country}", picsHint: "Scroll of gebruik de pijlen · klik op een foto om hem te openen",
+      when: "Wanneer", anyDate: "Elke datum", guests: "Gasten", trav1: "1 reiziger", travN: "{n} reizigers", filters: "Filters", allTypes: "Alle soorten", searchExp: "Zoek belevenissen", prevPhoto: "Vorige foto", nextPhoto: "Volgende foto",
+      destinations: "Bestemmingen", planner: "Reisplanner", signIn: "Inloggen", logOut: "Uitloggen", myTrip: "Mijn reis",
+      search: "Zoek belevenissen, plekken of steden", from: "vanaf", freeCancel: "Gratis annuleren", bestseller: "Bestseller",
+      off: "{n}% korting", save: "Bespaar {n}%", new: "Nieuw", exp1: "1 belevenis", expN: "{n} belevenissen",
+      cities: "Steden", places: "Plekken", experiences: "Belevenissen", noResults: "Geen resultaten",
+      tagline: "Je slimme reisadviseur: ontdek, vergelijk en plan de beste belevenissen in 40 steden.",
+      explore: "Ontdekken", yourTrip: "Jouw reis", favorites: "Favorieten", about: "Over ons", ourTeam: "Ons team", project: "Het project", pricesIn: "Prijzen in {c}",
+      language: "Taal", currency: "Valuta", suggested: "Voorgesteld voor jou", more: "Meer valuta",
+      ratesNote: "Prijzen worden omgerekend vanuit Amerikaanse dollars tegen benaderde wisselkoersen.",
+      thingsTo: "Wat te doen in {city}", heroSub: "Tickets, tours en belevenissen in {city}, gekozen op populariteit en beoordeling.",
+      statTop: "topbelevenissen", statPlaces: "must-see plekken", statPrice: "startprijs", statRating: "gemiddelde score",
+      inPictures: "{city} in beeld", reelHint: "Sleep, scroll of gebruik de pijltjestoetsen · klik op een foto om hem te openen",
+      topIn: "Topbelevenissen in {city}", topHint: "De meest geboekte tickets en tours op dit moment",
+      placesIn: "Must-see plekken in {city}", placesHint: "Klik op een plek om de belevenissen te zien",
+      allIn: "Alle belevenissen in {city}", catIn: "{cat} in {city}", at: "Belevenissen bij {place}",
+      res1: "1 resultaat", resN: "{n} resultaten", empty: "Geen belevenissen voldoen aan deze filters.",
+      deals: "Aanbiedingen", under: "Onder {p}", allThings: "Alles om te doen",
+      sortPop: "Sorteren: Populair", sortRating: "Sorteren: Best beoordeeld", sortAsc: "Sorteren: Prijs laag → hoog", sortDesc: "Sorteren: Prijs hoog → laag", sortDisc: "Sorteren: Grootste korting",
+      moreDest: "Ontdek meer bestemmingen", destSub: "40 topsteden in 21 landen", showAll: "Toon alle {n} steden", showFewer: "Toon minder",
+      v1t: "Echte beoordelingen", v1p: "Elke belevenis toont echte reviews en hoeveel mensen hem boekten.",
+      v2t: "Slimme reisplanner", v2p: "Geef je dagen en budget op en krijg binnen seconden een compleet plan.",
+      v3t: "Duidelijke prijzen", v3p: "Zie de startprijs en kortingen voordat je beslist.",
+      v4t: "40 steden", v4p: "Van Caïro tot Tokio: de beste dingen om te doen op één plek.",
+    },
+    pl: {
+      clear: "Wyczyść", today: "Dziś", done: "Gotowe",
+      chooseCity: "Wybierz miasto", searchCity: "Szukaj miasta", noCity: "Nie znaleziono miast",
+      discover: "Odkryj: {country}", picsHint: "Przewiń lub użyj strzałek · kliknij zdjęcie, aby je otworzyć",
+      when: "Kiedy", anyDate: "Dowolna data", guests: "Goście", trav1: "1 podróżny", travN: "Podróżni: {n}", filters: "Filtry", allTypes: "Wszystkie rodzaje", searchExp: "Szukaj atrakcji", prevPhoto: "Poprzednie zdjęcie", nextPhoto: "Następne zdjęcie",
+      destinations: "Kierunki", planner: "Planer podróży", signIn: "Zaloguj się", logOut: "Wyloguj się", myTrip: "Moja podróż",
+      search: "Szukaj atrakcji, miejsc lub miast", from: "od", freeCancel: "Bezpłatne anulowanie", bestseller: "Bestseller",
+      off: "-{n}%", save: "Oszczędzasz {n}%", new: "Nowość", exp1: "1 atrakcja", expN: "Atrakcje: {n}",
+      cities: "Miasta", places: "Miejsca", experiences: "Atrakcje", noResults: "Brak wyników",
+      tagline: "Twój inteligentny doradca podróży — odkrywaj, porównuj i planuj najlepsze atrakcje w 40 miastach.",
+      explore: "Odkrywaj", yourTrip: "Twoja podróż", favorites: "Ulubione", about: "O nas", ourTeam: "Nasz zespół", project: "Projekt", pricesIn: "Ceny w {c}",
+      language: "Język", currency: "Waluta", suggested: "Sugerowane dla Ciebie", more: "Więcej walut",
+      ratesNote: "Ceny są przeliczane z dolarów amerykańskich według przybliżonych kursów.",
+      thingsTo: "Co robić w: {city}", heroSub: "Bilety, wycieczki i atrakcje w: {city}, wybrane według popularności i ocen.",
+      statTop: "najlepszych atrakcji", statPlaces: "miejsc do zobaczenia", statPrice: "cena od", statRating: "średnia ocena",
+      inPictures: "{city} na zdjęciach", reelHint: "Przeciągnij, przewiń lub użyj strzałek · kliknij zdjęcie, aby je otworzyć",
+      topIn: "Najlepsze atrakcje: {city}", topHint: "Najczęściej rezerwowane bilety i wycieczki",
+      placesIn: "Miejsca do zobaczenia: {city}", placesHint: "Kliknij miejsce, aby zobaczyć jego atrakcje",
+      allIn: "Wszystkie atrakcje: {city}", catIn: "{cat}: {city}", at: "Atrakcje: {place}",
+      res1: "1 wynik", resN: "Wyniki: {n}", empty: "Żadna atrakcja nie pasuje do tych filtrów.",
+      deals: "Okazje", under: "Poniżej {p}", allThings: "Wszystkie atrakcje",
+      sortPop: "Sortuj: Popularne", sortRating: "Sortuj: Najlepiej oceniane", sortAsc: "Sortuj: Cena rosnąco", sortDesc: "Sortuj: Cena malejąco", sortDisc: "Sortuj: Największa zniżka",
+      moreDest: "Odkryj więcej kierunków", destSub: "40 najlepszych miast w 21 krajach", showAll: "Pokaż wszystkie miasta ({n})", showFewer: "Pokaż mniej",
+      v1t: "Prawdziwe oceny", v1p: "Każda atrakcja pokazuje prawdziwe opinie i liczbę rezerwacji.",
+      v2t: "Inteligentny planer", v2p: "Podaj liczbę dni i budżet — gotowy plan w kilka sekund.",
+      v3t: "Jasne ceny", v3p: "Zobacz cenę początkową i zniżki, zanim zdecydujesz.",
+      v4t: "40 miast", v4p: "Od Kairu po Tokio — najlepsze atrakcje w jednym miejscu.",
+    },
+    ru: {
+      clear: "Очистить", today: "Сегодня", done: "Готово",
+      chooseCity: "Выберите город", searchCity: "Поиск города", noCity: "Города не найдены",
+      discover: "Откройте: {country}", picsHint: "Прокручивайте или используйте стрелки · нажмите на фото, чтобы открыть",
+      when: "Когда", anyDate: "Любая дата", guests: "Гости", trav1: "1 путешественник", travN: "Путешественников: {n}", filters: "Фильтры", allTypes: "Все типы", searchExp: "Найти впечатления", prevPhoto: "Предыдущее фото", nextPhoto: "Следующее фото",
+      destinations: "Направления", planner: "Планировщик", signIn: "Войти", logOut: "Выйти", myTrip: "Моя поездка",
+      search: "Ищите впечатления, места или города", from: "от", freeCancel: "Бесплатная отмена", bestseller: "Хит продаж",
+      off: "−{n}%", save: "Скидка {n}%", new: "Новинка", exp1: "1 впечатление", expN: "Впечатлений: {n}",
+      cities: "Города", places: "Места", experiences: "Впечатления", noResults: "Ничего не найдено",
+      tagline: "Ваш умный помощник в путешествиях: находите, сравнивайте и планируйте лучшие впечатления в 40 городах.",
+      explore: "Обзор", yourTrip: "Ваша поездка", favorites: "Избранное", about: "О нас", ourTeam: "Наша команда", project: "О проекте", pricesIn: "Цены в {c}",
+      language: "Язык", currency: "Валюта", suggested: "Рекомендуемые", more: "Другие валюты",
+      ratesNote: "Цены пересчитаны из долларов США по приблизительному курсу.",
+      thingsTo: "Чем заняться: {city}", heroSub: "Билеты, экскурсии и впечатления — {city}. Отобраны по популярности и рейтингу.",
+      statTop: "лучших впечатлений", statPlaces: "главных мест", statPrice: "цена от", statRating: "средний рейтинг",
+      inPictures: "{city} в фотографиях", reelHint: "Перетаскивайте, прокручивайте или используйте стрелки · нажмите на фото, чтобы открыть",
+      topIn: "Лучшие впечатления: {city}", topHint: "Самые популярные билеты и экскурсии сейчас",
+      placesIn: "Главные места: {city}", placesHint: "Нажмите на место, чтобы увидеть впечатления",
+      allIn: "Все впечатления: {city}", catIn: "{cat}: {city}", at: "Впечатления: {place}",
+      res1: "1 результат", resN: "Результатов: {n}", empty: "Нет впечатлений по этим фильтрам.",
+      deals: "Скидки", under: "До {p}", allThings: "Все развлечения",
+      sortPop: "Сортировка: Популярные", sortRating: "Сортировка: Лучший рейтинг", sortAsc: "Сортировка: Сначала дешевле", sortDesc: "Сортировка: Сначала дороже", sortDisc: "Сортировка: Большая скидка",
+      moreDest: "Другие направления", destSub: "40 лучших городов в 21 стране", showAll: "Показать все города ({n})", showFewer: "Свернуть",
+      v1t: "Настоящие оценки", v1p: "У каждого впечатления — реальные отзывы и число бронирований.",
+      v2t: "Умный планировщик", v2p: "Укажите дни и бюджет — и получите готовый план за секунды.",
+      v3t: "Понятные цены", v3p: "Сразу видна начальная цена и скидки.",
+      v4t: "40 городов", v4p: "От Каира до Токио — лучшее в одном месте.",
+    },
+    tr: {
+      clear: "Temizle", today: "Bugün", done: "Tamam",
+      chooseCity: "Şehir seçin", searchCity: "Şehir ara", noCity: "Şehir bulunamadı",
+      discover: "{country} keşfedin", picsHint: "Kaydırın veya okları kullanın · açmak için bir fotoğrafa tıklayın",
+      when: "Ne zaman", anyDate: "Herhangi bir tarih", guests: "Misafirler", trav1: "1 gezgin", travN: "{n} gezgin", filters: "Filtreler", allTypes: "Tüm türler", searchExp: "Deneyim ara", prevPhoto: "Önceki fotoğraf", nextPhoto: "Sonraki fotoğraf",
+      destinations: "Destinasyonlar", planner: "Gezi planlayıcı", signIn: "Giriş yap", logOut: "Çıkış yap", myTrip: "Gezim",
+      search: "Deneyim, yer veya şehir ara", from: "başlayan fiyat", freeCancel: "Ücretsiz iptal", bestseller: "Çok satan",
+      off: "%{n} indirim", save: "%{n} tasarruf", new: "Yeni", exp1: "1 deneyim", expN: "{n} deneyim",
+      cities: "Şehirler", places: "Yerler", experiences: "Deneyimler", noResults: "Sonuç yok",
+      tagline: "Akıllı gezi danışmanınız: 40 şehirdeki en iyi deneyimleri keşfedin, karşılaştırın ve planlayın.",
+      explore: "Keşfet", yourTrip: "Geziniz", favorites: "Favoriler", about: "Hakkında", ourTeam: "Ekibimiz", project: "Proje", pricesIn: "Fiyatlar: {c}",
+      language: "Dil", currency: "Para birimi", suggested: "Sizin için önerilenler", more: "Diğer para birimleri",
+      ratesNote: "Fiyatlar ABD dolarından yaklaşık kurlarla çevrilir.",
+      thingsTo: "{city} gezilecek yerler", heroSub: "{city} için popülerlik ve puana göre seçilmiş biletler, turlar ve deneyimler.",
+      statTop: "en iyi deneyim", statPlaces: "görülmesi gereken yer", statPrice: "başlangıç fiyatı", statRating: "ortalama puan",
+      inPictures: "Fotoğraflarla {city}", reelHint: "Sürükleyin, kaydırın veya ok tuşlarını kullanın · açmak için bir fotoğrafa tıklayın",
+      topIn: "{city} en iyi deneyimler", topHint: "Şu anda en çok rezerve edilen biletler ve turlar",
+      placesIn: "{city} görülmesi gereken yerler", placesHint: "Deneyimlerini görmek için bir yere tıklayın",
+      allIn: "{city} tüm deneyimler", catIn: "{city}: {cat}", at: "{place} deneyimleri",
+      res1: "1 sonuç", resN: "{n} sonuç", empty: "Bu filtrelere uyan deneyim yok.",
+      deals: "Fırsatlar", under: "{p} altı", allThings: "Tüm aktiviteler",
+      sortPop: "Sırala: Popüler", sortRating: "Sırala: En yüksek puan", sortAsc: "Sırala: Fiyat artan", sortDesc: "Sırala: Fiyat azalan", sortDisc: "Sırala: En büyük indirim",
+      moreDest: "Daha fazla destinasyon keşfedin", destSub: "21 ülkede 40 popüler şehir", showAll: "{n} şehrin tümünü göster", showFewer: "Daha az göster",
+      v1t: "Gerçek puanlar", v1p: "Her deneyim gerçek yorumları ve kaç kişinin rezervasyon yaptığını gösterir.",
+      v2t: "Akıllı gezi planlayıcı", v2p: "Gün sayınızı ve bütçenizi söyleyin, saniyeler içinde tam bir plan alın.",
+      v3t: "Net fiyatlar", v3p: "Karar vermeden önce başlangıç fiyatını ve indirimleri görün.",
+      v4t: "40 şehir", v4p: "Kahire'den Tokyo'ya, yapılacak en iyi şeyler tek bir yerde.",
+    },
+    ro: {
+      clear: "Șterge", today: "Azi", done: "Gata",
+      chooseCity: "Alege orașul", searchCity: "Caută oraș", noCity: "Nu s-au găsit orașe",
+      discover: "Descoperă {country}", picsHint: "Derulează sau folosește săgețile · apasă pe o fotografie pentru a o deschide",
+      when: "Când", anyDate: "Orice dată", guests: "Oaspeți", trav1: "1 călător", travN: "{n} călători", filters: "Filtre", allTypes: "Toate tipurile", searchExp: "Caută experiențe", prevPhoto: "Fotografia anterioară", nextPhoto: "Fotografia următoare",
+      destinations: "Destinații", planner: "Planificator", signIn: "Autentificare", logOut: "Deconectare", myTrip: "Călătoria mea",
+      search: "Caută experiențe, locuri sau orașe", from: "de la", freeCancel: "Anulare gratuită", bestseller: "Cel mai vândut",
+      off: "-{n}%", save: "Economisești {n}%", new: "Nou", exp1: "1 experiență", expN: "{n} experiențe",
+      cities: "Orașe", places: "Locuri", experiences: "Experiențe", noResults: "Niciun rezultat",
+      tagline: "Consilierul tău inteligent de călătorii: descoperă, compară și planifică cele mai bune experiențe din 40 de orașe.",
+      explore: "Explorează", yourTrip: "Călătoria ta", favorites: "Favorite", about: "Despre", ourTeam: "Echipa noastră", project: "Proiectul", pricesIn: "Prețuri în {c}",
+      language: "Limbă", currency: "Monedă", suggested: "Sugerate pentru tine", more: "Mai multe monede",
+      ratesNote: "Prețurile sunt convertite din dolari americani la cursuri de schimb aproximative.",
+      thingsTo: "Ce să faci în {city}", heroSub: "Bilete, tururi și experiențe în {city}, alese după popularitate și evaluări.",
+      statTop: "experiențe de top", statPlaces: "locuri de neratat", statPrice: "preț de pornire", statRating: "nota medie",
+      inPictures: "{city} în imagini", reelHint: "Trage, derulează sau folosește săgețile · apasă pe o fotografie pentru a o deschide",
+      topIn: "Experiențe de top în {city}", topHint: "Cele mai rezervate bilete și tururi acum",
+      placesIn: "Locuri de neratat în {city}", placesHint: "Apasă pe un loc pentru a-i vedea experiențele",
+      allIn: "Toate experiențele din {city}", catIn: "{cat} în {city}", at: "Experiențe la {place}",
+      res1: "1 rezultat", resN: "{n} rezultate", empty: "Nicio experiență nu corespunde acestor filtre.",
+      deals: "Oferte", under: "Sub {p}", allThings: "Toate activitățile",
+      sortPop: "Sortare: Populare", sortRating: "Sortare: Cele mai apreciate", sortAsc: "Sortare: Preț crescător", sortDesc: "Sortare: Preț descrescător", sortDisc: "Sortare: Cea mai mare reducere",
+      moreDest: "Explorează mai multe destinații", destSub: "40 de orașe de top în 21 de țări", showAll: "Arată toate cele {n} orașe", showFewer: "Arată mai puține",
+      v1t: "Evaluări reale", v1p: "Fiecare experiență arată recenzii reale și câte persoane au rezervat-o.",
+      v2t: "Planificator inteligent", v2p: "Spune-ne zilele și bugetul și primești un plan complet în câteva secunde.",
+      v3t: "Prețuri clare", v3p: "Vezi prețul de pornire și reducerile înainte să decizi.",
+      v4t: "40 de orașe", v4p: "De la Cairo la Tokyo, cele mai bune activități într-un singur loc.",
+    },
+    nb: {
+      clear: "Tøm", today: "I dag", done: "Ferdig",
+      chooseCity: "Velg by", searchCity: "Søk etter by", noCity: "Fant ingen byer",
+      discover: "Oppdag {country}", picsHint: "Rull eller bruk pilene · klikk på et bilde for å åpne det",
+      when: "Når", anyDate: "Hvilken som helst dato", guests: "Gjester", trav1: "1 reisende", travN: "{n} reisende", filters: "Filtre", allTypes: "Alle typer", searchExp: "Søk etter opplevelser", prevPhoto: "Forrige bilde", nextPhoto: "Neste bilde",
+      destinations: "Reisemål", planner: "Reiseplanlegger", signIn: "Logg inn", logOut: "Logg ut", myTrip: "Min reise",
+      search: "Søk etter opplevelser, steder eller byer", from: "fra", freeCancel: "Gratis avbestilling", bestseller: "Bestselger",
+      off: "{n} % rabatt", save: "Spar {n} %", new: "Ny", exp1: "1 opplevelse", expN: "{n} opplevelser",
+      cities: "Byer", places: "Steder", experiences: "Opplevelser", noResults: "Ingen treff",
+      tagline: "Din smarte reiserådgiver – oppdag, sammenlign og planlegg de beste opplevelsene i 40 byer.",
+      explore: "Utforsk", yourTrip: "Din reise", favorites: "Favoritter", about: "Om oss", ourTeam: "Teamet vårt", project: "Prosjektet", pricesIn: "Priser i {c}",
+      language: "Språk", currency: "Valuta", suggested: "Foreslått for deg", more: "Flere valutaer",
+      ratesNote: "Prisene er omregnet fra amerikanske dollar etter omtrentlige valutakurser.",
+      thingsTo: "Ting å gjøre i {city}", heroSub: "Billetter, turer og opplevelser i {city}, valgt etter popularitet og vurdering.",
+      statTop: "toppopplevelser", statPlaces: "steder du må se", statPrice: "startpris", statRating: "gjennomsnittlig vurdering",
+      inPictures: "{city} i bilder", reelHint: "Dra, rull eller bruk piltastene · klikk på et bilde for å åpne det",
+      topIn: "Toppopplevelser i {city}", topHint: "De mest bestilte billettene og turene akkurat nå",
+      placesIn: "Steder du må se i {city}", placesHint: "Klikk på et sted for å se opplevelsene der",
+      allIn: "Alle opplevelser i {city}", catIn: "{cat} i {city}", at: "Opplevelser ved {place}",
+      res1: "1 treff", resN: "{n} treff", empty: "Ingen opplevelser passer til disse filtrene.",
+      deals: "Tilbud", under: "Under {p}", allThings: "Alt å gjøre",
+      sortPop: "Sorter: Populære", sortRating: "Sorter: Best vurdert", sortAsc: "Sorter: Pris lav → høy", sortDesc: "Sorter: Pris høy → lav", sortDisc: "Sorter: Størst rabatt",
+      moreDest: "Utforsk flere reisemål", destSub: "40 toppbyer i 21 land", showAll: "Vis alle {n} byene", showFewer: "Vis færre",
+      v1t: "Ekte vurderinger", v1p: "Hver opplevelse viser ekte anmeldelser og hvor mange som har bestilt den.",
+      v2t: "Smart reiseplanlegger", v2p: "Oppgi dager og budsjett – få en full plan på sekunder.",
+      v3t: "Tydelige priser", v3p: "Se startpris og rabatter før du bestemmer deg.",
+      v4t: "40 byer", v4p: "Fra Kairo til Tokyo – det beste å gjøre på ett sted.",
+    },
+    da: {
+      clear: "Ryd", today: "I dag", done: "Færdig",
+      chooseCity: "Vælg by", searchCity: "Søg efter by", noCity: "Ingen byer fundet",
+      discover: "Oplev {country}", picsHint: "Rul eller brug pilene · klik på et billede for at åbne det",
+      when: "Hvornår", anyDate: "Enhver dato", guests: "Gæster", trav1: "1 rejsende", travN: "{n} rejsende", filters: "Filtre", allTypes: "Alle typer", searchExp: "Søg oplevelser", prevPhoto: "Forrige billede", nextPhoto: "Næste billede",
+      destinations: "Destinationer", planner: "Rejseplanlægger", signIn: "Log ind", logOut: "Log ud", myTrip: "Min rejse",
+      search: "Søg efter oplevelser, steder eller byer", from: "fra", freeCancel: "Gratis afbestilling", bestseller: "Bestseller",
+      off: "{n} % rabat", save: "Spar {n} %", new: "Ny", exp1: "1 oplevelse", expN: "{n} oplevelser",
+      cities: "Byer", places: "Steder", experiences: "Oplevelser", noResults: "Ingen resultater",
+      tagline: "Din smarte rejserådgiver – opdag, sammenlign og planlæg de bedste oplevelser i 40 byer.",
+      explore: "Udforsk", yourTrip: "Din rejse", favorites: "Favoritter", about: "Om os", ourTeam: "Vores team", project: "Projektet", pricesIn: "Priser i {c}",
+      language: "Sprog", currency: "Valuta", suggested: "Foreslået til dig", more: "Flere valutaer",
+      ratesNote: "Priserne er omregnet fra amerikanske dollars til omtrentlige valutakurser.",
+      thingsTo: "Ting at lave i {city}", heroSub: "Billetter, ture og oplevelser i {city}, udvalgt efter popularitet og bedømmelse.",
+      statTop: "topoplevelser", statPlaces: "steder du skal se", statPrice: "startpris", statRating: "gennemsnitlig bedømmelse",
+      inPictures: "{city} i billeder", reelHint: "Træk, rul eller brug piletasterne · klik på et billede for at åbne det",
+      topIn: "Topoplevelser i {city}", topHint: "De mest bookede billetter og ture lige nu",
+      placesIn: "Steder du skal se i {city}", placesHint: "Klik på et sted for at se dets oplevelser",
+      allIn: "Alle oplevelser i {city}", catIn: "{cat} i {city}", at: "Oplevelser ved {place}",
+      res1: "1 resultat", resN: "{n} resultater", empty: "Ingen oplevelser matcher disse filtre.",
+      deals: "Tilbud", under: "Under {p}", allThings: "Alt at lave",
+      sortPop: "Sortér: Populære", sortRating: "Sortér: Bedst bedømt", sortAsc: "Sortér: Pris lav → høj", sortDesc: "Sortér: Pris høj → lav", sortDisc: "Sortér: Største rabat",
+      moreDest: "Udforsk flere destinationer", destSub: "40 topbyer i 21 lande", showAll: "Vis alle {n} byer", showFewer: "Vis færre",
+      v1t: "Ægte bedømmelser", v1p: "Hver oplevelse viser ægte anmeldelser og hvor mange der har booket den.",
+      v2t: "Smart rejseplanlægger", v2p: "Fortæl os dine dage og dit budget – få en komplet plan på sekunder.",
+      v3t: "Klare priser", v3p: "Se startprisen og eventuelle rabatter, før du beslutter dig.",
+      v4t: "40 byer", v4p: "Fra Kairo til Tokyo – det bedste at lave samlet ét sted.",
+    },
+    sv: {
+      clear: "Rensa", today: "Idag", done: "Klar",
+      chooseCity: "Välj stad", searchCity: "Sök stad", noCity: "Inga städer hittades",
+      discover: "Upptäck {country}", picsHint: "Scrolla eller använd pilarna · klicka på en bild för att öppna den",
+      when: "När", anyDate: "Valfritt datum", guests: "Gäster", trav1: "1 resenär", travN: "{n} resenärer", filters: "Filter", allTypes: "Alla typer", searchExp: "Sök upplevelser", prevPhoto: "Föregående bild", nextPhoto: "Nästa bild",
+      destinations: "Resmål", planner: "Reseplanerare", signIn: "Logga in", logOut: "Logga ut", myTrip: "Min resa",
+      search: "Sök upplevelser, platser eller städer", from: "från", freeCancel: "Gratis avbokning", bestseller: "Bästsäljare",
+      off: "{n} % rabatt", save: "Spara {n} %", new: "Ny", exp1: "1 upplevelse", expN: "{n} upplevelser",
+      cities: "Städer", places: "Platser", experiences: "Upplevelser", noResults: "Inga resultat",
+      tagline: "Din smarta reserådgivare – upptäck, jämför och planera de bästa upplevelserna i 40 städer.",
+      explore: "Utforska", yourTrip: "Din resa", favorites: "Favoriter", about: "Om oss", ourTeam: "Vårt team", project: "Projektet", pricesIn: "Priser i {c}",
+      language: "Språk", currency: "Valuta", suggested: "Förslag för dig", more: "Fler valutor",
+      ratesNote: "Priserna räknas om från amerikanska dollar till ungefärliga växelkurser.",
+      thingsTo: "Saker att göra i {city}", heroSub: "Biljetter, turer och upplevelser i {city}, utvalda efter popularitet och betyg.",
+      statTop: "toppupplevelser", statPlaces: "platser du måste se", statPrice: "startpris", statRating: "genomsnittligt betyg",
+      inPictures: "{city} i bilder", reelHint: "Dra, scrolla eller använd piltangenterna · klicka på en bild för att öppna den",
+      topIn: "Toppupplevelser i {city}", topHint: "De mest bokade biljetterna och turerna just nu",
+      placesIn: "Platser du måste se i {city}", placesHint: "Klicka på en plats för att se dess upplevelser",
+      allIn: "Alla upplevelser i {city}", catIn: "{cat} i {city}", at: "Upplevelser vid {place}",
+      res1: "1 resultat", resN: "{n} resultat", empty: "Inga upplevelser matchar dessa filter.",
+      deals: "Erbjudanden", under: "Under {p}", allThings: "Allt att göra",
+      sortPop: "Sortera: Populära", sortRating: "Sortera: Högst betyg", sortAsc: "Sortera: Pris låg → hög", sortDesc: "Sortera: Pris hög → låg", sortDisc: "Sortera: Störst rabatt",
+      moreDest: "Utforska fler resmål", destSub: "40 toppstäder i 21 länder", showAll: "Visa alla {n} städer", showFewer: "Visa färre",
+      v1t: "Riktiga betyg", v1p: "Varje upplevelse visar riktiga omdömen och hur många som bokat den.",
+      v2t: "Smart reseplanerare", v2p: "Berätta dina dagar och din budget – få en komplett plan på sekunder.",
+      v3t: "Tydliga priser", v3p: "Se startpris och rabatter innan du bestämmer dig.",
+      v4t: "40 städer", v4p: "Från Kairo till Tokyo – det bästa att göra på ett ställe.",
+    },
+  };
+
+  /* ---------------- Currencies ----------------
+     Approximate exchange rates: how much of each currency equals 1 US dollar.
+     All prices in the database are in USD and are converted with these rates.
+     To update: change the numbers below (e.g. from xe.com). */
+  const RATES = {
+    USD: 1, EUR: 0.86, GBP: 0.75, AED: 3.6725, JPY: 151, SGD: 1.30,
+    ALL: 84, ARS: 1450, AUD: 1.53, AZN: 1.70, BHD: 0.376, BRL: 5.40, CAD: 1.40, CHF: 0.80,
+    CNY: 7.12, CZK: 21.0, DKK: 6.42, EGP: 47.5, HKD: 7.77, HUF: 335, IDR: 16600, ILS: 3.30,
+    INR: 88.0, ISK: 122, JOD: 0.709, KRW: 1420, KWD: 0.306, MAD: 9.20, MXN: 18.4, MYR: 4.22,
+    NOK: 10.1, NZD: 1.74, OMR: 0.385, PHP: 58.5, PLN: 3.65, QAR: 3.64, RON: 4.37, SAR: 3.75,
+    SEK: 9.45, THB: 32.6, TRY: 41.8, TWD: 30.5, VND: 26300, ZAR: 17.3,
+  };
+  const SUGGESTED = ['USD', 'EUR', 'GBP', 'AED', 'JPY', 'SGD'];
+
+  /* ---------------- Saved choices ---------------- */
+  const read = (k) => { try { return localStorage.getItem(k); } catch { return null; } };
+  const write = (k, v) => { try { localStorage.setItem(k, v); } catch { /* private mode */ } };
+  let lang = read('rumbo:lang');
+  if (!T[lang]) lang = 'en';
+  let currency = read('rumbo:currency');
+  if (!RATES[currency]) currency = 'USD';
+  document.documentElement.lang = lang;
+
+  const t = (key, vars = {}) =>
+    String((T[lang] && T[lang][key]) ?? T.en[key] ?? key).replace(/\{(\w+)\}/g, (m, v) => (v in vars ? vars[v] : m));
+
+  const fmtCache = {};
+  function formatter(digits) {
+    const k = currency + digits;
+    if (!fmtCache[k]) {
+      const opts = { style: 'currency', currency, currencyDisplay: 'narrowSymbol' };
+      if (digits === 0) { opts.minimumFractionDigits = 0; opts.maximumFractionDigits = 0; }
+      try { fmtCache[k] = new Intl.NumberFormat(lang, opts); }
+      catch { fmtCache[k] = new Intl.NumberFormat('en', { ...opts, currencyDisplay: 'symbol' }); }
+    }
+    return fmtCache[k];
+  }
+  /** usd → formatted price in the chosen currency. whole=true rounds (for labels like "Under €45"). */
+  function money(usd, whole = false) {
+    if (usd == null || isNaN(usd)) return '—';
+    const v = Number(usd) * RATES[currency];
+    return formatter(whole ? 0 : null).format(whole ? Math.round(v) : v);
+  }
+
+  function symbol(code) {
+    try {
+      const p = new Intl.NumberFormat('en', { style: 'currency', currency: code, currencyDisplay: 'narrowSymbol' }).formatToParts(1).find((x) => x.type === 'currency');
+      return p && p.value !== code ? p.value : '';
+    } catch { return ''; }
+  }
+  let names = null;
+  function currencyName(code) {
+    try { names = names || new Intl.DisplayNames([lang, 'en'], { type: 'currency' }); return names.of(code); } catch { return code; }
+  }
+  const currencies = () => Object.keys(RATES).map((code) => ({ code, symbol: symbol(code), name: currencyName(code) }));
+
+  function setLang(code) { if (T[code]) { write('rumbo:lang', code); location.reload(); } }
+  function setCurrency(code) { if (RATES[code]) { write('rumbo:currency', code); location.reload(); } }
+
+  /** Translate static text marked with data-i18n="key" (and data-i18n-ph for placeholders). */
+  function apply(root = document) {
+    root.querySelectorAll('[data-i18n]').forEach((el) => { el.textContent = t(el.dataset.i18n); });
+    root.querySelectorAll('[data-i18n-ph]').forEach((el) => { el.placeholder = t(el.dataset.i18nPh); });
+  }
+
+  // Every price on the site goes through TravelDB.formatPrice → now in the chosen currency
+  if (window.TravelDB) {
+    TravelDB.formatPrice = (price) => (!price || price.from == null ? 'Unavailable' : money(price.from));
+  }
+
+  // other tabs: follow a change made in another tab
+  window.addEventListener('storage', (e) => { if (e.key === 'rumbo:lang' || e.key === 'rumbo:currency') location.reload(); });
+
+  window.Locale = {
+    get lang() { return lang; }, get currency() { return currency; },
+    LANGS, SUGGESTED, RATES, t, money, symbol, currencies, setLang, setCurrency, apply,
+    langInfo: () => LANGS.find((l) => l.code === lang),
+  };
+})();
