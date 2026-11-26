@@ -1,0 +1,18 @@
+/* =====================================================================
+   components/effects.css — the look of the visual effects (switchboard: js/core/fx.js)
+   Every rule starts with an html.fx-… class, so an effect that is switched off changes nothing.
+   1. Tilt cards        js/components/tilt.js
+   (the 3D globe has its own file: components/globe.css)
+   ===================================================================== */
+
+/* ---------- 1. Tilt cards: lean toward the mouse + a glass shine that follows it ---------- */
+html.fx-tilt .dest__img{position:relative}
+html.fx-tilt .card .card__img.is-tilt,
+html.fx-tilt .place.is-tilt,
+html.fx-tilt .pic.is-tilt,
+html.fx-tilt .dest .dest__img.is-tilt{
+  transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(-4px) scale(1.015);
+  transition:transform .12s ease-out,box-shadow .3s ease;
+  box-shadow:0 22px 44px rgba(21,32,43,.26);will-change:transform}
+html.fx-tilt .is-tilt::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;border-radius:inherit;
+  background:radial-gradient(circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.34) 0%,rgba(255,255,255,.10) 28%,rgba(255,255,255,0) 58%)}
