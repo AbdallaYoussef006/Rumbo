@@ -1,0 +1,42 @@
+/* =====================================================================
+   components/sections.css — page sections: titles with an accent line,
+   arrow buttons, horizontal rails (scrolling rows of cards), card grids, "Why Rumbo" values
+   Owner: UI — Boudy
+   ===================================================================== */
+
+section{margin:44px 0}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:16px}
+.sec-head h2{font-size:24px;margin:0;letter-spacing:-.4px}
+.sec-head h2::before{content:"";display:block;width:34px;height:3px;border-radius:3px;margin-bottom:12px;background:linear-gradient(90deg,#1572C8,#13B0A5)}
+.sec-head p{margin:4px 0 0;color:var(--ink-3);font-size:14px}
+
+/* round arrow buttons (data-rail="<rail id>" data-dir="-1|1", handled in js/core/app.js) */
+.arrows{display:flex;gap:8px}
+.arrow{width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--surface);display:grid;place-items:center;color:var(--ink);box-shadow:0 6px 16px rgba(21,32,43,.08)}
+.arrow:hover{border-color:var(--ink-3)}
+
+/* horizontal rail: 4 cards visible, scrolls sideways */
+.rail{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 3*18px)/4);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px}
+.rail::-webkit-scrollbar{display:none}
+.rail > *{scroll-snap-align:start}
+
+/* card grid */
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px 18px}
+
+/* "Why Rumbo" values block (home + about) */
+.values{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;background:var(--bg-2);border-radius:20px;padding:28px}
+.value__icon{width:42px;height:42px;border-radius:12px;background:var(--btn);color:#fff;display:grid;place-items:center;margin-bottom:12px}
+.values h3{margin:0 0 4px;font-size:16px}
+.values p{margin:0;font-size:14px;color:var(--ink-2);line-height:1.5}
+
+@media (max-width:1024px){
+  .rail{grid-auto-columns:calc((100% - 2*18px)/3)}
+  .grid{grid-template-columns:repeat(3,1fr)}
+}
+@media (max-width:760px){
+  .rail{grid-auto-columns:72%}
+  .grid{grid-template-columns:repeat(2,1fr);gap:22px 12px}
+  .arrows{display:none}
+  .values{grid-template-columns:1fr 1fr}
+}
+@media (max-width:420px){ .grid{grid-template-columns:1fr} .values{grid-template-columns:1fr} }
