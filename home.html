@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>/* apply saved light/dark choice before the page paints */try{var t=localStorage.getItem('rumbo:theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rumbo — Things to do, tours & tickets</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/pages/home.css">
+<link rel="stylesheet" href="css/components/globe.css">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/logo/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
+</head>
+<body class="page-home">
+  <!-- HERO -->
+  <div class="hero-x">
+    <div class="hx" id="hero">
+      <div class="hero__slides hx__photo" id="hero-slides"></div>
+      <div class="wrap hx__inner">
+        <div class="hx__panel">
+          <span class="hero__kicker" id="hero-kicker"></span>
+          <h1 id="hero-title"></h1>
+          <p id="hero-sub"></p>
+          <div class="hero__stats" id="hero-stats"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search bar: date + travelers are saved for the trip planner; "Filters" filters the experiences below.
+         Each field opens a glass popover (js/components/popover.js); the hidden inputs keep the values. -->
+    <form class="hero-search" id="hero-search">
+      <div class="hs-field" data-pick="date" role="button" tabindex="0" aria-haspopup="dialog" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+        <span class="hs-text"><small data-i18n="when">When</small><b id="hs-date-text"></b></span>
+        <svg class="hs-chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg>
+        <input type="date" id="hs-date" class="hs-native" tabindex="-1" aria-hidden="true">
+      </div>
+      <div class="hs-field" data-pick="guests" role="button" tabindex="0" aria-haspopup="dialog" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6M16 4.8a3.5 3.5 0 0 1 0 6.4M18.5 14.4c1.9.8 3 2.8 3 5.6"/></svg>
+        <span class="hs-text"><small data-i18n="guests">Guests</small><b id="hs-guests-text"></b></span>
+        <svg class="hs-chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg>
+        <select id="hs-guests" class="hs-native" tabindex="-1" aria-hidden="true"></select>
+      </div>
+      <div class="hs-field" data-pick="type" role="button" tabindex="0" aria-haspopup="dialog" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M6.5 12h11M10 18h4"/></svg>
+        <span class="hs-text"><small data-i18n="filters">Filters</small><b id="hs-type-text"></b></span>
+        <svg class="hs-chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg>
+        <select id="hs-type" class="hs-native" tabindex="-1" aria-hidden="true"></select>
+      </div>
+      <button type="submit" class="hs-go">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <span data-i18n="searchExp">Search experiences</span>
+        <svg class="hs-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+    </form>
+  </div>
+
+
+<main class="wrap">
+  <!-- CITY IN PICTURES: places and experiences, every photo opens it -->
+  <section class="pics-section" aria-labelledby="pics-title">
+    <div class="sec-head">
+      <div><h2 id="pics-title">Cairo in pictures</h2><p data-i18n="picsHint">Scroll or use the arrows · click any photo to open it</p></div>
+      <div class="arrows">
+        <button class="arrow" data-rail="rail-pics" data-dir="-1" aria-label="Previous"></button>
+        <button class="arrow" data-rail="rail-pics" data-dir="1" aria-label="Next"></button>
+      </div>
+    </div>
+    <div class="rail rail--pics" id="rail-pics"></div>
+  </section>
+
+  <!-- TOP EXPERIENCES -->
+  <section>
+    <div class="sec-head">
+      <div><h2 id="top-title">Top experiences</h2><p data-i18n="topHint">The most booked tickets and tours right now</p></div>
+      <div class="arrows">
+        <button class="arrow" data-rail="rail-top" data-dir="-1" aria-label="Previous"></button>
+        <button class="arrow" data-rail="rail-top" data-dir="1" aria-label="Next"></button>
+      </div>
+    </div>
+    <div class="rail" id="rail-top"></div>
+  </section>
+
+  <!-- TOP PLACES -->
+  <section>
+    <div class="sec-head">
+      <div><h2 id="places-title">Must-see places</h2><p data-i18n="placesHint">Click a place to see its experiences</p></div>
+      <div class="arrows">
+        <button class="arrow" data-rail="rail-places" data-dir="-1" aria-label="Previous"></button>
+        <button class="arrow" data-rail="rail-places" data-dir="1" aria-label="Next"></button>
+      </div>
+    </div>
+    <div class="rail" id="rail-places"></div>
+  </section>
+
+  <!-- ALL EXPERIENCES -->
+  <section id="all">
+    <div class="sec-head">
+      <div><h2 id="all-title">All experiences</h2><p id="all-count"></p></div>
+    </div>
+    <div class="cats__row cats--inline" id="cat-strip"></div>
+    <div class="toolbar">
+      <span id="place-filter"></span>
+      <button class="chip" id="chip-free" data-i18n="freeCancel">Free cancellation</button>
+      <button class="chip" id="chip-deals" data-i18n="deals">Deals</button>
+      <button class="chip" id="chip-under50">Under $50</button>
+      <select class="select" id="sort-select" aria-label="Sort">
+        <option value="popularity" data-i18n="sortPop">Sort: Popular</option>
+        <option value="rating" data-i18n="sortRating">Sort: Top rated</option>
+        <option value="priceAsc" data-i18n="sortAsc">Sort: Price low → high</option>
+        <option value="priceDesc" data-i18n="sortDesc">Sort: Price high → low</option>
+        <option value="discount" data-i18n="sortDisc">Sort: Biggest discount</option>
+      </select>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <!-- DESTINATIONS -->
+  <section id="destinations">
+    <div class="sec-head"><div><h2 data-i18n="moreDest">Explore more destinations</h2><p data-i18n="destSub">40 top cities in 21 countries</p></div></div>
+    <!-- 3D globe of the 40 cities (js/components/globe.js) — stays empty and hidden if the effect is switched off -->
+    <div class="globe" id="globe"></div>
+    <div class="dests" id="dests"></div>
+    <div class="dests-more"><button class="chip" id="dests-toggle" type="button" aria-expanded="false">Show all 40 cities</button></div>
+  </section>
+
+  <!-- WHY RUMBO -->
+  <section class="values">
+    <div><div class="value__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.5 7L12 17.5 5.7 21l1.5-7L2 9.3l7-.8z"/></svg></div>
+      <h3 data-i18n="v1t">Real ratings</h3><p data-i18n="v1p">Every experience shows real reviews and how many people booked it.</p></div>
+    <div><div class="value__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></div>
+      <h3 data-i18n="v2t">Smart trip planner</h3><p data-i18n="v2p">Tell us your days and budget — get a full plan in seconds.</p></div>
+    <div><div class="value__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+      <h3 data-i18n="v3t">Clear prices</h3><p data-i18n="v3p">See the starting price and any discount before you decide.</p></div>
+    <div><div class="value__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></div>
+      <h3 data-i18n="v4t">40 cities</h3><p data-i18n="v4p">From Cairo to Tokyo, the best things to do in one place.</p></div>
+  </section>
+</main>
+
+<!-- Scripts (order matters): data → core (fx.js = effects on/off) → components → this page -->
+<script src="data/database.js"></script>
+<script src="data/land-dots.js"></script>
+<script src="js/core/travelDB.js"></script>
+<script src="js/core/locale.js"></script>
+<script src="js/core/app.js"></script>
+<script src="js/core/fx.js"></script>
+<script src="js/components/favorites.js"></script>
+<script src="js/components/cards.js"></script>
+<script src="js/components/search.js"></script>
+<script src="js/components/theme-switch.js"></script>
+<script src="js/components/locale-picker.js"></script>
+<script src="js/components/city-picker.js"></script>
+<script src="js/components/header.js"></script>
+<script src="js/components/footer.js"></script>
+<script src="js/components/rails.js"></script>
+<script src="js/components/tilt.js"></script>
+<script src="js/components/globe.js"></script>
+<script src="js/components/popover.js"></script>
+<script src="js/pages/home.js"></script>
+</body>
+</html>
