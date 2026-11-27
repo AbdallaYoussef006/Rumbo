@@ -1,0 +1,45 @@
+/* =====================================================================
+   components/locale-picker.css — "🌐 English ▾  USD ▾" buttons in the header
+   and the Language / Currency panel they open (logic: js/components/locale-picker.js)
+   Owner: UI — Boudy
+   ===================================================================== */
+
+.loc-group{display:inline-flex;align-items:center;gap:2px}
+.loc-btn{display:inline-flex;align-items:center;gap:7px;height:38px;padding:0 12px;border:1px solid transparent;border-radius:999px;background:transparent;color:var(--ink);font:inherit;font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap;transition:border-color .2s,background-color .2s}
+.loc-btn:hover,.loc-btn[aria-expanded="true"]{border-color:var(--line);background:color-mix(in srgb,var(--ink) 5%,transparent)}
+.loc-btn svg{flex:0 0 auto;color:var(--ink-2)}
+.loc-btn .i-chev{opacity:.7;margin-left:-1px}
+
+/* ---------- The panel ---------- */
+.loc-panel{position:fixed;top:76px;right:16px;z-index:60;width:min(800px,calc(100vw - 32px));max-height:min(540px,calc(100vh - 100px));display:flex;flex-direction:column;
+  background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:0 24px 60px rgba(21,32,43,.18);
+  opacity:0;visibility:hidden;transform:translateY(-6px);transition:opacity .18s ease,transform .18s ease,visibility .18s}
+.loc-panel.open{opacity:1;visibility:visible;transform:none}
+.loc-tabs{display:flex;gap:6px;padding:10px 14px 0;border-bottom:1px solid var(--line)}
+.loc-tab{position:relative;border:0;background:none;padding:10px 10px 12px;font:inherit;font-size:16px;font-weight:700;color:var(--ink-2);cursor:pointer}
+.loc-tab.on{color:var(--brand)}
+.loc-tab.on::after{content:"";position:absolute;left:8px;right:8px;bottom:-1px;height:3px;border-radius:3px 3px 0 0;background:var(--brand)}
+.loc-body{overflow:auto;padding:12px 14px 16px;overscroll-behavior:contain}
+.loc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.loc-opt{display:flex;align-items:center;justify-content:space-between;gap:8px;text-align:left;padding:10px 12px;border:0;border-radius:10px;background:transparent;color:var(--ink);font:inherit;cursor:pointer;transition:background-color .15s}
+.loc-opt:hover{background:color-mix(in srgb,var(--ink) 6%,transparent)}
+.loc-opt b{display:block;font-size:15px;font-weight:700}
+.loc-opt small{display:block;margin-top:2px;font-size:13px;color:var(--ink-2)}
+.loc-opt.on{background:var(--brand-soft);color:var(--brand)}
+.loc-opt.on small{color:var(--brand)}
+.loc-opt svg{flex:0 0 auto}
+.loc-h{margin:6px 12px 8px;font-size:15px;font-weight:700;color:var(--ink-2)}
+.loc-h--line{margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
+.loc-note{margin:14px 12px 0;font-size:12.5px;color:var(--ink-3)}
+
+/* ---------- Responsive ---------- */
+@media (max-width:760px){
+  .loc-grid{grid-template-columns:repeat(2,1fr)}
+  .loc-btn__lang{display:none}
+  .loc-btn .i-chev{display:none}
+  .loc-group{gap:0}
+  .loc-btn{padding:0 7px}
+  .header .loc-btn{padding:0 6px}
+}
+@media (max-width:340px){ .loc-grid{grid-template-columns:1fr} }
+@media (prefers-reduced-motion:reduce){ .loc-panel{transition:none} }
