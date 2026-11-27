@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>/* apply saved light/dark choice before the page paints */try{var t=localStorage.getItem('rumbo:theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — Rumbo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/logo/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
+</head>
+<body>
+
+<main class="wrap">
+  <div class="page-head">
+    <h1>About Rumbo</h1>
+    <p>A smart trip advisor built by a Nile University student team for UGRF 2026.</p>
+  </div>
+  <section id="project" class="values" style="grid-template-columns:repeat(2,1fr)">
+    <div><h3>The project</h3><p>Rumbo helps travelers find the best things to do in 40 cities, compare them by price and rating, and plan a trip that fits their days and budget.</p></div>
+    <div><h3>The team</h3><p>Team lead &amp; planner logic · UI design · Functionality · Documentation &amp; testing. <br>(Add names here.)</p></div>
+  </section>
+</main>
+
+<!-- Scripts (order matters): data → core → components → this page -->
+<script src="data/database.js"></script>
+<script src="js/core/travelDB.js"></script>
+<script src="js/core/locale.js"></script>
+<script src="js/core/app.js"></script>
+<script src="js/components/favorites.js"></script>
+<script src="js/components/cards.js"></script>
+<script src="js/components/search.js"></script>
+<script src="js/components/theme-switch.js"></script>
+<script src="js/components/locale-picker.js"></script>
+<script src="js/components/city-picker.js"></script>
+<script src="js/components/header.js"></script>
+<script src="js/components/footer.js"></script>
+<script src="js/components/rails.js"></script>
+<script src="js/pages/about.js"></script>
+</body>
+</html>
