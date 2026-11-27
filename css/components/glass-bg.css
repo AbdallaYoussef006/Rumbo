@@ -1,0 +1,45 @@
+/* =====================================================================
+   components/glass-bg.css — soft radial gradient page background
+   (based on the Uiverse.io gradient by mihocsaszilard).
+   Used on the home page for every city (GLASS_BG in js/pages/home.js):
+   that file adds .bg-glass to <html>.
+   The gradient stays still while the page scrolls (fixed).
+   Light and dark each have their own colours below.
+   ===================================================================== */
+
+html.bg-glass{
+  /* light: white palette — soft silver glow bottom-left fading to pure white */
+  --gx-1:#D5D8DE;
+  --gx-2:#DFE1E6;
+  --gx-3:#E4E6EA;
+  --gx-4:#ECEEF1;
+  --gx-5:#F3F4F6;
+  --gx-6:#F9F9FB;
+  --gx-7:#FFFFFF;
+  background:radial-gradient(125% 125% at -2% 101%,
+    var(--gx-1) 10.5%, var(--gx-2) 16%, var(--gx-3) 17.5%, var(--gx-4) 25%,
+    var(--gx-5) 40%, var(--gx-6) 65%, var(--gx-7) 100%) fixed;
+}
+
+/* dark: black palette — almost flat near-black, only a barely-there lift in the corner (no visible light patch) */
+html.bg-glass[data-theme="dark"]{
+  --gx-1:#16181C;
+  --gx-2:#15171A;
+  --gx-3:#141619;
+  --gx-4:#121417;
+  --gx-5:#101114;
+  --gx-6:#0E0F12;
+  --gx-7:#0C0D0F;
+}
+@media (prefers-color-scheme:dark){
+  html.bg-glass:not([data-theme="light"]){
+    --gx-1:#16181C;
+    --gx-2:#15171A;
+    --gx-3:#141619;
+    --gx-4:#121417;
+    --gx-5:#101114;
+    --gx-6:#0E0F12;
+    --gx-7:#0C0D0F;
+  }
+}
+html.bg-glass body{background:transparent}
