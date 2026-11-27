@@ -1,0 +1,63 @@
+/* =====================================================================
+   components/effects.css — the look of the visual effects (switchboard: js/core/fx.js)
+   Every rule starts with an html.fx-… class, so an effect that is switched off changes nothing.
+   1. Tilt cards        js/components/tilt.js
+   2. Hero parallax     js/components/parallax.js
+   3. Page transitions  js/components/transitions.js
+   4. Liquid glass      js/components/liquid-glass.js
+   (the 3D globe has its own file: components/globe.css)
+   ===================================================================== */
+
+/* ---------- 1. Tilt cards: lean toward the mouse + a glass shine that follows it ---------- */
+html.fx-tilt .dest__img{position:relative}
+html.fx-tilt .card .card__img.is-tilt,
+html.fx-tilt .place.is-tilt,
+html.fx-tilt .pic.is-tilt,
+html.fx-tilt .dest .dest__img.is-tilt{
+  transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(-4px) scale(1.015);
+  transition:transform .12s ease-out,box-shadow .3s ease;
+  box-shadow:0 22px 44px rgba(21,32,43,.26);will-change:transform}
+html.fx-tilt .is-tilt::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;border-radius:inherit;
+  background:radial-gradient(circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.34) 0%,rgba(255,255,255,.10) 28%,rgba(255,255,255,0) 58%)}
+
+/* ---------- 2. Hero parallax: photo and glass panel at different depths ---------- */
+html.fx-parallax .hx__photo{overflow:hidden}        /* the photo is 7% bigger than its frame so its edges never show */
+html.fx-parallax .hx__photo img{transform:translate3d(var(--px,0px),calc(var(--py,0px) + var(--sy,0px)),0) scale(1.07);will-change:transform}
+html.fx-parallax .hx__panel{transform:translate3d(calc(var(--px,0px) * -.45),calc(var(--py,0px) * -.45),0)}
+
+/* ---------- 3. Page transitions (only where the browser supports them, and never for "less motion") ---------- */
+@media (prefers-reduced-motion:no-preference){
+  @view-transition{navigation:auto}
+}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.28s}
+.exp__img{view-transition-name:exp-photo}                   /* the big photo on the experience page */
+::view-transition-group(exp-photo){animation-duration:.48s;animation-timing-function:cubic-bezier(.2,.8,.2,1)}
+::view-transition-old(exp-photo),::view-transition-new(exp-photo){height:100%;object-fit:cover;overflow:clip}
+
+/* ---------- 4. Liquid glass ----------
+   a) every browser: bright glass rims — light catching the top-left edge, a softer glow on the bottom-right
+   b) Chrome / Edge (html.lg-refract): the photo behind bends at the edges (--lg is set by liquid-glass.js);
+      less blur and a clearer fill, so you can see through the middle like real glass */
+html.fx-liquidGlass .hero__kicker{position:relative}
+html.fx-liquidGlass .hx__panel{position:relative}
+html.fx-liquidGlass :is(.hx__panel,.hero__kicker,.hero-search,.place__body,.pic__bar)::after{
+  content:"";position:absolute;inset:-1px;z-index:1;border-radius:inherit;padding:1.5px;pointer-events:none;
+  background:linear-gradient(135deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.35) 18%,rgba(255,255,255,0) 40%,
+                                    rgba(255,255,255,0) 62%,rgba(255,255,255,.3) 84%,rgba(255,255,255,.75) 100%);
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;
+  mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0)}
+html.fx-liquidGlass .hx__panel{box-shadow:inset 0 1px 1px rgba(255,255,255,.55),inset 0 14px 24px -20px rgba(255,255,255,.8),
+  inset 0 -14px 28px -22px rgba(255,255,255,.6),0 24px 60px rgba(5,25,50,.22)}
+html.fx-liquidGlass :is(.heart,.glass-rate:not(.glass-rate--new)){box-shadow:inset 0 1px 0 rgba(255,255,255,.6),inset 0 -1px 0 rgba(255,255,255,.2),0 2px 8px rgba(0,0,0,.12)}
+
+html.lg-refract .hx__panel{background:linear-gradient(135deg,rgba(255,255,255,.16),rgba(255,255,255,.04) 60%,rgba(255,255,255,.1));
+  -webkit-backdrop-filter:var(--lg,) blur(3px) saturate(150%) brightness(.94);backdrop-filter:var(--lg,) blur(3px) saturate(150%) brightness(.94)}
+html.lg-refract .hero__kicker{-webkit-backdrop-filter:var(--lg,) blur(2px) saturate(150%);backdrop-filter:var(--lg,) blur(2px) saturate(150%)}
+html.lg-refract .hero-search{background:rgba(255,255,255,.6);
+  -webkit-backdrop-filter:var(--lg,) blur(6px) saturate(170%);backdrop-filter:var(--lg,) blur(6px) saturate(170%)}
+:root[data-theme="dark"].lg-refract .hero-search{background:rgba(24,33,42,.62)}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]).lg-refract .hero-search{background:rgba(24,33,42,.62)} }
+html.lg-refract .header.on-photo > .header__row{-webkit-backdrop-filter:var(--lg,) blur(4px) saturate(170%);backdrop-filter:var(--lg,) blur(4px) saturate(170%)}
+html.lg-refract :is(.place__body,.pic__bar){background:rgba(12,22,36,.3);
+  -webkit-backdrop-filter:var(--lg,) blur(4px) saturate(150%);backdrop-filter:var(--lg,) blur(4px) saturate(150%)}
+html.lg-refract .hx :is(p,.hero__stat){text-shadow:0 1px 10px rgba(0,20,45,.45)}    /* clearer glass → a little help for the small text */
