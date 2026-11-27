@@ -1,0 +1,7 @@
+/* =====================================================================
+   main.css — the shared styles, loaded by every page except the splash screen.
+   Each page then adds its own file from css/pages/ (e.g. pages/home.css).
+   Order matters: base first, then the components.
+   ===================================================================== */
+@import url("base.css");
+@import url("components/locale-picker.css");
