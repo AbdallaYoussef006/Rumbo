@@ -1,0 +1,8 @@
+/* =====================================================================
+   pages/my-trip.css — styles used only on my-trip.html (logic: js/pages/my-trip.js)
+   Owner: UI — Boudy
+   ===================================================================== */
+
+.trip-sum{display:flex;gap:28px;flex-wrap:wrap;background:var(--bg-2);border-radius:16px;padding:18px 22px;margin:18px 0 26px}
+.trip-sum div{font-size:13px;color:var(--ink-3)}
+.trip-sum b{display:block;font-size:22px;color:var(--ink)}
