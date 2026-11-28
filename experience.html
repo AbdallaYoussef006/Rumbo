@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>/* apply saved light/dark choice before the page paints */try{var t=localStorage.getItem('rumbo:theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Experience — Rumbo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/pages/experience.css">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/logo/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
+</head>
+<body>
+
+<main class="wrap" id="page"></main>
+
+<!-- Scripts (order matters): data → core → components → this page -->
+<script src="data/database.js"></script>
+<script src="js/core/travelDB.js"></script>
+<script src="js/core/locale.js"></script>
+<script src="js/core/app.js"></script>
+<script src="js/components/favorites.js"></script>
+<script src="js/components/cards.js"></script>
+<script src="js/components/search.js"></script>
+<script src="js/components/theme-switch.js"></script>
+<script src="js/components/locale-picker.js"></script>
+<script src="js/components/header.js"></script>
+<script src="js/components/footer.js"></script>
+<script src="js/components/rails.js"></script>
+<script src="js/pages/experience.js"></script>
+</body>
+</html>
