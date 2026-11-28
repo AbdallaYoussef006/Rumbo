@@ -1,0 +1,109 @@
+/* =====================================================================
+   pages/splash.css — the splash / start screen (index.html): photo, pattern, logo,
+   Login · Browse as a Guest · Sign up. Owner: UI — Boudy
+   ===================================================================== */
+/*
+   The design is 1672 × 941 (16:9). The "stage" keeps that shape and covers the screen:
+   the left (cream) side always stays visible, extra width or height is cropped from the photo side.
+   Sizes inside use cqw (1cqw = 1% of the stage width) so everything scales together. */
+
+:root{
+  --sp-blue:#042D5E;
+  --sp-blue-hover:#0A3F80;
+  --sp-cream:#F2EADA;
+  --sp-ink:#2A3340;
+  --sp-font:'Plus Jakarta Sans',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body.sp{background:var(--sp-cream);font-family:var(--sp-font);color:var(--sp-ink);overflow:hidden;-webkit-font-smoothing:antialiased}
+
+.sp-stage{
+  --w:max(100vw, calc(100vh * 1.7769));
+  position:fixed;left:0;top:50%;
+  width:var(--w);height:calc(var(--w) / 1.7769);
+  transform:translateY(-50%);
+  container-type:inline-size;
+  overflow:hidden;
+}
+/* 4K photo sits behind the arch (the cream panel always covers its left edge) */
+.sp-photo{position:absolute;top:0;bottom:0;left:36%;right:0;background:#1d3557 url(../../assets/splash/santorini.jpg) 58% 50%/cover no-repeat;
+  transform-origin:100% 50%;animation:sp-drift 26s ease-in-out infinite alternate}
+.sp-pattern{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;user-select:none}
+
+/* left panel content — matches the design's position */
+.sp-content{position:absolute;left:9.1%;top:50%;transform:translateY(-50%);width:27.8%;display:flex;flex-direction:column;align-items:stretch}
+.sp-logo{width:100%;height:auto;display:block;margin:0 0 3.6cqw}
+.sp-actions{display:grid;grid-template-columns:1fr 1fr;gap:1.4cqw;align-items:start}
+.sp-btn{display:flex;align-items:center;justify-content:center;gap:.9cqw;height:max(44px,3.65cqw);padding:0 1.2cqw;
+  border-radius:999px;font:500 max(15px,1.1cqw)/1 var(--sp-font);text-decoration:none;cursor:pointer;
+  transition:background .2s,color .2s,transform .15s,box-shadow .2s;white-space:nowrap;border:1.5px solid var(--sp-blue)}
+.sp-btn svg{width:max(16px,1.35cqw);height:auto;transition:transform .2s}
+.sp-btn--primary{background:var(--sp-blue);color:#fff}
+.sp-btn--primary:hover{background:var(--sp-blue-hover);border-color:var(--sp-blue-hover)}
+.sp-btn--primary:hover svg{transform:translateX(4px)}
+.sp-btn--ghost{background:transparent;color:var(--sp-blue)}
+.sp-btn--ghost:hover{background:rgba(4,45,94,.07)}
+.sp-btn:active{transform:scale(.98)}
+.sp-btn:focus-visible,.sp-link:focus-visible,.sp-field input:focus-visible{outline:3px solid #E9A13B;outline-offset:3px}
+.sp-small{margin:max(10px,.9cqw) 0 0;font-size:max(13px,.86cqw);color:#5B6573;text-align:center}
+.sp-link{color:var(--sp-blue);font-weight:700;text-decoration:none;border-bottom:1.5px solid rgba(4,45,94,.3)}
+.sp-link:hover{border-bottom-color:var(--sp-blue)}
+
+/* login / sign-up form */
+.sp-content--form .sp-logo{width:62%;margin:0 0 2cqw}
+.sp-title{margin:0 0 .4cqw;font-size:max(22px,1.85cqw);color:var(--sp-blue);letter-spacing:-.02em}
+.sp-sub{margin:0 0 1.6cqw;font-size:max(14px,.95cqw);color:#5B6573}
+.sp-form{display:flex;flex-direction:column;gap:max(10px,.9cqw)}
+.sp-field{display:flex;flex-direction:column;gap:.35cqw;font-size:max(13px,.85cqw);font-weight:600;color:var(--sp-blue)}
+.sp-field input{height:max(42px,3.1cqw);padding:0 1cqw;border-radius:12px;border:1.5px solid rgba(4,45,94,.25);background:rgba(255,255,255,.75);
+  font:500 max(15px,1cqw) var(--sp-font);color:var(--sp-ink);transition:border-color .2s,background .2s}
+.sp-field input:focus{border-color:var(--sp-blue);background:#fff;outline:none}
+.sp-form .sp-btn{width:100%;margin-top:.4cqw}
+.sp-note{display:none;margin-top:max(10px,.8cqw);padding:max(12px,1cqw);border-radius:12px;background:#fff;border:1.5px solid rgba(4,45,94,.15);
+  font-size:max(13px,.9cqw);line-height:1.5;color:var(--sp-ink)}
+.sp-note.show{display:block;animation:sp-up .35s ease both}
+.sp-note .sp-btn{margin-top:max(10px,.8cqw)}
+.sp-back{position:absolute;left:9.1%;top:6%;font-size:max(13px,.9cqw);color:var(--sp-blue);text-decoration:none;font-weight:600}
+.sp-back:hover{text-decoration:underline}
+
+/* entrance animation */
+.sp-in{animation:sp-up .8s cubic-bezier(.2,.7,.2,1) both}
+.sp-in:nth-child(2){animation-delay:.15s}
+.sp-in:nth-child(3){animation-delay:.3s}
+.sp-in:nth-child(4){animation-delay:.45s}
+@keyframes sp-up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes sp-drift{from{transform:scale(1)}to{transform:scale(1.06)}}
+
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+
+/* ---------- phones / portrait screens: photo on top, cream panel below ---------- */
+@media (max-aspect-ratio:1/1), (max-width:760px){
+  body.sp{overflow:auto}
+  .sp-stage{position:relative;top:0;transform:none;width:100%;height:auto;min-height:100%;container-type:normal;display:flex;flex-direction:column}
+  .sp-photo{position:relative;inset:auto;left:auto;right:auto;height:44vh;min-height:240px;flex:0 0 auto;background-image:url(../../assets/splash/santorini.jpg);background-size:cover;background-position:58% 40%;animation:none}
+  .sp-pattern{display:none}
+  .sp-content,.sp-content--form{position:relative;left:auto;top:auto;transform:none;width:auto;flex:1;
+    margin-top:-32px;border-radius:32px 32px 0 0;padding:34px 24px 40px;
+    background:radial-gradient(120% 80% at 30% 20%, #F6EFE2 0%, #EDE3CF 100%)}
+  .sp-logo{max-width:340px;margin:0 auto 28px}
+  .sp-content--form .sp-logo{width:60%;max-width:240px;margin:0 auto 22px}
+  .sp-actions{gap:12px;max-width:420px;width:100%;margin:0 auto}
+  .sp-form,.sp-title,.sp-sub,.sp-note{max-width:420px;width:100%;margin-left:auto;margin-right:auto}
+  .sp-title{text-align:center}.sp-sub{text-align:center;margin-bottom:18px}
+  .sp-back{position:absolute;left:16px;top:16px;z-index:2;background:rgba(255,255,255,.9);padding:8px 12px;border-radius:999px}
+}
+@media (max-width:360px){ .sp-actions{grid-template-columns:1fr} }
+
+@media (prefers-reduced-motion:reduce){
+  .sp-photo,.sp-in,.sp-note.show{animation:none}
+  .sp-btn,.sp-btn svg{transition:none}
+}
+.sp-actions .sp-small{grid-column:1;margin-top:max(8px,.7cqw)}
+
+/* Rumbo logo: lifts a little when you point at it */
+.sp-logo{transition:transform .4s cubic-bezier(.2,.8,.3,1.2),filter .4s ease}
+.sp-logo:hover{transform:translateY(-4px) scale(1.025);filter:drop-shadow(0 12px 18px rgba(4,45,94,.20))}
+.sp-content > a:focus-visible .sp-logo{transform:translateY(-4px) scale(1.025)}
+@media (prefers-reduced-motion:reduce){ .sp-logo{transition:none} .sp-logo:hover{transform:none} }
